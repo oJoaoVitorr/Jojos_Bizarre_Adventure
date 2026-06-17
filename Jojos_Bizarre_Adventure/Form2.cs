@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Jojos_Bizarre_Adventure
 {
@@ -19,16 +20,6 @@ namespace Jojos_Bizarre_Adventure
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked) {
-
-                comboBox1.Items.Clear();
-                comboBox1.Items.Add("Jotaro Kujo");
-                comboBox1.Items.Add("Joseph Joestar");
-                comboBox1.Items.Add("Kakyoin");
-                comboBox1.Items.Add("Polnareff");
-                comboBox1.Items.Add("Avdol");
-                comboBox1.Items.Add("Iggy");
-            }
            
         }
 
@@ -50,14 +41,60 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Manish Boy");
                 comboBox1.Items.Add("Rubber Soul");
                 comboBox1.Items.Add("Devo");
-                comboBox1.Items.Add("Forever");
-                comboBox1.Items.Add("Forever");
-                comboBox1.Items.Add("Forever");
-                comboBox1.Items.Add("Forever");
-                comboBox1.Items.Add("Forever");
-                comboBox1.Items.Add("Forever");
+                comboBox1.Items.Add("Arabia Fats");
+                comboBox1.Items.Add("Cameo");
+                comboBox1.Items.Add("Vanilla Ice");
+                comboBox1.Items.Add("N'Doul");
+                comboBox1.Items.Add("Oingo");
+                comboBox1.Items.Add("Boingo");
+                comboBox1.Items.Add("Anubis");
+                comboBox1.Items.Add("Mariah");
+                comboBox1.Items.Add("Alessi");
+                comboBox1.Items.Add("Daniel J. D'arby");
+                comboBox1.Items.Add("Telence T. D'arby");
+                comboBox1.Items.Add("Pet Shop");
+                comboBox1.Items.Add("Kenny G.");
+            } // FIM STARDUST CRUSADERS
+            
+        }
 
-            }
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
+            {
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Jotaro Kujo");
+                comboBox1.Items.Add("Joseph Joestar");
+                comboBox1.Items.Add("Kakyoin");
+                comboBox1.Items.Add("Polnareff");
+                comboBox1.Items.Add("Avdol");
+                comboBox1.Items.Add("Iggy");
+            } //FIM STARDUST CRUSADERS
+
+            else if (listBox1.Text == "GOLDEN WIND" && radioButton1.Checked)
+            {
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Giorno Giovanna");
+                comboBox1.Items.Add("Bruno Bucciarati");
+                comboBox1.Items.Add("Narancia Ghirga");
+                comboBox1.Items.Add("Pannacotta Fugo");
+                comboBox1.Items.Add("Leone Abbacchio");
+                comboBox1.Items.Add("Guido Mista");
+                comboBox1.Items.Add("Trish Una");
+            } //FIM GOLDEN WIND
+
         }
     }
 }
