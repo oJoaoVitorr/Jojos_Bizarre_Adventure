@@ -20,7 +20,13 @@ namespace Jojos_Bizarre_Adventure
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+           if(listBox1.Text == "STARDUST CRUSADERS" || listBox1.Text == "GOLDEN WIND" || listBox1.Text == "STONE OCEAN")
+            {
+                radioButton1.Visible = true;
+                radioButton2.Visible = true;
+                label4.Visible = true;
+            }
+
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -29,7 +35,6 @@ namespace Jojos_Bizarre_Adventure
             {
 
                 comboBox1.Items.Clear();
-                comboBox1.Items.Add("Dio");
                 comboBox1.Items.Add("Midler");
                 comboBox1.Items.Add("Nena");
                 comboBox1.Items.Add("Hol Horse");
@@ -53,9 +58,58 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Daniel J. D'arby");
                 comboBox1.Items.Add("Telence T. D'arby");
                 comboBox1.Items.Add("Pet Shop");
-                comboBox1.Items.Add("Kenny G.");
+                comboBox1.Items.Add("Dio");
+               
+
             } // FIM STARDUST CRUSADERS
-            
+
+            else if (listBox1.Text == "GOLDEN WIND" && radioButton2.Checked)
+            {
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Polpo");
+                comboBox1.Items.Add("Mario Zucherro");
+                comboBox1.Items.Add("Sale");
+                comboBox1.Items.Add("Formaggio");
+                comboBox1.Items.Add("Illuso");
+                comboBox1.Items.Add("Prosciutto");
+                comboBox1.Items.Add("Pesci");
+                comboBox1.Items.Add("Melone");
+                comboBox1.Items.Add("Ghiaccio");
+                comboBox1.Items.Add("Squalo");
+                comboBox1.Items.Add("Tiziano");
+                comboBox1.Items.Add("Carne");
+                comboBox1.Items.Add("Risotto Nero");
+                comboBox1.Items.Add("Cioccolatta");
+                comboBox1.Items.Add("Secco");
+                comboBox1.Items.Add("Doppio");
+                comboBox1.Items.Add("Diavolo");
+
+            } // FIM GOLDEN WIND
+
+            else if (listBox1.Text == "STONE OCEAN" && radioButton2.Checked)
+            {
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Gwess");
+                comboBox1.Items.Add("Jongalli A");
+                comboBox1.Items.Add("Thunder McQueen");
+                comboBox1.Items.Add("Miraschon");
+                comboBox1.Items.Add("Lang Rangler");
+                comboBox1.Items.Add("Sports Maximum");
+                comboBox1.Items.Add("Viviano Westwood");
+                comboBox1.Items.Add("Kenzou");
+                comboBox1.Items.Add("Guccio");
+                comboBox1.Items.Add("D&G");
+                comboBox1.Items.Add("Bêbe Verde");
+                comboBox1.Items.Add("Miu Miu");
+                comboBox1.Items.Add("Ungalo");
+                comboBox1.Items.Add("Rikiel");
+                comboBox1.Items.Add("Donatello Versus");
+                comboBox1.Items.Add("Enrico Pucci");
+              
+            } // FIM STONE OCEAN
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -93,6 +147,19 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Leone Abbacchio");
                 comboBox1.Items.Add("Guido Mista");
                 comboBox1.Items.Add("Trish Una");
+            } //FIM GOLDEN WIND
+
+            else if (listBox1.Text == "STONE OCEAN" && radioButton1.Checked)
+            {
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Jolyne Kujo");
+                comboBox1.Items.Add("Jotaro Kujo");
+                comboBox1.Items.Add("Ermes Costello");
+                comboBox1.Items.Add("F.F");
+                comboBox1.Items.Add("Anastasia");
+                comboBox1.Items.Add("Weather Forecast");
+                comboBox1.Items.Add("Emporio Alnino");
             } //FIM GOLDEN WIND
 
         }

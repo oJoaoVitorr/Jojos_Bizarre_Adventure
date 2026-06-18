@@ -96,6 +96,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Heróis";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Visible = false;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
@@ -109,6 +110,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Vilões";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Visible = false;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // pictureBox1
@@ -183,9 +185,8 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(12, 580);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(109, 37);
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "Stand";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
@@ -194,9 +195,8 @@
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.Location = new System.Drawing.Point(12, 623);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(288, 37);
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 13;
-            this.checkBox2.Text = "Descrição do Stand";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
@@ -205,9 +205,8 @@
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3.Location = new System.Drawing.Point(12, 666);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(152, 37);
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 14;
-            this.checkBox3.Text = "Dublador";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
@@ -261,6 +260,7 @@
             this.label4.Size = new System.Drawing.Size(607, 169);
             this.label4.TabIndex = 20;
             this.label4.Text = "label4";
+            this.label4.Visible = false;
             // 
             // Form2
             // 
