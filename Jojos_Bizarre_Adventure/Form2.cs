@@ -118,6 +118,13 @@ namespace Jojos_Bizarre_Adventure
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+           groupBox1.Visible = true;
+           pictureBox1.Visible = true;
+           pictureBox2.Visible = true;
+           pictureBox3.Visible = true;
+           pictureBox4.Visible = true;
+           label2.Visible = true;
+
             //STARDUST HEROIS
                 if (comboBox1.Text == "Jotaro Kujo")
                 {
@@ -125,6 +132,10 @@ namespace Jojos_Bizarre_Adventure
                     checkBox2.Text = "Descrição do Stand";
                     checkBox3.Text = "Dublador";
                     checkBox4.Text = "Curiosidade";
+                    groupBox1.Text = comboBox1.Text;
+                    pictureBox1.Image =  Properties.Resources.Jotaro;
+                    pictureBox2.Image =  Properties.Resources.JotaroManga;
+
                 }
                 else if (comboBox1.Text == "Joseph Joestar")
                 {
@@ -132,7 +143,8 @@ namespace Jojos_Bizarre_Adventure
                     checkBox2.Text = "Descrição do Stand";
                     checkBox3.Text = "Dublador";
                     checkBox4.Text = "Curiosidade";
-                }
+                pictureBox1.Image = Properties.Resources.Josepph;
+            }
                 else if (comboBox1.Text == "Kakyoin")
                 {
                     checkBox1.Text = "Stand";
@@ -332,52 +344,64 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Morte";
             }
             //GOLDEN WIND HEROIS
-           /*/ if (comboBox1.Text == "Giorno Giovanna")
+            if (comboBox1.Text == "Giorno Giovanna")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
             }
-            else if (comboBox1.Text == "Joseph Joestar")
+            else if (comboBox1.Text == "Bruno Bucciaratti")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Narancia Ghirga")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Pannacota Fugo")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
             }
-            else if (comboBox1.Text == "Kakyoin")
+            else if (comboBox1.Text == "Leone Abbacchio")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
             }
-            else if (comboBox1.Text == "Polnareff")
+            else if (comboBox1.Text == "Guido Mista")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
             }
-            else if (comboBox1.Text == "Avdol")
+            else if (comboBox1.Text == "Trish")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
-                checkBox4.Text = "Morte";
+                checkBox4.Text = "Curiosidade";
             }
-            else if (comboBox1.Text == "Iggy")
-            {
-                checkBox1.Text = "Stand";
-                checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
-                checkBox4.Text = "Morte";
-            } PAREI AQUI TERMINA DE ARRUMAR ESSA PARTE E LEMBRA DE AJUSTAR A VISIBILIDADE DEPOIS/*/
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
+            if (radioButton1.Checked)
+            {
+                comboBox1.Visible = true;
+            }
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
             {
 
