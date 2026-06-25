@@ -20,17 +20,21 @@ namespace Jojos_Bizarre_Adventure
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           if(listBox1.Text == "STARDUST CRUSADERS" || listBox1.Text == "GOLDEN WIND" || listBox1.Text == "STONE OCEAN")
+            if (listBox1.Text == "STARDUST CRUSADERS" || listBox1.Text == "GOLDEN WIND" || listBox1.Text == "STONE OCEAN")
             {
                 radioButton1.Visible = true;
                 radioButton2.Visible = true;
-                label4.Visible = true;
+                label1.Visible = true;
             }
 
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
+            if (radioButton2.Checked == true)
+            {
+                comboBox1.Visible = true;
+            }
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
             {
 
@@ -59,7 +63,7 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Telence T. D'arby");
                 comboBox1.Items.Add("Pet Shop");
                 comboBox1.Items.Add("Dio");
-               
+
 
             } // FIM STARDUST CRUSADERS
 
@@ -107,19 +111,269 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Rikiel");
                 comboBox1.Items.Add("Donatello Versus");
                 comboBox1.Items.Add("Enrico Pucci");
-              
+
             } // FIM STONE OCEAN
 
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
+            //STARDUST HEROIS
+                if (comboBox1.Text == "Jotaro Kujo")
+                {
+                    checkBox1.Text = "Stand";
+                    checkBox2.Text = "Descrição do Stand";
+                    checkBox3.Text = "Dublador";
+                    checkBox4.Text = "Curiosidade";
+                }
+                else if (comboBox1.Text == "Joseph Joestar")
+                {
+                    checkBox1.Text = "Stand";
+                    checkBox2.Text = "Descrição do Stand";
+                    checkBox3.Text = "Dublador";
+                    checkBox4.Text = "Curiosidade";
+                }
+                else if (comboBox1.Text == "Kakyoin")
+                {
+                    checkBox1.Text = "Stand";
+                    checkBox2.Text = "Descrição do Stand";
+                    checkBox3.Text = "Dublador";
+                    checkBox4.Text = "Morte";
+                }
+                else if (comboBox1.Text == "Polnareff")
+                {
+                    checkBox1.Text = "Stand";
+                    checkBox2.Text = "Descrição do Stand";
+                    checkBox3.Text = "Dublador";
+                    checkBox4.Text = "Curiosidade";
+                }
+                else if (comboBox1.Text == "Avdol")
+                {
+                    checkBox1.Text = "Stand";
+                    checkBox2.Text = "Descrição do Stand";
+                    checkBox3.Text = "Dublador";
+                    checkBox4.Text = "Morte";
+                }
+                else if (comboBox1.Text == "Iggy")
+                {
+                    checkBox1.Text = "Stand";
+                    checkBox2.Text = "Descrição do Stand";
+                    checkBox3.Text = "Dublador";
+                    checkBox4.Text = "Morte";
+                }
+                
+            //STARDUST VILOES
+            if (comboBox1.Text == "Midler")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dubladora";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Nena")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Hol Horse")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Steely Dan")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Forever")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "ZZ")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Enya")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "J. Geil")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Manish Boy")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Rubber Soul")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Devo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Arabia Fats")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Cameo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Vanilla Ice")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "N'Doul")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Oingo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Boingo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Anubis")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Mariah")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Alessi")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Daniel J. D'arby")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Telence T. D'arby")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Pet Shop")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Dio")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            //GOLDEN WIND HEROIS
+           /*/ if (comboBox1.Text == "Giorno Giovanna")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Curiosidade";
+            }
+            else if (comboBox1.Text == "Joseph Joestar")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Curiosidade";
+            }
+            else if (comboBox1.Text == "Kakyoin")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Polnareff")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Curiosidade";
+            }
+            else if (comboBox1.Text == "Avdol")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Iggy")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            } PAREI AQUI TERMINA DE ARRUMAR ESSA PARTE E LEMBRA DE AJUSTAR A VISIBILIDADE DEPOIS/*/
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -134,6 +388,7 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Polnareff");
                 comboBox1.Items.Add("Avdol");
                 comboBox1.Items.Add("Iggy");
+
             } //FIM STARDUST CRUSADERS
 
             else if (listBox1.Text == "GOLDEN WIND" && radioButton1.Checked)
@@ -161,47 +416,8 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Weather Forecast");
                 comboBox1.Items.Add("Emporio Alnino");
             } //FIM GOLDEN WIND
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
+
+
