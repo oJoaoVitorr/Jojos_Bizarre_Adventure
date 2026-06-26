@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -47,6 +48,25 @@ namespace Jojos_Bizarre_Adventure
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             comboBox1.Visible = true;
+
+            checkBox1.Visible = false;
+            checkBox2.Visible = false;
+            checkBox3.Visible = false;
+            checkBox4.Visible = false;
+            groupBox1.Visible = false;
+            groupBox2.Visible = false;
+            groupBox3.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = false;
+            pictureBox10.Visible = false;
+            comboBox1.SelectedIndex = -1;
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
             {
 
@@ -695,6 +715,25 @@ namespace Jojos_Bizarre_Adventure
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             comboBox1.Visible = true;
+            checkBox1.Visible = false;
+            checkBox2.Visible = false;
+            checkBox3.Visible = false;
+            checkBox4.Visible = false;
+            groupBox1.Visible = false;
+            groupBox2.Visible = false;
+            groupBox3.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = false;
+            pictureBox10.Visible = false;
+
+            comboBox1.SelectedIndex = -1;
 
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
             {
@@ -755,6 +794,43 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.Jotaro;
             }
             
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            label4.Visible = true;
+            if (checkBox1.Checked == false)
+            {
+                label4.Visible = false;
+            }
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox7.Visible = true;
+            if(checkBox1.Checked == false)
+            {
+                pictureBox7.Visible = false;
+            }
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox3.Visible = true;
+            groupBox3.Text = checkBox4.Text;
+            pictureBox8.Visible = true;
+            pictureBox9.Visible = true;
+            pictureBox10.Visible = true;
+            label4.Visible = true;
+
+            if(checkBox1.Checked == false){
+             groupBox3.Visible = false;
+             pictureBox8.Visible = false;
+             pictureBox9.Visible = false;
+             pictureBox10.Visible = false;
+             label4.Visible = false;
+            }
+
         }
     }
 }
