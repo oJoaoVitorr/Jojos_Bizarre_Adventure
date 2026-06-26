@@ -20,21 +20,33 @@ namespace Jojos_Bizarre_Adventure
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox1.Text == "STARDUST CRUSADERS" || listBox1.Text == "GOLDEN WIND" || listBox1.Text == "STONE OCEAN")
-            {
-                radioButton1.Visible = true;
-                radioButton2.Visible = true;
-                label1.Visible = true;
-            }
-
+           
+            radioButton1.Visible = true;
+            radioButton2.Visible = true;
+            label1.Visible = true;
+            comboBox1.Visible = false;
+            checkBox1.Visible = false;
+            checkBox2.Visible = false;
+            checkBox3.Visible = false;
+            checkBox4.Visible = false;
+            groupBox1.Visible = false;
+            groupBox2.Visible = false;
+            groupBox3.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = false;
+            pictureBox10.Visible = false;
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton2.Checked == true)
-            {
-                comboBox1.Visible = true;
-            }
+            comboBox1.Visible = true;
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
             {
 
@@ -109,7 +121,7 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Miu Miu");
                 comboBox1.Items.Add("Ungalo");
                 comboBox1.Items.Add("Rikiel");
-                comboBox1.Items.Add("Donatello Versus");
+                comboBox1.Items.Add("Versus");
                 comboBox1.Items.Add("Enrico Pucci");
 
             } // FIM STONE OCEAN
@@ -118,64 +130,67 @@ namespace Jojos_Bizarre_Adventure
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           groupBox1.Visible = true;
-           pictureBox1.Visible = true;
-           pictureBox2.Visible = true;
-           pictureBox3.Visible = true;
-           pictureBox4.Visible = true;
-           label2.Visible = true;
+            groupBox1.Visible = true;
+            pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = true;
+            pictureBox4.Visible = true;
+            label2.Visible = true;
+            checkBox1.Visible = true;
+            checkBox2.Visible = true;
+            checkBox3.Visible = true;
+            checkBox4.Visible = true;
+            groupBox1.Text = comboBox1.Text;
 
             //STARDUST HEROIS
-                if (comboBox1.Text == "Jotaro Kujo")
-                {
-                    checkBox1.Text = "Stand";
-                    checkBox2.Text = "Descrição do Stand";
-                    checkBox3.Text = "Dublador";
-                    checkBox4.Text = "Curiosidade";
-                    groupBox1.Text = comboBox1.Text;
-                    pictureBox1.Image =  Properties.Resources.Jotaro;
-                    pictureBox2.Image =  Properties.Resources.JotaroManga;
-
-                }
-                else if (comboBox1.Text == "Joseph Joestar")
-                {
-                    checkBox1.Text = "Stand";
-                    checkBox2.Text = "Descrição do Stand";
-                    checkBox3.Text = "Dublador";
-                    checkBox4.Text = "Curiosidade";
+            if (comboBox1.Text == "Jotaro Kujo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Curiosidade";
+                pictureBox1.Image = Properties.Resources.Jotaro;
+                pictureBox2.Image = Properties.Resources.JotaroManga;
+            }
+            else if (comboBox1.Text == "Joseph Joestar")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Curiosidade";
                 pictureBox1.Image = Properties.Resources.Josepph;
             }
-                else if (comboBox1.Text == "Kakyoin")
-                {
-                    checkBox1.Text = "Stand";
-                    checkBox2.Text = "Descrição do Stand";
-                    checkBox3.Text = "Dublador";
-                    checkBox4.Text = "Morte";
-                }
-                else if (comboBox1.Text == "Polnareff")
-                {
-                    checkBox1.Text = "Stand";
-                    checkBox2.Text = "Descrição do Stand";
-                    checkBox3.Text = "Dublador";
-                    checkBox4.Text = "Curiosidade";
-                }
-                else if (comboBox1.Text == "Avdol")
-                {
-                    checkBox1.Text = "Stand";
-                    checkBox2.Text = "Descrição do Stand";
-                    checkBox3.Text = "Dublador";
-                    checkBox4.Text = "Morte";
-                }
-                else if (comboBox1.Text == "Iggy")
-                {
-                    checkBox1.Text = "Stand";
-                    checkBox2.Text = "Descrição do Stand";
-                    checkBox3.Text = "Dublador";
-                    checkBox4.Text = "Morte";
-                }
-                
+            else if (comboBox1.Text == "Kakyoin")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Polnareff")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Curiosidade";
+            }
+            else if (comboBox1.Text == "Avdol")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Iggy")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+
             //STARDUST VILOES
-            if (comboBox1.Text == "Midler")
+            else if (comboBox1.Text == "Midler")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -344,7 +359,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Morte";
             }
             //GOLDEN WIND HEROIS
-            if (comboBox1.Text == "Giorno Giovanna")
+            else if (comboBox1.Text == "Giorno Giovanna")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -393,15 +408,294 @@ namespace Jojos_Bizarre_Adventure
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
             }
-
+            //GOLDEN WIND VILÕES
+            else if (comboBox1.Text == "Polpo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Mario Zucherro")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Sale")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Formaggio")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Illuso")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Prosciutto")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Pesci")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Melone")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Ghiaccio")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Squalo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Tiziano")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Carne")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Risotto Nero")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Cioccolatta")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Secco")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Doppio")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            else if (comboBox1.Text == "Diavolo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
+            //STONE OCEAN HEROIS
+            else if (comboBox1.Text == "Jolyne Kujo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Jotaro Kujo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Ermes Costello")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "F.F")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Anastasia")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Wheater Forecast")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Emporio Alnino")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            //STONCE OCEAN VILÕES
+            else if (comboBox1.Text == "Gwess")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Jongalli A")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Thunder McQueen")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Miraschon")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Lang Rangler")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Sports Maximum")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Viviano Westwood")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Kenzou")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Gucci")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "D&G")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Bêbe verde")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Miu Miu")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Ungalo")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Rikiel")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Versus")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "";
+            }
+            else if (comboBox1.Text == "Enrico Pucci")
+            {
+                checkBox1.Text = "Stand";
+                checkBox2.Text = "Descrição do Stand";
+                checkBox3.Text = "Dublador";
+                checkBox4.Text = "Morte";
+            }
         }
-
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
-            {
-                comboBox1.Visible = true;
-            }
+            comboBox1.Visible = true;
+
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
             {
 
@@ -439,7 +733,28 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Anastasia");
                 comboBox1.Items.Add("Weather Forecast");
                 comboBox1.Items.Add("Emporio Alnino");
-            } //FIM GOLDEN WIND
+            } //FIM STONE OCEAN
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox2.Visible = true;
+            pictureBox5.Visible = true;
+            pictureBox6.Visible = true;
+            pictureBox7.Visible = true;
+
+            if (checkBox1.Checked == false)
+            {
+                groupBox2.Visible = false;
+                pictureBox5.Visible = false;
+                pictureBox6.Visible = false;
+                pictureBox7.Visible = false;
+            }
+            if (comboBox1.Text == "Jotaro Kujo")
+            {
+                pictureBox5.Image = Properties.Resources.Jotaro;
+            }
+            
         }
     }
 }
