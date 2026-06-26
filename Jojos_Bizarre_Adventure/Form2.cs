@@ -22,8 +22,8 @@ namespace Jojos_Bizarre_Adventure
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
            
-            radioButton1.Visible = true;
-            radioButton2.Visible = true;
+            radioButton1.Visible = true; radioButton1.Checked = false;
+            radioButton2.Visible = true; radioButton2.Checked = false;
             label1.Visible = true;
             comboBox1.Visible = false;
             checkBox1.Visible = false;
@@ -47,15 +47,15 @@ namespace Jojos_Bizarre_Adventure
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            comboBox1.Visible = true;
-
-            checkBox1.Visible = false;
-            checkBox2.Visible = false;
-            checkBox3.Visible = false;
-            checkBox4.Visible = false;
+            comboBox1.Visible = true; comboBox1.SelectedIndex = -1;
+            checkBox1.Visible = false; checkBox1.Checked = false;
+            checkBox2.Visible = false; checkBox2.Checked = false;
+            checkBox3.Visible = false; checkBox3.Checked = false;
+            checkBox4.Visible = false; checkBox4.Checked = false;
             groupBox1.Visible = false;
             groupBox2.Visible = false;
             groupBox3.Visible = false;
+            groupBox4.Visible = false;
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
             pictureBox3.Visible = false;
@@ -66,7 +66,9 @@ namespace Jojos_Bizarre_Adventure
             pictureBox8.Visible = false;
             pictureBox9.Visible = false;
             pictureBox10.Visible = false;
-            comboBox1.SelectedIndex = -1;
+            pictureBox11.Visible = false;
+            
+            
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
             {
 
@@ -150,17 +152,16 @@ namespace Jojos_Bizarre_Adventure
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            groupBox1.Visible = true;
+            groupBox1.Visible = true; groupBox1.Text = comboBox1.Text;
             pictureBox1.Visible = true;
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             pictureBox4.Visible = true;
             label2.Visible = true;
-            checkBox1.Visible = true;
-            checkBox2.Visible = true;
-            checkBox3.Visible = true;
-            checkBox4.Visible = true;
-            groupBox1.Text = comboBox1.Text;
+            checkBox1.Visible = true; checkBox1.Checked = false;
+            checkBox2.Visible = true; checkBox2.Checked = false;
+            checkBox3.Visible = true; checkBox3.Checked = false;
+            checkBox4.Visible = true; checkBox4.Checked = false;
 
             //STARDUST HEROIS
             if (comboBox1.Text == "Jotaro Kujo")
@@ -221,7 +222,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Hol Horse")
@@ -256,7 +257,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "J. Geil")
@@ -326,7 +327,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Anubis")
@@ -340,7 +341,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Alessi")
@@ -425,7 +426,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "Curiosidade";
             }
             //GOLDEN WIND VILÕES
@@ -553,7 +554,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Jotaro Kujo")
@@ -567,14 +568,14 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "F.F")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Anastasia")
@@ -603,7 +604,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Jongalli A")
@@ -624,7 +625,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Lang Rangler")
@@ -680,7 +681,7 @@ namespace Jojos_Bizarre_Adventure
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
-                checkBox3.Text = "Dublador";
+                checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
             }
             else if (comboBox1.Text == "Ungalo")
@@ -714,15 +715,16 @@ namespace Jojos_Bizarre_Adventure
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            comboBox1.Visible = true;
-            checkBox1.Visible = false;
-            checkBox2.Visible = false;
-            checkBox3.Visible = false;
-            checkBox4.Visible = false;
+            comboBox1.Visible = true; comboBox1.SelectedIndex = -1;
+            checkBox1.Visible = false; checkBox1.Checked = false;
+            checkBox2.Visible = false; checkBox2.Checked = false;
+            checkBox3.Visible = false; checkBox3.Checked = false;
+            checkBox4.Visible = false; checkBox4.Checked = false;
             groupBox1.Visible = false;
             groupBox2.Visible = false;
             groupBox3.Visible = false;
-            pictureBox1.Visible = false;
+            groupBox4.Visible = false;
+            pictureBox1.Visible = false; 
             pictureBox2.Visible = false;
             pictureBox3.Visible = false;
             pictureBox4.Visible = false;
@@ -732,8 +734,7 @@ namespace Jojos_Bizarre_Adventure
             pictureBox8.Visible = false;
             pictureBox9.Visible = false;
             pictureBox10.Visible = false;
-
-            comboBox1.SelectedIndex = -1;
+            pictureBox11.Visible = false;
 
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
             {
@@ -807,17 +808,21 @@ namespace Jojos_Bizarre_Adventure
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
+            groupBox4.Visible = true;
             pictureBox7.Visible = true;
+            pictureBox11.Visible = true;
             if(checkBox1.Checked == false)
             {
+                groupBox4.Visible = false;
                 pictureBox7.Visible = false;
+                pictureBox11.Visible = false;
+
             }
         }
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox3.Visible = true;
-            groupBox3.Text = checkBox4.Text;
+            groupBox3.Visible = true; groupBox3.Text = checkBox4.Text;
             pictureBox8.Visible = true;
             pictureBox9.Visible = true;
             pictureBox10.Visible = true;
