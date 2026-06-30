@@ -387,12 +387,19 @@ namespace Jojos_Bizarre_Adventure
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
             }
-            else if (comboBox1.Text == "Bruno Bucciaratti")
+            else if (comboBox1.Text == "Bruno Bucciarati")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
+                pictureBox1.Image = Properties.Resources.brunoanime;
+                pictureBox2.Image = Properties.Resources.brunomanga;
+                pictureBox3.Image = Properties.Resources.brunochangec;
+                pictureBox4.Image = Properties.Resources.brunomangaziper;
+                pictureBox5.Image = Properties.Resources.stickyfanime;
+                pictureBox6.Image = Properties.Resources.stickyfmanga;
+
             }
             else if (comboBox1.Text == "Narancia Ghirga")
             {

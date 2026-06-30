@@ -98,5 +98,23 @@
   <ItemGroup>
     <None Include="Resources\Josepph.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brunochangec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brunomanga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brunomangaziper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brunoanime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickyfanime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickyfmanga.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

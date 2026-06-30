@@ -121,10 +121,28 @@
   <data name="Jotaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Jotaro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Josepph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Josepph.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="JotaroManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JotaroManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Josepph" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Josepph.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brunochangec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brunochangec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brunomanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brunomanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brunomangaziper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brunomangaziper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brunoanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brunoanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stickyfanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stickyfanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stickyfmanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stickyfmanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
