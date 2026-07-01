@@ -21,7 +21,11 @@ namespace Jojos_Bizarre_Adventure
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+           if(listBox1.Text == "GOLDEN WIND")
+            {
+                label1.Text = "Vento Aureo, traduzido em inglês como Golden Wind é a quinta parte de JoJo's Bizarre Adventure, serializada na Weekly Shōnen Jump de dezembro de" +
+                    " 1995 a abril de 1999. O arco abrange um total de 155 capítulos e ocorre após Diamond is Unbreakable.";
+            }
             radioButton1.Visible = true; radioButton1.Checked = false;
             radioButton2.Visible = true; radioButton2.Checked = false;
             label1.Visible = true;
@@ -42,7 +46,6 @@ namespace Jojos_Bizarre_Adventure
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
             pictureBox9.Visible = false;
-            pictureBox10.Visible = false;
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -65,7 +68,6 @@ namespace Jojos_Bizarre_Adventure
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
             pictureBox9.Visible = false;
-            pictureBox10.Visible = false;
             pictureBox11.Visible = false;
             
             
@@ -393,13 +395,22 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
+                groupBox2.Text = "Sticky Fingers";
+                groupBox3.Text = "Morte";
+                groupBox4.Text = "Lucas Gama";
                 pictureBox1.Image = Properties.Resources.brunoanime;
                 pictureBox2.Image = Properties.Resources.brunomanga;
                 pictureBox3.Image = Properties.Resources.brunochangec;
                 pictureBox4.Image = Properties.Resources.brunomangaziper;
                 pictureBox5.Image = Properties.Resources.stickyfanime;
                 pictureBox6.Image = Properties.Resources.stickyfmanga;
-
+                label2.Text = "Bruno Bucciarati é o deuteragonista de Vento Aureo/Golden Wind. Ele é um mafioso e líder de seu próprio esquadrão dentro da poderosa gangue napolitana," +
+                    " Passione. Enviado para rastrear quem atacou Leaky-Eye Luca e estreando como  oponente de Giorno Giovanna, Bucciarati se torna o primeiro a dar apoio significativo" +
+                    " a Giorno em sua ascensão nas fileiras de Passione.";
+                label4.Text = "Sticky Fingers é um Stand humanoide de altura e constituição semelhante à de Bucciarati. Sticky Fingers é um Stand de curto alcance cuja excelente força e" +
+                    " velocidade o tornam adequado para combate direto. A principal habilidade do Sticky Fingers é" +
+                    " criar zíperes em qualquer superfície que toca com o punho, que pode abrir ou fechar remotamente quando quiser. Por exemplo, Sticky Fingers pode atingir uma parede, abri-la" +
+                    " para criar uma abertura e passar por ela, depois fechar o zíper.";
             }
             else if (comboBox1.Text == "Narancia Ghirga")
             {
@@ -731,17 +742,6 @@ namespace Jojos_Bizarre_Adventure
             groupBox2.Visible = false;
             groupBox3.Visible = false;
             groupBox4.Visible = false;
-            pictureBox1.Visible = false; 
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
-            pictureBox8.Visible = false;
-            pictureBox9.Visible = false;
-            pictureBox10.Visible = false;
-            pictureBox11.Visible = false;
 
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
             {
@@ -789,13 +789,10 @@ namespace Jojos_Bizarre_Adventure
             pictureBox5.Visible = true;
             pictureBox6.Visible = true;
             pictureBox7.Visible = true;
-
             if (checkBox1.Checked == false)
             {
                 groupBox2.Visible = false;
-                pictureBox5.Visible = false;
-                pictureBox6.Visible = false;
-                pictureBox7.Visible = false;
+
             }
             if (comboBox1.Text == "Jotaro Kujo")
             {
@@ -816,13 +813,10 @@ namespace Jojos_Bizarre_Adventure
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             groupBox4.Visible = true;
-            pictureBox7.Visible = true;
-            pictureBox11.Visible = true;
             if(checkBox1.Checked == false)
             {
                 groupBox4.Visible = false;
-                pictureBox7.Visible = false;
-                pictureBox11.Visible = false;
+
 
             }
         }
@@ -832,14 +826,12 @@ namespace Jojos_Bizarre_Adventure
             groupBox3.Visible = true; groupBox3.Text = checkBox4.Text;
             pictureBox8.Visible = true;
             pictureBox9.Visible = true;
-            pictureBox10.Visible = true;
             label4.Visible = true;
 
             if(checkBox1.Checked == false){
              groupBox3.Visible = false;
              pictureBox8.Visible = false;
              pictureBox9.Visible = false;
-             pictureBox10.Visible = false;
              label4.Visible = false;
             }
 
