@@ -68,7 +68,7 @@ namespace Jojos_Bizarre_Adventure
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
             pictureBox9.Visible = false;
-            pictureBox11.Visible = false;
+            
             
             
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
@@ -172,8 +172,12 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
-                pictureBox1.Image = Properties.Resources.Jotaro;
-                pictureBox2.Image = Properties.Resources.JotaroManga;
+                pictureBox1.Image = Properties.Resources.jotaroanime;
+                pictureBox2.Image = Properties.Resources.jotaromanga;
+                pictureBox3.Image = Properties.Resources.jotaromangac;
+                pictureBox4.Image = Properties.Resources.jotaroanime2;
+                pictureBox5.Image = Properties.Resources.starpanime;
+                pictureBox6.Image = Properties.Resources.starpmanga;
             }
             else if (comboBox1.Text == "Joseph Joestar")
             {
@@ -181,7 +185,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Curiosidade";
-                pictureBox1.Image = Properties.Resources.Josepph;
+
             }
             else if (comboBox1.Text == "Kakyoin")
             {
@@ -793,10 +797,6 @@ namespace Jojos_Bizarre_Adventure
             {
                 groupBox2.Visible = false;
 
-            }
-            if (comboBox1.Text == "Jotaro Kujo")
-            {
-                pictureBox5.Image = Properties.Resources.Jotaro;
             }
             
         }

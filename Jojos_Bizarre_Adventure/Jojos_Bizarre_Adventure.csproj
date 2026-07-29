@@ -68,18 +68,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -90,31 +90,43 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Jotaro.jpg" />
+    <None Include="Properties\Resources\brunochangec.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\JotaroManga.jpg" />
+    <None Include="Properties\Resources\brunomanga.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Josepph.jpg" />
+    <None Include="Properties\Resources\brunomangaziper.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\brunochangec.png" />
+    <None Include="Properties\Resources\brunoanime.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\brunomanga.png" />
+    <None Include="Properties\Resources\stickyfanime.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\brunomangaziper.png" />
+    <None Include="Properties\Resources\stickyfmanga.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\brunoanime.png" />
+    <None Include="Properties\Resources\jotaroanime.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\stickyfanime.png" />
+    <None Include="Properties\Resources\jotaroanime2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\stickyfmanga.png" />
+    <None Include="Properties\Resources\jotaromanga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\jotaromangac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\starpanime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\starpmanga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brunoanime.png.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

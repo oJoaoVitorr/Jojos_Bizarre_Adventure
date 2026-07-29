@@ -53,8 +53,6 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -68,8 +66,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
@@ -245,16 +241,16 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(30, 46);
+            this.pictureBox7.Location = new System.Drawing.Point(97, 47);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(189, 261);
+            this.pictureBox7.Size = new System.Drawing.Size(290, 290);
             this.pictureBox7.TabIndex = 16;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Visible = false;
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(30, 73);
+            this.pictureBox8.Location = new System.Drawing.Point(59, 73);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(188, 201);
             this.pictureBox8.TabIndex = 17;
@@ -263,9 +259,9 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(418, 73);
+            this.pictureBox9.Location = new System.Drawing.Point(349, 73);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(163, 201);
+            this.pictureBox9.Size = new System.Drawing.Size(188, 201);
             this.pictureBox9.TabIndex = 18;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Visible = false;
@@ -330,7 +326,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.pictureBox10);
             this.groupBox3.Controls.Add(this.pictureBox9);
             this.groupBox3.Controls.Add(this.pictureBox8);
             this.groupBox3.Controls.Add(this.label3);
@@ -344,33 +339,14 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.pictureBox11);
             this.groupBox4.Controls.Add(this.pictureBox7);
-            this.groupBox4.Location = new System.Drawing.Point(23, 681);
+            this.groupBox4.Location = new System.Drawing.Point(23, 650);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(482, 338);
+            this.groupBox4.Size = new System.Drawing.Size(482, 369);
             this.groupBox4.TabIndex = 24;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "groupBox4";
             this.groupBox4.Visible = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(264, 46);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(189, 261);
-            this.pictureBox11.TabIndex = 17;
-            this.pictureBox11.TabStop = false;
-            this.pictureBox11.Visible = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(224, 73);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(188, 201);
-            this.pictureBox10.TabIndex = 20;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Visible = false;
             // 
             // Form2
             // 
@@ -405,8 +381,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -439,7 +413,5 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
     }
 }

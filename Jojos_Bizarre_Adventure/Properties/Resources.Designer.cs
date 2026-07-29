@@ -103,9 +103,9 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Josepph {
+        internal static System.Drawing.Bitmap jotaroanime {
             get {
-                object obj = ResourceManager.GetObject("Josepph", resourceCulture);
+                object obj = ResourceManager.GetObject("jotaroanime", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Jotaro {
+        internal static System.Drawing.Bitmap jotaroanime2 {
             get {
-                object obj = ResourceManager.GetObject("Jotaro", resourceCulture);
+                object obj = ResourceManager.GetObject("jotaroanime2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,39 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap JotaroManga {
+        internal static System.Drawing.Bitmap jotaromanga {
             get {
-                object obj = ResourceManager.GetObject("JotaroManga", resourceCulture);
+                object obj = ResourceManager.GetObject("jotaromanga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jotaromangac {
+            get {
+                object obj = ResourceManager.GetObject("jotaromangac", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap starpanime {
+            get {
+                object obj = ResourceManager.GetObject("starpanime", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap starpmanga {
+            get {
+                object obj = ResourceManager.GetObject("starpmanga", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
