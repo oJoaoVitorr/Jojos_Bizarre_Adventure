@@ -45,7 +45,7 @@ namespace Jojos_Bizarre_Adventure
             pictureBox6.Visible = false;
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
-            pictureBox9.Visible = false;
+            
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace Jojos_Bizarre_Adventure
             pictureBox6.Visible = false;
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
-            pictureBox9.Visible = false;
+           
             
             
             
@@ -177,12 +177,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Star Platinum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wilken Mazzei";
+                label2.Text = "Jotaro Kujo é o protagonista da terceira parte de JoJo's Bizarre Adventure, e o terceiro JoJo da série. Sendo o portador do todo-poderoso Star Platinum, Jotaro é o primeiro JoJo introduzido com um Stand, e está entre um dos mais bem-conhecidos personagens da série.\r\nÉ um delinquente mestiço que embarca em uma jornada pelo mundo junto ao seu avô, Joseph Joestar, e um grupo de amigos para salvar sua mãe e derrotar DIO, o vampiro, de uma vez por todas";
+                label4.Text = "Star Platinum é um Stand de curto-alcance com força e velocidade excepcional, assim como a habilidade de parar o tempo que foi ganha durante a batalha contra DIO. Seu poder esmagador, junto da habilidade em lutas de Jotaro, o torna um dos Stands mais fortes e icônicos da obra.\r\nStar Platinum é um Stand de Curto Alcance com um alcance básico de apenas dois metros do corpo de Jotaro, mas ostenta velocidade, poder, e precisão inigualáveis.\r\nO Star Platinum pode estender seus dedos indicativos e do meio, permitindo que ele realize ataques sorrateiros e cortar oponentes um pouco fora de seu alcance.";
+                label3.Text = "O Stand de Jotaro é uma referência a carta 17 do Tarot, A Estrela.";
                 pictureBox1.Image = Properties.Resources.jotaroanime;
                 pictureBox2.Image = Properties.Resources.jotaromanga;
                 pictureBox3.Image = Properties.Resources.jotaromangac;
                 pictureBox4.Image = Properties.Resources.jotaroanime2;
                 pictureBox5.Image = Properties.Resources.starpanime;
                 pictureBox6.Image = Properties.Resources.starpmanga;
+               
 
             }
             else if (comboBox1.Text == "Joseph Joestar")
@@ -194,7 +198,10 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Hermit Purple";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Mauro Ramos";
-
+                label2.Text = "Joseph Joestar é o protagonista da segunda parte de JoJo's Bizarre Adventure, Battle Tendency, e o segundo JoJo da série.\r\noseph é um usuário natural de Hamon e um eventual usuário de Stand, tendo Hermit Purple como seu Stand. Um encrenqueiro exuberante com um talento excepcional para trapaças, Joseph encontra várias ameaças fantásticas aproximando-se dele durante sua vida com iniciativa e uma ingenuidade impressionante, batalhando contra vampiros, os Homens do Pilar, e usuários malevolentes de Stand.\r\n";
+                label4.Text = "Hermit Purple é um Stand parecido com vinhas que Joseph invoca em suas mãos. Ele permite que o usuário adivinhe informações e mensagens de outras localizações.\r\nAs vinhas são fortes o suficiente para suportar seu próprio peso e longas o suficiente para amarrar alguém completamente.\r\nAs vinhas de Hermit Purple são relativamente fracas em combate direto, mas podem providenciar a Joseph com uma habilidade de adivinhação considerável, fazendo com que ele possa materializar qualquer tipo de informação, como uma imagem, uma localização ou até mesmo pensamentos.";
+                label3.Text = "O Stand de Joseph é uma referência a carta 9 do tarot, O Eremita.";
+                pictureBox8.Image = Properties.Resources.Carta_Hermit;
             }
             else if (comboBox1.Text == "Kakyoin")
             {
@@ -205,6 +212,18 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Hierophant Green";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Thiago Longo";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                /*/pictureBox1.Image = Properties.Resources.;
+                pictureBox2.Image = Properties.Resources.;
+                pictureBox3.Image = Properties.Resources.;
+                pictureBox4.Image = Properties.Resources.;
+                pictureBox5.Image = Properties.Resources.;
+                pictureBox6.Image = Properties.Resources.;
+                pictureBox7.Image =  Properties.Resources.;
+                pictureBox7.Image =  Properties.Resources.;/*/
+
             }
             else if (comboBox1.Text == "Polnareff")
             {
@@ -508,7 +527,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Curiosidade";
                 groupBox2.Text = "Golden Wind";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Vagner Fagundes";
             }
             else if (comboBox1.Text == "Bruno Bucciarati")
             {
@@ -541,7 +560,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Morte";
                 groupBox2.Text = "Li'l Bomber";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Marcus Pejon";
             }
             else if (comboBox1.Text == "Pannacota Fugo")
             {
@@ -551,7 +570,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Curiosidade";
                 groupBox2.Text = "Purple Smoke";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Marcio Vaz";
             }
             else if (comboBox1.Text == "Leone Abbacchio")
             {
@@ -561,7 +580,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Morte";
                 groupBox2.Text = "Moody Jazz";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "André Sauer";
             }
             else if (comboBox1.Text == "Guido Mista")
             {
@@ -571,7 +590,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Curiosidade";
                 groupBox2.Text = "Six Bullets";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "William Viana";
             }
             else if (comboBox1.Text == "Trish")
             {
@@ -592,7 +611,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "Morte";
                 groupBox2.Text = "Shadow Sabbath";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Luiz Carlos Persy";
             }
             else if (comboBox1.Text == "Mario Zucherro")
             {
@@ -602,7 +621,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "";
                 groupBox2.Text = "Tender Machine";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Renato Soares";
             }
             else if (comboBox1.Text == "Sale")
             {
@@ -612,7 +631,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "";
                 groupBox2.Text = "Arts & Crafts";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Rodrigo Andreatto";
             }
             else if (comboBox1.Text == "Formaggio")
             {
@@ -622,7 +641,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "";
                 groupBox2.Text = "Tiny Feet";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Márcio Araújo";
             }
             else if (comboBox1.Text == "Illuso")
             {
@@ -632,7 +651,7 @@ namespace Jojos_Bizarre_Adventure
                 checkBox4.Text = "";
                 groupBox2.Text = "Mirror Man";
                 groupBox3.Text = checkBox4.Text;
-                groupBox4.Text = "";
+                groupBox4.Text = "Douglas Guedes";
             }
             else if (comboBox1.Text == "Prosciutto")
             {
@@ -640,6 +659,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "The Thankful Dead";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Guilherme Marques";
             }
             else if (comboBox1.Text == "Pesci")
             {
@@ -647,6 +669,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Fisher Man";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Rogério César";
             }
             else if (comboBox1.Text == "Melone")
             {
@@ -654,6 +679,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Babyhead";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Robson Kumode";
             }
             else if (comboBox1.Text == "Ghiaccio")
             {
@@ -661,6 +689,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "White Ice";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Vinícius Fagundes";
             }
             else if (comboBox1.Text == "Squalo")
             {
@@ -668,6 +699,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Crush";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Gustavo Vergani";
             }
             else if (comboBox1.Text == "Tiziano")
             {
@@ -675,6 +709,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Talking Mouth";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Charles Dalla";
             }
             else if (comboBox1.Text == "Carne")
             {
@@ -682,6 +719,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
+                groupBox2.Text = "Notorious Chase";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Miguel de Britto";
             }
             else if (comboBox1.Text == "Risotto Nero")
             {
@@ -689,6 +729,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Metallic";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Reginaldo Primo";
             }
             else if (comboBox1.Text == "Cioccolatta")
             {
@@ -696,6 +739,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Green Tea";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Glauco Marques";
             }
             else if (comboBox1.Text == "Secco")
             {
@@ -703,6 +749,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Sanctuary";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Wallace Raj";
             }
             else if (comboBox1.Text == "Doppio")
             {
@@ -710,6 +759,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
+                groupBox2.Text = "Emperor Crimson";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Ítalo Luiz";
             }
             else if (comboBox1.Text == "Diavolo")
             {
@@ -717,6 +769,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
+                groupBox2.Text = "Emperor Crimson";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Felipe Zilse";
             }
             //STONE OCEAN HEROIS
             else if (comboBox1.Text == "Jolyne Kujo")
@@ -725,6 +780,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
+                groupBox2.Text = "Stone Ocean";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Patt Souza";
             }
             else if (comboBox1.Text == "Jotaro Kujo")
             {
@@ -732,6 +790,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Star Platinum";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Wilken Mazzai";
             }
             else if (comboBox1.Text == "Ermes Costello")
             {
@@ -739,6 +800,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
+                groupBox2.Text = "Smack";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Tatiane Keplmair";
             }
             else if (comboBox1.Text == "F.F")
             {
@@ -746,6 +810,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
+                groupBox2.Text = "F.F";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Vii Zedek";
             }
             else if (comboBox1.Text == "Anastasia")
             {
@@ -753,6 +820,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Diver Drive";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Márcio Araújo";
             }
             else if (comboBox1.Text == "Wheater Forecast")
             {
@@ -760,6 +830,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Wheather Forecast";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Gabriel Noya";
             }
             else if (comboBox1.Text == "Emporio Alnino")
             {
@@ -767,6 +840,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Burn the House Down";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Gabriel Martins";
             }
             //STONCE OCEAN VILÕES
             else if (comboBox1.Text == "Gwess")
@@ -775,6 +851,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
+                groupBox2.Text = "GG Dolls";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Flora Paulita";
             }
             else if (comboBox1.Text == "Jongalli A")
             {
@@ -782,6 +861,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Downtown Transfer";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Fernando Lopes";
             }
             else if (comboBox1.Text == "Thunder McQueen")
             {
@@ -789,6 +871,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Freeway Thru Hell";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Clécio Souto";
             }
             else if (comboBox1.Text == "Miraschon")
             {
@@ -796,6 +881,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
+                groupBox2.Text = "Mary Lynn Manson";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Fernanda Bellara";
             }
             else if (comboBox1.Text == "Lang Rangler")
             {
@@ -803,6 +891,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Jumping Jack Spark";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Philippe Maia";
             }
             else if (comboBox1.Text == "Sports Maximum")
             {
@@ -810,6 +901,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Limp Viscuit";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Rodrigo Nanal";
             }
             else if (comboBox1.Text == "Viviano Westwood")
             {
@@ -817,6 +911,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Starlight Waves";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Glauco Marques";
             }
             else if (comboBox1.Text == "Kenzou")
             {
@@ -824,6 +921,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Drake's Dream";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Hélio Vaccari";
             }
             else if (comboBox1.Text == "Gucci")
             {
@@ -831,6 +931,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Survivor";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Marco Aurélio Campos";
             }
             else if (comboBox1.Text == "D&G")
             {
@@ -838,6 +941,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "YA-YA MA";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Marco Antônio Abreu";
             }
             else if (comboBox1.Text == "Bêbe verde")
             {
@@ -845,6 +951,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Green, Green, Green Home";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "";
             }
             else if (comboBox1.Text == "Miu Miu")
             {
@@ -852,6 +961,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dubladora";
                 checkBox4.Text = "";
+                groupBox2.Text = "Jailhouse Lock";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Rebeca Zadra";
             }
             else if (comboBox1.Text == "Ungalo")
             {
@@ -859,6 +971,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Bohemian Ecstatic";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Yan Gesteira";
             }
             else if (comboBox1.Text == "Rikiel")
             {
@@ -866,6 +981,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "Sky Guy";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Fábio Lucindo";
             }
             else if (comboBox1.Text == "Versus")
             {
@@ -873,6 +991,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "";
+                groupBox2.Text = "NetherWorld";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Renan Freitas";
             }
             else if (comboBox1.Text == "Enrico Pucci")
             {
@@ -880,6 +1001,9 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
+                groupBox2.Text = "Pale Snake - Madein Heaven";
+                groupBox3.Text = checkBox4.Text;
+                groupBox4.Text = "Duda Espinoza";
             }
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -972,15 +1096,20 @@ namespace Jojos_Bizarre_Adventure
         {
             groupBox3.Visible = true; groupBox3.Text = checkBox4.Text;
             pictureBox8.Visible = true;
-            pictureBox9.Visible = true;
+            
             label4.Visible = true;
 
             if(checkBox1.Checked == false){
              groupBox3.Visible = false;
              pictureBox8.Visible = false;
-             pictureBox9.Visible = false;
+            
              label4.Visible = false;
             }
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
 
         }
     }

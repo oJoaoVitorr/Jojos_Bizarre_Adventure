@@ -103,6 +103,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Carta_Hermit {
+            get {
+                object obj = ResourceManager.GetObject("Carta Hermit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jotaroanime {
             get {
                 object obj = ResourceManager.GetObject("jotaroanime", resourceCulture);
