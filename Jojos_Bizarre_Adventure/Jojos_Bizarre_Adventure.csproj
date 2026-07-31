@@ -131,5 +131,62 @@
   <ItemGroup>
     <None Include="Resources\Carta Hermit.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Hierofante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Silver Chariot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Mago.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Louco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Sol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Julgamento.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Lua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Diabo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Justica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Forca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Torre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Imperador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta  Enforcado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Morte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Sacerdotisa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Imperatirz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Temperanca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Amantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Roda da Fortuna.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

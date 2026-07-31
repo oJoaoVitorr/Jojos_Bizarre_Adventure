@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="brunochangec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brunochangec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="jotaromangac" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\jotaromangac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="brunoanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\brunoanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brunomangaziper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brunomangaziper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="brunochangec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\brunochangec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Carta Hermit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Hermit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jotaroanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\jotaroanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,28 +136,82 @@
   <data name="starpanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\starpanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jotaromanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\jotaromanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="stickyfanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\stickyfanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stickyfmanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\stickyfmanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="brunomangaziper" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\brunomangaziper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="starpmanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\starpmanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brunomanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\brunomanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stickyfanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\stickyfanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brunoanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brunoanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jotaroanime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\jotaroanime2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Carta Hermit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carta Hermit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jotaromanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\jotaromanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brunomanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brunomanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="starpmanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\starpmanga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Hierofante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Hierofante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Silver Chariot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Silver Chariot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Mago" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Mago.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Louco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Louco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Sol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Julgamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Julgamento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Lua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Lua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Diabo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Diabo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Justica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Justica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Forca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Forca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Torre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Torre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Imperador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Imperador.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta  Enforcado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta  Enforcado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Morte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Morte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Sacerdotisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Sacerdotisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Imperatirz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Imperatirz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Temperanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Temperanca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Amantes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Amantes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carta Roda da Fortuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Roda da Fortuna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
