@@ -188,5 +188,458 @@
   <ItemGroup>
     <None Include="Resources\Carta Roda da Fortuna.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Estrela.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HermitManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HermitManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JosephAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JosephAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JosephManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JosephManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvdolAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvdolAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvdolManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvdolManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MagoVerm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MagoVerm2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IggyAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IggyAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IggyManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IggyManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Louco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Louco2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Louco21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hierophant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hierophant2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KakyoinAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KakyoinAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KakyoinManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KakyoinManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolnareffAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolnareffAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolnareffManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolnareffManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SilverChariot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SilverChariot1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArabiaFatsAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArabiaFatsManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArabiaFatsManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArabiaFatsManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sol2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameoAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameoAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameoManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameoManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Julgamento.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Julgamento2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapitaoTAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapitaoTAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapitaoTManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapitaoTManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuaAzul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuaAzul2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DevoAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DevoAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DevoManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DevoManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diabo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diabo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnyaAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnyaManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnyaManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnyaManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Justica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Justica2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forca2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForeverAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForeverAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForeverManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForeverManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrayFlyAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrayFlyAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrayFlyManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrayFlyManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Torre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Torre2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HolHorseAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HolHorseAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HolHorseManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HolHorseManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imperador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imperador2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnforcadoManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnforcadoManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JGeilAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JGeilAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JGeilManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JGeilManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MannishBoyAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MannishBoyAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MannishBoyManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MannishBoyManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MorteManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MorteMangaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MidlerAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MidlerJogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MidlerManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MidlerManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SacerdotisaAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SacerdotisaManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImperatrizAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImperatrizManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NenaAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NenaAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NenaManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NenaManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RubberSoulAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RubberSoulAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RubberSoulManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RubberSoulManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YellowTemperance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YellowTemperance2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lovers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lovers2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SteelyDanAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SteelyDanManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SteelyDanManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SteelyDanManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RodaDaFortuna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RodaDaFortuna2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZZAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZZAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZZManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZZManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlessiAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlessiManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlessiManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlessiManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnubisChakaManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnubisKhanManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnubisPolnareffManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnubisStand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnubisStand2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnubisUManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoingoAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoingoAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoingoManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tote.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tote2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanielAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanielManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanielManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanielManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Osiris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Osiris2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DioAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DioManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DioManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DioManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OMundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OMundo2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
