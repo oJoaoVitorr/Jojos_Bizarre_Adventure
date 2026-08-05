@@ -180,10 +180,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Jotaro Kujo é o protagonista da terceira parte de JoJo's Bizarre Adventure, e o terceiro JoJo da série. Sendo o portador do todo-poderoso Star Platinum, Jotaro é o primeiro JoJo introduzido com um Stand, e está entre um dos mais bem-conhecidos personagens da série.\r\nÉ um delinquente mestiço que embarca em uma jornada pelo mundo junto ao seu avô, Joseph Joestar, e um grupo de amigos para salvar sua mãe e derrotar DIO, o vampiro, de uma vez por todas";
                 label4.Text = "Star Platinum é um Stand de curto-alcance com força e velocidade excepcional, assim como a habilidade de parar o tempo que foi ganha durante a batalha contra DIO. Seu poder esmagador, junto da habilidade em lutas de Jotaro, o torna um dos Stands mais fortes e icônicos da obra.\r\nStar Platinum é um Stand de Curto Alcance com um alcance básico de apenas dois metros do corpo de Jotaro, mas ostenta velocidade, poder, e precisão inigualáveis.\r\nO Star Platinum pode estender seus dedos indicativos e do meio, permitindo que ele realize ataques sorrateiros e cortar oponentes um pouco fora de seu alcance.";
                 label3.Text = "O Stand de Jotaro é uma referência a carta 17 do Tarot, A Estrela.";
-                pictureBox1.Image = Properties.Resources.jotaroanime;
-                pictureBox2.Image = Properties.Resources.jotaromanga;
-                pictureBox3.Image = Properties.Resources.jotaromangac;
-                pictureBox4.Image = Properties.Resources.jotaroanime2;
+                pictureBox1.Image = Properties.Resources.jotaromanga;
+                pictureBox2.Image = Properties.Resources.jotaroanime;
+                pictureBox3.Image = Properties.Resources.jotaroanime2;
+                pictureBox4.Image = Properties.Resources.jotaromangac;
                 pictureBox5.Image = Properties.Resources.starpanime;
                 pictureBox6.Image = Properties.Resources.starpmanga;
                 pictureBox8.Image = Properties.Resources.Carta_Estrela;
@@ -202,10 +202,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Joseph Joestar é o protagonista da segunda parte de JoJo's Bizarre Adventure, Battle Tendency, e o segundo JoJo da série.\r\noseph é um usuário natural de Hamon e um eventual usuário de Stand, tendo Hermit Purple como seu Stand. Um encrenqueiro exuberante com um talento excepcional para trapaças, Joseph encontra várias ameaças fantásticas aproximando-se dele durante sua vida com iniciativa e uma ingenuidade impressionante, batalhando contra vampiros, os Homens do Pilar, e usuários malevolentes de Stand.\r\n";
                 label4.Text = "Hermit Purple é um Stand parecido com vinhas que Joseph invoca em suas mãos. Ele permite que o usuário adivinhe informações e mensagens de outras localizações.\r\nAs vinhas são fortes o suficiente para suportar seu próprio peso e longas o suficiente para amarrar alguém completamente.\r\nAs vinhas de Hermit Purple são relativamente fracas em combate direto, mas podem providenciar a Joseph com uma habilidade de adivinhação considerável, fazendo com que ele possa materializar qualquer tipo de informação, como uma imagem, uma localização ou até mesmo pensamentos.";
                 label3.Text = "O Stand de Joseph é uma referência a carta 9 do tarot, O Eremita.";
-                pictureBox1.Image = Properties.Resources.JosephAnime;
-                pictureBox2.Image = Properties.Resources.JosephManga;
-                pictureBox3.Image = Properties.Resources.JosephManga2;
-                pictureBox4.Image = Properties.Resources.JosephAnime2;
+                pictureBox1.Image = Properties.Resources.JosephManga;
+                pictureBox2.Image = Properties.Resources.JosephAnime;
+                pictureBox3.Image = Properties.Resources.JosephAnime2;
+                pictureBox4.Image = Properties.Resources.JosephManga2;
                 pictureBox5.Image = Properties.Resources.HermitManga;
                 pictureBox6.Image = Properties.Resources.HermitManga2;
                 //pictureBox7.Image = Properties.Resources.;//
@@ -224,10 +224,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Kakyoin é um estudante japonês que foi manipulado por DIO durante uma viagem ao Egito e enviado para matar Jotaro Kujo. Após ser livrado da influência de DIO, ele decide se juntar a Jotaro para salvar a mãe dele e se redimir. Kakyoin é um usuário de Stand e portador do Hierophant Green.c";
                 label4.Text = "O primeiro Stand de longo-alcance revelado na obra, o Hierophant Green luta a distância e é capaz de se desenrolar em tentáculos e liberar uma resplandecente rajada de esmeraldas conhecida como o Emerald Splash. O Hierophant Green é capaz de deslizar seus tentáculos para dentro do corpo de alguém, permitindo que Kakyoin completamente controle essa pessoa. Isso serve para proteger o Hierophant Green e Kakyoin de ataques caso seu oponente seja alguém indisposto a ferir inocentes.";
                 label3.Text = "O Stand de Kakyoin é uma referência a carta 5 do tarot, O Hierofante/Papa.";
-                pictureBox1.Image = Properties.Resources.KakyoinAnime;
-                pictureBox2.Image = Properties.Resources.KakyoinManga;
-                pictureBox3.Image = Properties.Resources.KakyoinManga2;
-                pictureBox4.Image = Properties.Resources.KakyoinAnime2;
+                pictureBox1.Image = Properties.Resources.KakyoinManga;
+                pictureBox2.Image = Properties.Resources.KakyoinAnime;
+                pictureBox3.Image = Properties.Resources.KakyoinAnime2;
+                pictureBox4.Image = Properties.Resources.KakyoinManga2;
                 pictureBox5.Image = Properties.Resources.Hierophant;
                 pictureBox6.Image = Properties.Resources.Hierophant2;
                 /*/pictureBox7.Image =  Properties.Resources.;
@@ -247,10 +247,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Jean Pierre Polnareff é um aliado principal na terceira parte de JoJo's Bizarre Adventure, o francês Polnareff viaja com Jotaro e Joseph para vingar sua irmã, que foi assasinada por um homem com duas mãos direitas.\r\nPolnareff é o membro menos sério do grupo, servindo como o oposto de Jotaro.Ele pode ser o que mais se liga aos seus companheiros, casualmente brincando com Kakyoin, Joseph, e até mesmo com Jotaro.\r\n";
                 label4.Text = "Silver Chariot é um Stand humanoide revestido por armadura e armado com uma rapieira. Ele é particularmente mortal em curto-alcance devido a sua velocidade e precisão. O Silver Chariot é um Stand incrivelmente rápido, já que ele é capaz de aparecer em vários lugares de uma vez só, devido a se mover a uma velocidade mais rápida que olhos humanos possam processar, criando pós-imagens ilusórias.";
                 label3.Text = "O Stand de Polnareff é uma referência a carta 7 do tarot, O Carro.";
-                pictureBox1.Image = Properties.Resources.PolnareffAnime;
-                pictureBox2.Image = Properties.Resources.PolnareffManga;
-                pictureBox3.Image = Properties.Resources.PolnareffManga2;
-                pictureBox4.Image = Properties.Resources.PolnareffAnime2;
+                pictureBox1.Image = Properties.Resources.PolnareffManga;
+                pictureBox2.Image = Properties.Resources.PolnareffAnime;
+                pictureBox3.Image = Properties.Resources.PolnareffAnime2;
+                pictureBox4.Image = Properties.Resources.PolnareffManga2;
                 pictureBox5.Image = Properties.Resources.SilverChariot;
                 pictureBox6.Image = Properties.Resources.SilverChariot1;
                 //pictureBox7.Image = Properties.Resources.;
@@ -269,10 +269,10 @@ namespace Jojos_Bizarre_Adventure
                 label4.Text = "O Mago Vermelho, ou originalmente Magician's Red é um Stand humanoide cuja aparência é a de um híbrido de humano e pássaro, com a habilidade de produzir e manipular fogo de várias maneiras.\r\nMagician's Red é um Stand de curto alcance com e fisicamente poderoso, sua habilidade assinatura é de livremente gerar e controlar o fogo. As chamas resultantes são intensas o suficiente para evaporar projéteis de metal no meio do ar e também fatiar trilhos de trem.";
                 label3.Text = "O Stand de Avdol é uma referência a primeira carta do tarot, O Mago.";
                 pictureBox8.Image = Properties.Resources.Carta_Mago;
-                pictureBox1.Image = Properties.Resources.AvdolAnime;
-                pictureBox2.Image = Properties.Resources.AvdolManga;
-                pictureBox3.Image = Properties.Resources.AvdolManga2;
-                pictureBox4.Image = Properties.Resources.AvdolAnime2;
+                pictureBox1.Image = Properties.Resources.AvdolManga;
+                pictureBox2.Image = Properties.Resources.AvdolAnime;
+                pictureBox3.Image = Properties.Resources.AvdolAnime2;
+                pictureBox4.Image = Properties.Resources.AvdolManga2;
                 pictureBox5.Image = Properties.Resources.MagoVerm;
                 pictureBox6.Image = Properties.Resources.MagoVerm2;
                 //pictureBox7.Image = Properties.Resources.;
@@ -290,10 +290,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "O rei dos vira-latas de Nova York, Iggy, é levado ao grupo Joestar após chegar ao Egito e relutantemente se junta a eles em sua jornada final à Cairo para derrotar DIO. Iggy é um usuário de Stand que empunha o Stand de areia, The Fool.\r\nIggy é um cão altamente inteligente porém rebelde, orgulhoso, auto-indulgente descrito como tendo uma personalidade \"terrível\".\r\n";
                 label4.Text = "The Fool ou O Louco é um Stand vínculado a uma massa de areia que geralmente tem a aparência de uma besta mecânica.The Fool manifesta-se como uma pilha de areia que Iggy pode controlar a vontade até criar estruturas de areia em combate. Como O Louco é somente vínculado a areia que manipula, ele não pode ser ferido de qualquer maneira. Também pode se transformar no que desejar.";
                 label3.Text = "O Stand de Iggy é uma referência a carta 0 do tarot, O Louco.";
-                pictureBox1.Image = Properties.Resources.IggyAnime;
-                pictureBox2.Image = Properties.Resources.IggyManga;
-                pictureBox3.Image = Properties.Resources.IggyManga2;
-                pictureBox4.Image = Properties.Resources.IggyAnime2;
+                pictureBox1.Image = Properties.Resources.IggyManga;
+                pictureBox2.Image = Properties.Resources.IggyAnime;
+                pictureBox3.Image = Properties.Resources.IggyAnime2;
+                pictureBox4.Image = Properties.Resources.IggyManga2;
                 pictureBox5.Image = Properties.Resources.Louco;
                 pictureBox6.Image = Properties.Resources.Louco2;
                 //pictureBox7.Image = Properties.Resources.;
@@ -313,10 +313,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Midler é a última dos assassinos de DIO que os heróis encontram antes de entrar no Egito. Ela é uma usuária de Stand, e sua High Priestess ataca o grupo enquanto viajam de submarino no Mar Vermelho. A aparência de Midler é em grande parte obscurecida na história, porém ela é descrita como bonita.";
                 label4.Text = "A Sacerdotisa tem a problemática capacidade de se transformar ou assimilar em qualquer coisa composta por minerais, até mesmo algo tão grande quanto um leito marinho.\r\nSeu tamanho pequeno e agilidade dificultam os golpes, e suas garras são muito perigosas. A High Priestess possui a habilidade de mudar de forma e assimilar-se em qualquer tipo de matéria inorgânica, seja metal, vidro ou plástico. Além disso, ele também pode replicar estruturas bastante complexas.";
                 label3.Text = "O Stand de Midler é uma referência a carta 2 do tarot, A Sacerdotisa.";
-                pictureBox1.Image = Properties.Resources.MidlerAnime;
-                pictureBox2.Image = Properties.Resources.MidlerManga ;
-                pictureBox3.Image = Properties.Resources.MidlerJogo ;
-                pictureBox4.Image = Properties.Resources.MidlerManga2;
+                pictureBox1.Image = Properties.Resources.MidlerManga;
+                pictureBox2.Image = Properties.Resources.MidlerAnime;
+                pictureBox3.Image = Properties.Resources.MidlerManga2;
+                pictureBox4.Image = Properties.Resources.MidlerJogo;
                 pictureBox5.Image = Properties.Resources.SacerdotisaAnime2 ;
                 pictureBox6.Image = Properties.Resources.SacerdotisaManga;
                // pictureBox7.Image = Properties.Resources.;
@@ -335,8 +335,8 @@ namespace Jojos_Bizarre_Adventure
                 label4.Text = "Empress é um Stand parasita que cresce a partir da carne de sua vítima, eventualmente dominando-a.\r\nA Imperatriz deve primeiro ser plantada em outra pessoa por contato direto com o sangue de Nena, mas pode ser controlada remotamente por ela.\r\nA zona respingada de sangue desenvolverá um botão carnudo, semelhante em aparência a uma verruga. A Imperatriz então cresce lenta e continuamente a partir da carne da vítima, alimentando-se de fontes externas em relação ao seu tamanho, sejam pequenos insetos, frutas ou galinhas inteiras quando for forte o suficiente. A Imperatriz eventualmente alcançará uma pequena forma humanóide e tentará constantemente atrapalhar, ferir ou matar seu hospedeiro.";
                 label3.Text = "O Stand de Nena é uma referência a carta 3 do tarot, A Imperatriz.";
                 pictureBox8.Image = Properties.Resources.Carta_Imperatirz;
-                pictureBox1.Image = Properties.Resources.NenaAnime;
-                pictureBox2.Image = Properties.Resources.NenaManga;
+                pictureBox1.Image = Properties.Resources.NenaManga;
+                pictureBox2.Image = Properties.Resources.NenaAnime;
                 pictureBox3.Image = Properties.Resources.NenaAnime2;
                 pictureBox4.Image = Properties.Resources.NenaManga2;
                 pictureBox5.Image = Properties.Resources.ImperatrizAnime;
@@ -355,10 +355,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Hol Horse é um assassino contratado por DIO que trabalha junto de seu parceiro, J. Geil, para eliminar o Grupo Joestar. Empunhando o Stand arma, Emperor, Hol Horse é capaz de disparar em seus oponentes com balas que ele pode controlar. \r\nHol Horse é retratado como um pistoleiro ocidental, sendo corajoso e mulherengo. Em contraste, seu medo se manifesta quando ele está sob pressão. Ele é um enganador astuto e ótimo oportunista, tendendo a depender dos outros assim como de sorte para salvar a si mesmo.\r\n";
                 label4.Text = "O Imperador assume a forma de uma arma que o usuário pode invocar em sua mão, permitindo que ele atire em seus inimigos com balas controláveis.\r\nO aspecto característico e mais perigoso de Emperor é sua capacidade de controlar livremente a trajetória de suas balas, já que elas também fazem parte do Stand. Embora tenha um alcance melhor que a média para um Stand de Curto Alcance, a eficácia do Imperador ainda cai rapidamente à medida que as balas atingem os limites desse alcance.";
                 label3.Text = "O Stand de Hol Horse é uma referência a carta 4 do tarot, O Imperador.";
-                pictureBox1.Image = Properties.Resources.HolHorseAnime;
-                pictureBox2.Image = Properties.Resources.HolHorseManga;
-                pictureBox3.Image = Properties.Resources.HolHorseManga2;
-                pictureBox4.Image = Properties.Resources.HolHorseAnime2;
+                pictureBox1.Image = Properties.Resources.HolHorseManga;
+                pictureBox2.Image = Properties.Resources.HolHorseAnime;
+                pictureBox3.Image = Properties.Resources.HolHorseAnime2;
+                pictureBox4.Image = Properties.Resources.HolHorseManga2;
                 pictureBox5.Image = Properties.Resources.Imperador;
                 pictureBox6.Image = Properties.Resources.Imperador2;
                // pictureBox7.Image = Properties.Resources.;
@@ -376,8 +376,8 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Steely Dan é um mercenário trabalhando para DIO enviado para matar Enya a Velha. Um usuário de Stand portador do microscópico Lovers, ele confronta o Grupo Joestar no Paquistão.\r\nEle cruelmente mata Enya, dizendo em sua cara que DIO ordenou sua execução, o que a chocou.\r\n\r\n";
                 label4.Text = "Lovers é um Stand humanoide minúsculo com características insectoides. A habilidade primária do Lovers é entrar no cérebro de sua vítima e manipular seus receptores de dor Quando Steely Dan sente qualquer estimulo físico, seja a dor de um soco, ou até a sensação de estralar seus dedos, Lovers irá enlouquecer dentro do cérebro e retornar a dor vezes mais à sua vítima, fazendo com que eles fiquem agoniados.\r\nPor causa de seu tamanho microscópico, Lovers é muito vulnerável por si só. Entretanto, sua habilidade de infiltrar o cérebro o torna um Stand formidável e elusivo que é muito difícil de alcançar e seu alcance de centenas de quilômetros torna qualquer fuga em uma impossibilidade.\r\n";
                 label3.Text = "O Stand de Steely Dan é uma referência a carta 6 do tarot, Os Amantes.";
-                pictureBox1.Image = Properties.Resources.SteelyDanAnime;
-                pictureBox2.Image = Properties.Resources.SteelyDanManga;
+                pictureBox1.Image = Properties.Resources.SteelyDanManga;
+                pictureBox2.Image = Properties.Resources.SteelyDanAnime;
                 pictureBox3.Image = Properties.Resources.SteelyDanManga2;
                 pictureBox4.Image = Properties.Resources.SteelyDanManga3;
                 pictureBox5.Image = Properties.Resources.Lovers;
@@ -398,10 +398,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Forever é um orangotango malicioso sob o serviço de DIO que confronta o grupo no Mar da China Meridional à bordo de um navio cargueiro. Dito navio é revelado estar possuido pelo Stand do Forever: Strength. Forever irá algumas vezes agir como um ser humano. Ele parece sentir atração por fêmeas humanas - ele vê revistas pornográficas e parece desejar a Merlai Anne. Ele também fuma cigarros e pode cortar suas próprias maçãs, mostrando uma inteligência anormalmente alta para um orangotango. Além disso, ele pode ler e resolver quebra-cabeças como um cubo mágico.\r\n";
                 label4.Text = "Como um Stand Materializado, Força tem a habilidade de se fundir a um barco e o transformar em um cargueiro. Seu usuário então é capaz de manipular o navio como quiser.\r\nStrength é um Stand incrivelmente poderoso usado para pegar seus inimigos de surpresa.\r\n";
                 label3.Text = "O Stand de Forever é uma referência a carta 8 do tarot, A Força.";
-                pictureBox1.Image = Properties.Resources.ForeverAnime;
-                pictureBox2.Image = Properties.Resources.ForeverManga ;
-                pictureBox3.Image = Properties.Resources.ForeverManga2 ;
-                pictureBox4.Image = Properties.Resources.ForeverAnime2 ;
+                pictureBox1.Image = Properties.Resources.ForeverManga;
+                pictureBox2.Image = Properties.Resources.ForeverAnime ;
+                pictureBox3.Image = Properties.Resources.ForeverAnime2 ;
+                pictureBox4.Image = Properties.Resources.ForeverManga2 ;
                 pictureBox5.Image = Properties.Resources.Forca;
                 pictureBox6.Image = Properties.Resources.Forca2;
                 //pictureBox7.Image = Properties.Resources.;
@@ -419,10 +419,10 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "ZZ é um dos mercenários do DIO que enfrenta o Grupo Joestar na estrada para o Paquistão. Ele é um usuário de Stand que dirige seu Stand veicular, Wheel of Fortune.\r\n Ele parece ser um inimigo perigoso e inteligente, e com apenas os braços estendidos para fora do carro, também pode parecer fisicamente imponente. No entanto, ZZ é simplesmente um usuário arrogante e covarde.\r\n";
                 label4.Text = "Whell of Fortune é um Stand que se manifesta usando um carro como catalisador, melhorando dramaticamente a aparência e as capacidades do veículo. Ela permite que até um carro comum e caindo aos pedaços se transforme em uma carroceria potente. O carro também é capaz de se reparar, distorcer seu casco para se espremer dentro de uma fenda, orientar as rodas horizontalmente para passar entre paredes, criar espinhos nas rodas para escalar um penhasco e até separar sua fiação interna para criar faíscas perigosas.\r\nWheel of Fortune pode disparar sua própria gasolina nos oponentes como um tiro disperso de alta pressão. ";
                 label3.Text = "O Stand de ZZ é uma referência a carta 10 do tarot, A Roda da Fortuna.";
-                pictureBox1.Image = Properties.Resources.ZZAnime;
-                pictureBox2.Image = Properties.Resources.ZZManga;
-                pictureBox3.Image = Properties.Resources.ZZManga2 ;
-                pictureBox4.Image = Properties.Resources.ZZAnime2 ;
+                pictureBox1.Image = Properties.Resources.ZZManga;
+                pictureBox2.Image = Properties.Resources.ZZAnime;
+                pictureBox3.Image = Properties.Resources.ZZAnime2 ;
+                pictureBox4.Image = Properties.Resources.ZZManga2 ;
                 pictureBox5.Image = Properties.Resources.RodaDaFortuna ;
                 pictureBox6.Image = Properties.Resources.RodaDaFortuna2 ;
                // pictureBox7.Image = Properties.Resources.;
@@ -440,8 +440,8 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Enya tem uma posição alta entre as pessoas de confiança de DIO. Ela é a mãe de J. Geil; e após a morte de seu filho, embosca o grupo de Jotaro sozinha com a ajuda de seu Stand de névoa, Justice.É revelado que ela teve um papel chave em desenvolver a população de usuários de Stand quando ela adquiriu o Arco e Flecha, e em Vento Aureo é revelado que ela comprou ditas flechas de Diavolo.\r\n";
                 label4.Text = "Justiça é um Stand de neblina comumente na forma de uma caveira coroada e mãos. É terrivelmente poderoso por causa de sua natureza e poder. Justice é um dos Stands mais poderosos da série devido à sua semi-invulnerabilidade, como um Stand de neblina, e sua habilidade de controlar o corpo de alguém por meio de uma ferida aberta.\r\nustice pode manifestar ilusões incrivelmente detalhadas e realistas em qualquer lugar dentro de seu alcance.\r\nEnya foi capaz de gerar uma cidade ilusória inteira sobre um cemitério, com a impressão de construções sólidas e reais, que só sumiram quando ela foi derrotada.\r\n";
                 label3.Text = "O Stand de Enya é uma referência a carta 11 do tarot, A Justiça.";
-                pictureBox1.Image = Properties.Resources.EnyaAnime;
-                pictureBox2.Image = Properties.Resources.EnyaManga;
+                pictureBox1.Image = Properties.Resources.EnyaManga;
+                pictureBox2.Image = Properties.Resources.EnyaAnime;
                 pictureBox3.Image = Properties.Resources.EnyaManga2;
                 pictureBox4.Image = Properties.Resources.EnyaManga3;
                 pictureBox5.Image = Properties.Resources.Justica;
@@ -461,6 +461,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "J. Geil é um assassino, filho da conselheira de DIO, Enya, enviado junto de Hol Horse para matar o Grupo Joestar. Ele também é o assassino de Chérie Polnareff e o homem que Jean Pierre Polnareff busca para vingá-la. J. Geil é um usuário de Stand e o portador do Hanged Man.\r\nÉ conhecido que J. Geil estuprou e matou várias mulheres durante sua vida, incluindo Chérie Polnareff, a irmã de Jean Pierre Polnareff. Pode ser assumido que ele também é bastante sádico já que ele alega que os gritos de Chérie foram como música para seus ouvidos.\r\n";
                 label4.Text = "Hanged Man é um Stand humanoide com a aparência de um ghoul enfaixado. Hanged Man é um Stand que ataca por reflexos. Em vez de atacar uma pessoa diretamente, ele aparecerá em uma superfície reflexiva e atacará seu reflexo. O Enforcado pode se mover através de qualquer tipo de superfície refletora na velocidade da luz. Ele possui um alcance incrivelmente longo.\r\nSua fraqueza é que ele só pode se mover entre superfícies refletoras em um padrão linear e é forçado a se mover para outro reflexo à sua frente se sua localização atual parar de refletir.";
                 label3.Text = "O Stand de J.Geil é uma referência a carta 12 do tarot, O Enforcado/O Pendurado.";
+                pictureBox1.Image = Properties.Resources.JGeilManga;
+                pictureBox2.Image = Properties.Resources.JGeilAnime ;
+                pictureBox3.Image = Properties.Resources.JGeilAnime2;
+                pictureBox4.Image = Properties.Resources.JGeilManga2;
+                pictureBox5.Image = Properties.Resources.EnforcadoManga2;
+                pictureBox6.Image = Properties.Resources.EnforcadoManga3;
                 pictureBox8.Image = Properties.Resources.Carta__Enforcado;
             }
             else if (comboBox1.Text == "Manish Boy")
@@ -475,6 +481,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Mannish Boy é um bebê gênio do mal e usuário do Stand a serviço de DIO. Ele tenta assassinar o Grupo Joestar dentro do mundo de pesadelo do seu Death Thirteen.\r\nMannish Boy é um gênio impossível: embora seja um bebê, ele pensa e se comporta como muito mais velho. Em público, Mannish Boy esconde seu verdadeiro eu e age como um bebê comum para despistar as pessoas.\r\n";
                 label4.Text = "Ele tem o poder formidável de atacar suas vítimas em seus sonhos, atraindo seus espíritos para seu próprio mundo de pesadelo, onde elas não têm poder para retaliar.\r\nMorte Treze é única porque só pode existir dentro de um mundo de sonhos e, portanto, exige que suas vítimas estejam dormindo.\r\nDeath Thirteen tem controle total sobre esse mundo dos sonhos. Ele é capaz de criar máquinas de morte com itens mecânicos, invocar objetos do nada, manipular o cabelo de Polnareff ou a mão de Joseph, basicamente moldando tudo como achar melhor. No entanto, a característica mais notável desse mundo dos sonhos é que os usuários de Stand não podem invocar seu Stand dentro do mundo dos sonhos e ficam indefesos.\r\n";
                 label3.Text = "O Stand de Mannish Boy é uma referência a carta 13 do tarot, A Morte.";
+                pictureBox1.Image = Properties.Resources.MannishBoyManga;
+                pictureBox2.Image = Properties.Resources.MannishBoyAnime;
+                pictureBox3.Image = Properties.Resources.MannishBoyManga2;
+                pictureBox4.Image = Properties.Resources.MannishBoyAnime2;
+                pictureBox5.Image = Properties.Resources.MorteManga;
+                pictureBox6.Image = Properties.Resources.MorteMangaa;
                 pictureBox8.Image = Properties.Resources.Carta_Morte;
             }
             else if (comboBox1.Text == "Rubber Soul")
@@ -489,6 +501,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Passando por Kakyoin, Rubber Soul isola e ataca Jotaro e Merlai Anne em Singapura. Rubber Soul é o usuário de Stand do Yellow Temperance.\r\nRubber Soul é um mercenário grosseiro e narcisista. Ele se orgulha da aparente invencibilidade de seu Stand, chegando a comprometer sua identidade só para irritar Jotaro. Ao contrário da maioria dos agentes de DIO, Rubber Soul não tem lealdade real ao vampiro e foi atraído com a promessa de ganhar 100 milhões de dólares como recompensa por atacar o Grupo Joestar.";
                 label4.Text = "Yellow Temperance é um Stand em forma de massa que consome carne para crescer de tamanho. Ele pode se enrolar ao redor do usuário para fornecer tanto um disfarce quanto uma defesa impenetrável.O tamanho do disfarce aumenta proporcionalmente ao quanto o stand consome. Apesar de quase invencivel, Yellow Temperance é limitado pelas vulnerabilidades humanas de seu próprio usuário, a ponto de se dizer que seu único ponto fraco é Rubber Soul.\r\n";
                 label3.Text = "O Stand de Rubber Soul é uma referência a carta 14 do tarot, A Temperança.\r\n";
+                pictureBox1.Image = Properties.Resources.RubberSoulManga;
+                pictureBox2.Image = Properties.Resources.RubberSoulAnime;
+                pictureBox3.Image = Properties.Resources.RubberSoulAnime2;
+                pictureBox4.Image = Properties.Resources.RubberSoulManga2;
+                pictureBox5.Image = Properties.Resources.YellowTemperance;
+                pictureBox6.Image = Properties.Resources.YellowTemperance2;
                 pictureBox8.Image = Properties.Resources.Carta_Temperanca;
             }
             else if (comboBox1.Text == "Devo")
@@ -503,6 +521,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Devo, o Amaldiçoado, é um infame xamã nativo americano e assassino que trabalha para o DIO, ele embosca Jean Pierre Polnareff em seu quarto de hotel em Singapura. Devo é o usuário do Stand Ebony Devil.\r\nQuando atacado, ele demonstra uma espécie de masoquismo, rindo e se deleitando com a dor excruciante porque adora se vingar de ferimentos.";
                 label4.Text = "Ebony Devil é capaz de possuir um boneco, concedendo ao usuário seu controle remoto. O poder e velocidade do boneco aumentam com base no ressentimento que Devo sente pelo seu alvo.\r\nA forma original do Stand tem um alcance extremamente curto e limitado. Porém, quando ativado, ele pode agir independentemente e longe de Devo, tornando-se um bom assassino autômono\r\n";
                 label3.Text = "O Stand de Devo é uma referência a carta 15 do tarot, O Diabo.";
+                pictureBox1.Image = Properties.Resources.DevoManga;
+                pictureBox2.Image = Properties.Resources.DevoAnime;
+                pictureBox3.Image = Properties.Resources.DevoAnime2;
+                pictureBox4.Image = Properties.Resources.DevoManga2;
+                pictureBox5.Image = Properties.Resources.Diabo;
+                pictureBox6.Image = Properties.Resources.Diabo2;
                 pictureBox8.Image = Properties.Resources.Carta_Diabo;
             }
             else if (comboBox1.Text == "Capitão Tennille")
@@ -517,6 +541,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "O Falso Capitão Tennille é um assassino enviado por DIO que luta contra o Grupo Joestar no meio do oceano à caminho do Egito. Ele é um usuário de Stand e o portador do Dark Blue Moon. Embora o verdadeiro Capitão Tennille nunca é visto, pode se assumir que possuía uma aparência praticamente idêntica a do impostor.\r\n";
                 label4.Text = "Dark Blue Moon é um Stand humanoide poderoso com um físico parecido ao de um peixe, cujas capacidades são maximizadas debaixo d'água. Suas habilidades vão desde criar cracas drenadoras de poder até criar redemoinhos.\r\nDark Blue Moon é um Stand marinho e, devido a isso, suas habilidades são mais efetivas em um ambiente aquático.\r\nDark Blue Moon é capaz de criar cracas que grudam e absorvem a energia da vítima e também cedem a Dark Blue Moon um pequeno controle sob a parte infectada, o permitindo trazer seus inimigos de volta à água caso eles tentem fugir.\r\n";
                 label3.Text = "O Stand do Falso Capitão é uma referência a carta 18 do tarot, A Lua.";
+                pictureBox1.Image = Properties.Resources.CapitaoTManga;
+                pictureBox2.Image = Properties.Resources.CapitaoTAnime;
+                pictureBox3.Image = Properties.Resources.CapitaoTAnime2;
+                pictureBox4.Image = Properties.Resources.CapitaoTManga2;
+                pictureBox5.Image = Properties.Resources.LuaAzul;
+                pictureBox6.Image = Properties.Resources.LuaAzul2;
                 pictureBox8.Image = Properties.Resources.Carta_Lua;
             }
             else if (comboBox1.Text == "Arabia Fats")
@@ -531,6 +561,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Arabia Fats é um agente de DIO, que embosca o Grupo Joestar no meio do deserto árabe com seu Stand, Sun.\r\nA personalidade de Arabia Fats nunca é totalmente mostrada devido à rapidez com que ele é derrotado, mas ele é mostrado como um usuário de Stand bem preparado, paciente e imoral, disposto a esperar o tempo que for necessário para que o Grupo Joestar morra por causa de seu Stand.";
                 label4.Text = "Sun assume a aparência de um pequeno sol que irradia calor escaldante e pode disparar feixes concentrados contra suas vítimas.\r\nSun é um Stand incrivelmente poderoso, com uma grande variedade de ação. No entanto, não faz nada para proteger seu usuário, que deve permanecer por perto e se esconder.\r\nO poder principal do Sol é emitir luz e calor em níveis letais por uma grande área.\r\nAlém de brilhar forte o suficiente para dar a impressão de estar no meio de um dia claro, apesar do horário indicar que é noite, ele também eleva as temperaturas ao redor até 80 °C. Além disso, pode manter esse nível de poder por um longo período, já que Arabia Fats estava disposto a perseguir o grupo Joestar e deixá-los morrer pelo calor do Sol.";
                 label3.Text = "O Stand de Arabia Fats é uma referência a carta 19 do tarot, O Sol.";
+                pictureBox1.Image = Properties.Resources.ArabiaFatsManga;
+                pictureBox2.Image = Properties.Resources.ArabiaFatsManga2;
+                pictureBox3.Image = Properties.Resources.ArabiaFatsManga3;
+                pictureBox4.Image = Properties.Resources.ArabiaFatsAnime;
+                pictureBox5.Image = Properties.Resources.Sol;
+                pictureBox6.Image = Properties.Resources.Sol2;
                 pictureBox8.Image = Properties.Resources.Carta_Sol;
             }
             else if (comboBox1.Text == "Cameo")
@@ -545,6 +581,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Cameo isola Polnareff do Grupo Joestar em uma ilha isolada no Mar Vermelho enquanto estão lá para resgatar Avdol. Cameo é um dos capangas de DIO e usuário de Stand que empunha o gênio Stand, Judgement.\r\nCameo é um homem cruel que finge ser um gênio usando seu Stand, Judgement.\r\n";
                 label4.Text = "Julgamento é um robusto Stand humanoide mecânico bastante poderoso, com força e velocidade acima da média no que diz respeito aos Stands.\r\nO principal poder do julgamento é conceder desejos falsificados àqueles que o solicitam. Ele cria construções de argila com tudo o que o decorrente pedir. Essas construções de argila são quase perfeitas em relação ao original, como moedas de ouro falsas que têm peso, aparência e sensação semelhantes ao ouro real.Judgement usa suas construções de argila para enganar alvos ingênuos e fazê-los confiar nele, mas também para atacá-los enquanto eles não conseguem revidar.\r\n";
                 label3.Text = "O Stand de Cameo é uma referência a carta 20 do tarot, O Julgamento.";
+                pictureBox1.Image = Properties.Resources.CameoManga;
+                pictureBox2.Image = Properties.Resources.CameoAnime;
+                pictureBox3.Image = Properties.Resources.CameoAnime2;
+                pictureBox4.Image = Properties.Resources.CameoManga2;
+                pictureBox5.Image = Properties.Resources.Julgamento;
+                pictureBox6.Image = Properties.Resources.Julgamento2;
                 pictureBox8.Image = Properties.Resources.Carta_Julgamento;
             }
             else if (comboBox1.Text == "Gray Fly")
@@ -559,6 +601,12 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Gray Fly é um assassino enviado por DIO que ataca o grupo a bordo de um avião que viaja de Tóquio para o Cairo, eventualmente caindo no oceano próximo a Hong Kong. Ele é um usuário de Stand e possui a Torre de Cinzas.\r\nEmbora pareça um velho desavisado, Gray Fly é um dos muitos mercenários sádicos de DIO, ele é um ladrão responsável por inúmeros acidentes fatais e planeja todos os seus crimes para parecer acidentes.\r\n";
                 label4.Text = "Especializado em fazer com que ataques pareçam acidentes, detém a forma de um lucano gigante com uma segunda mandíbula e a habilidade de se locomover em alta velocidade.\r\nTower of Gray é um Stand pequeno e frágil. Porém, ele também é absurdamente rápido e ágil, e sua mandíbula secundária lhe garante um mega poder destrutivo oculto bem discreto.\r\n";
                 label3.Text = "O Stand de Gray Fly é uma referência a carta 16 do tarot, A Torre.";
+                pictureBox1.Image = Properties.Resources.GrayFlyManga;
+                pictureBox2.Image = Properties.Resources.GrayFlyAnime;
+                pictureBox3.Image = Properties.Resources.GrayFlyAnime2;
+                pictureBox4.Image = Properties.Resources.GrayFlyManga2;
+                pictureBox5.Image = Properties.Resources.Torre;
+                pictureBox6.Image = Properties.Resources.Torre2;
                 pictureBox8.Image = Properties.Resources.Carta_Torre;
             }
 
@@ -574,6 +622,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.VanillaManga;
+                pictureBox2.Image = Properties.Resources.VanillaManga2;
+                pictureBox3.Image = Properties.Resources.VanillaAnime2;
+                pictureBox4.Image = Properties.Resources.VanillaManga3;
+                pictureBox5.Image = Properties.Resources.Cream;
+                pictureBox6.Image = Properties.Resources.Cream2;
+                pictureBox8.Image = Properties.Resources.Carta_Cream;
             }
             else if (comboBox1.Text == "N'Doul")
             {
@@ -584,6 +639,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Geb";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wellington Lima";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.NDoulManga;
+                pictureBox2.Image = Properties.Resources.NDoulAnime;
+                pictureBox3.Image = Properties.Resources.NDoulManga;
+                pictureBox4.Image = Properties.Resources.NDoulManga3;
+                pictureBox5.Image = Properties.Resources.Geb;
+                pictureBox6.Image = Properties.Resources.Geb2;
+                pictureBox8.Image = Properties.Resources.Carta_Geb;
             }
             else if (comboBox1.Text == "Oingo")
             {
@@ -594,6 +659,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Quenum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rodrigo Nanal";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.OingoManga;
+                pictureBox2.Image = Properties.Resources.OingoJotaro;
+                pictureBox3.Image = Properties.Resources.OingoAnime;
+                pictureBox4.Image = Properties.Resources.OingoManga2;
+                pictureBox5.Image = Properties.Resources.Quenum;
+                pictureBox6.Image = Properties.Resources.Quenum2;
+                pictureBox8.Image = Properties.Resources.Carta_Quenum;
             }
             else if (comboBox1.Text == "Boingo")
             {
@@ -604,6 +679,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Tote";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Angélica Santos";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.BoingoManga;
+                pictureBox2.Image = Properties.Resources.BoingoAnime;
+                pictureBox3.Image = Properties.Resources.BoingoAnime2;
+                pictureBox4.Image = Properties.Resources.BoingoManga2;
+                pictureBox5.Image = Properties.Resources.Tote;
+                pictureBox6.Image = Properties.Resources.Tote2;
+                pictureBox8.Image = Properties.Resources.Carta_Tote;
             }
             else if (comboBox1.Text == "Anubis")
             {
@@ -614,6 +699,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Anubis";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wesley Santana";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.AnubisUManga;
+                pictureBox2.Image = Properties.Resources.AnubisChakaManga;
+                pictureBox3.Image = Properties.Resources.AnubisKhanManga;
+                pictureBox4.Image = Properties.Resources.AnubisPolnareffManga;
+                pictureBox5.Image = Properties.Resources.AnubisStand;
+                pictureBox6.Image = Properties.Resources.AnubisStand2;
+                pictureBox8.Image = Properties.Resources.Carta_Anubis;
             }
             else if (comboBox1.Text == "Mariah")
             {
@@ -624,6 +719,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Bastet";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Carla Martelli";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.MariahManga;
+                pictureBox2.Image = Properties.Resources.MariahAnime1;
+                pictureBox3.Image = Properties.Resources.MariahAnime2;
+                pictureBox4.Image = Properties.Resources.MariahManga2;
+                pictureBox5.Image = Properties.Resources.Bastet;
+                pictureBox6.Image = Properties.Resources.Bastet2;
+                pictureBox8.Image = Properties.Resources.Carta_Bastet;
             }
             else if (comboBox1.Text == "Alessi")
             {
@@ -634,6 +739,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Set";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fábio de Castro";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.AlessiManga;
+                pictureBox2.Image = Properties.Resources.AlessiAnime;
+                pictureBox3.Image = Properties.Resources.AlessiManga2;
+                pictureBox4.Image = Properties.Resources.AlessiManga3;
+                pictureBox5.Image = Properties.Resources.Set;
+                pictureBox6.Image = Properties.Resources.Set2;
+                pictureBox8.Image = Properties.Resources.Carta_Set;
             }
             else if (comboBox1.Text == "Daniel J. D'arby")
             {
@@ -644,6 +759,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Osiris";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Hélio Ribeiro";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.DanielManga;
+                pictureBox2.Image = Properties.Resources.DanielAnime;
+                pictureBox3.Image = Properties.Resources.DanielManga2;
+                pictureBox4.Image = Properties.Resources.DanielManga3;
+                pictureBox5.Image = Properties.Resources.Osiris;
+                pictureBox6.Image = Properties.Resources.Osiris2;
+                pictureBox8.Image = Properties.Resources.Carta_Osiris;
             }
             else if (comboBox1.Text == "Telence T. D'arby")
             {
@@ -654,6 +779,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Atum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marcelo Garcia";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.TelenceManga;
+                pictureBox2.Image = Properties.Resources.TelenceAnime;
+                pictureBox3.Image = Properties.Resources.TelenceAnime2;
+                pictureBox4.Image = Properties.Resources.TelenceManga2;
+                pictureBox5.Image = Properties.Resources.Atum;
+                pictureBox6.Image = Properties.Resources.Atum2;
+                pictureBox8.Image = Properties.Resources.Carta_Atum;
             }
             else if (comboBox1.Text == "Pet Shop")
             {
@@ -664,6 +799,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Hórus";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Não possui dublador";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.PetShopManga;
+                pictureBox2.Image = Properties.Resources.PetShopAnime;
+                pictureBox3.Image = Properties.Resources.PetShopManga2;
+                pictureBox4.Image = Properties.Resources.PetShopManga3;
+                pictureBox5.Image = Properties.Resources.Horus;
+                pictureBox6.Image = Properties.Resources.Horus2;
+                pictureBox8.Image = Properties.Resources.Carta_Horus;
             }
             else if (comboBox1.Text == "Dio")
             {
@@ -674,6 +819,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "O Mundo";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Francisco Júnior";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.DioManga;
+                pictureBox2.Image = Properties.Resources.DioAnime;
+                pictureBox3.Image = Properties.Resources.DioManga2;
+                pictureBox4.Image = Properties.Resources.DioManga3;
+                pictureBox5.Image = Properties.Resources.OMundo;
+                pictureBox6.Image = Properties.Resources.OMundo2;
+                pictureBox8.Image = Properties.Resources.Carta_Mundo;
             }
             //GOLDEN WIND HEROIS
             else if (comboBox1.Text == "Giorno Giovanna")

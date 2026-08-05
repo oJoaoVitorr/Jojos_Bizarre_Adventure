@@ -641,5 +641,149 @@
   <ItemGroup>
     <None Include="Resources\OMundo2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cream2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VanillaManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VanillaAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VanillaManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VanillaManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atum2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TelenceAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TelenceAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TelenceManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TelenceManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horus2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PetShopManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PetShopManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PetShopManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PetShopAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quenum2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quenum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OingoManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OingoAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OingoJotaro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OingoManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NDoulManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NDoulAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NDoulManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NDoulManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoingoManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bastet2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bastet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MariahAnime1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MariahAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MariahManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MariahManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Mundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Atum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Horus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Osiris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Set.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Bastet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Anubis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Tote.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Quenum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Geb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carta Cream.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
