@@ -100,7 +100,7 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Daniel J. D'arby");
                 comboBox1.Items.Add("Telence T. D'arby");
                 comboBox1.Items.Add("Pet Shop");
-                comboBox1.Items.Add("Dio");
+                comboBox1.Items.Add("DIO");
 
 
             } // FIM STARDUST CRUSADERS
@@ -619,9 +619,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Cream";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Alfredo Rollo";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Vanilla Ice é o último vampiro criado por DIO e um dos últimos usuários de Stand que o Grupo Joestar encara ao se infiltrar na Mansão de DIO. Após o grupo ser dividido, ele é enviado a acabar com a equipe consistindo de Avdol, Polnareff, e Iggy. Vanilla Ice é um usuário de Stand controlando sua habilidade baseada no vazio, Cream, em batalha.";
+                label4.Text = "Cream é um Stand humanóide com aparência monstruosa. Sua boca leva a uma dimensão de escuridão, e se Cream se engole, ela assume a forma de uma esfera do vazio destrutiva.\r\nCream consegue se tornar um portal para uma dimensão semelhante ao vazio, que Vanilla Ice usa principalmente para desintegrar tudo em seu caminho e se esconder.\r\nO portal real está situado na boca de Cream e o modus operandi de Cream é devorar a si mesma e seu usuário para se tornar um portal flutuante em forma de bola.\r\nAo entrar em seu estado vazio, Cream é invulnerável e quase indetectável, pois existe em outra dimensão: não pode ser vista.";
+                label3.Text = "Cream é o único Stand imporante da parte 3 que não possui uma referência a uma carta de tarot.\r\n";
                 pictureBox1.Image = Properties.Resources.VanillaManga;
                 pictureBox2.Image = Properties.Resources.VanillaManga2;
                 pictureBox3.Image = Properties.Resources.VanillaAnime2;
@@ -639,9 +639,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Geb";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wellington Lima";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Sendo um leal assassino de DIO e o usuário do Stand Geb, ele é o primeiro dos 9 Deuses Egípcios da Glória que o Grupo Joestar encontra ao chegar no Egito e tenta matá-los no meio do deserto do Saara.\r\nN'Doul é um homem cego que, graças ao seu Stand, nunca temeu nada em sua vida inteira, nem mesmo a morte.";
+                label4.Text = "Geb é um Stand de água que pode ser pilotado remotamente à distância. Sua natureza como Stand controlador de água o torna muito ágil, mas mortal, pois pode materializar uma mão com garras capaz de rasgar carne e metal, além de arrancar a cabeça de um homem.\r\nA maior força de Geb é o alcance com que pode ser controlado com precisão, permitindo que N'Doul fique a quilômetros de distância do alvo.\r\nGeb, sendo um corpo d'água, é completamente amorfo e, portanto, excepcionalmente flexível e ágil, conseguindo escapar do soco de Star Platinum ao se torcer. \r\n";
+                label3.Text = "O Stand de N'Doul é uma referência ao deus egípcio, Geb, o deus da terra.\r\n";
                 pictureBox1.Image = Properties.Resources.NDoulManga;
                 pictureBox2.Image = Properties.Resources.NDoulAnime;
                 pictureBox3.Image = Properties.Resources.NDoulManga;
@@ -659,9 +659,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Quenum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rodrigo Nanal";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Como portador do Khnum dos 9 Deuses da Glória do Egito, que lhe permite disfarçar-se de outra pessoa, Oingo tenta assassinar o Grupo Joestar junto com seu irmão mais novo, Boingo.\r\nomo todos os servos de DIO, Oingo é um personagem maligno, embora de uma forma mais mesquinha que a maioria. Ele é um assassino e, portanto, não tem problema em tentar matar os heróis.\r\n";
+                label4.Text = "Khnum é apenas uma habilidade que permite Oingo moldar sua face para se disfarçar de qualquer ser.\r\nKhnum permite Oingo alterar sua aparência, altura, peso, cheiro e até sua voz como quiser.\r\nPara fazer isso, Oingo molda seu rosto como se fosse argila para modificá-la.Ele não pode alterar suas roupas, mas pode alterar seu cabelo, tendo feito isso para imitar o chapéu de Jotaro em certo ponto. Segundo Oingo, ele pode voltar ao normal quando quiser, embora nunca tenha sido mostrado ele fazer isso.";
+                label3.Text = "O Stand de Oingo é uma referência ao deus egípcio, Khnum, o deus do renascimento e da criação.\r\n";
                 pictureBox1.Image = Properties.Resources.OingoManga;
                 pictureBox2.Image = Properties.Resources.OingoJotaro;
                 pictureBox3.Image = Properties.Resources.OingoAnime;
@@ -679,9 +679,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Tote";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Angélica Santos";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Boingo é um jovem usuário de Stand que empunha o Stand Tohth dos 9 Deuses da Glória do Egito. Ele tenta assassinar o Grupo Joestar no Egito junto com seu irmão mais velho Oingo, e depois se une a Hol Horse para completar sua missão.\r\nEle só se sente confortável perto do irmão, Oingo, ficando perto dele e sentindo-se sozinho quando está longe dele. Seu vínculo com o irmão é tão profundo que ele promete se vingar da derrota de Oingo sozinho, o que faz Oingo se emocionar.\r\n";
+                label4.Text = "Como representação do deus egípcio Thoth, o Stand assume a forma de uma história em quadrinhos que permite ao usuário ver premonições do futuro próximo.\r\nComo mera história em quadrinhos que prediga, Tote não é adequada para combate direto, mas é uma ferramenta valiosa se alguém quiser levar vantagem em qualquer situação. Graças a isso, o Grupo Joestar quase foi morto em Assuã por Oingo e no Cairo por Hol Horse.\r\nA habilidade de Tohth é prever o futuro. O livro é preenchido principalmente com páginas em branco, mas com o passar do tempo, mais páginas vão se enchendo, prevendo eventos futuros até vários minutos à frente.\r\n";
+                label3.Text = "O Stand de Boingo é uma referência ao deus egípcio, Thoth, o deus do conhecimento.\r\n";
                 pictureBox1.Image = Properties.Resources.BoingoManga;
                 pictureBox2.Image = Properties.Resources.BoingoAnime;
                 pictureBox3.Image = Properties.Resources.BoingoAnime2;
@@ -699,9 +699,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Anubis";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wesley Santana";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "É um Stand humanoide lembrando o deus Anúbis, e preso a uma espada. Ele é um Stand feito para matar com um conjunto de habilidades permitindo com que ele ele possua qualquer um e aprimore suas habilidades de luta. Anubis é único no fato de ser um Stand sem usuário que obedece a DIO e repetidamente tenta matar os membros do grupo Joestar no Egito.\r\nSeguindo a morte de seu usuário original, Caravan Serai, Anubis lealmente serve a DIO, tanto por gratidão por ter sido liberto e por ele ter sido derrotado em uma batalha pelo Stand do vampiro.\r\n";
+                label4.Text = "Anubis é um Stand surpreendentemente resiliente. Mesmo que a espada seja quebrada, Anubis continuará ativo na maior parte dele, retendo seu poder completo.\r\nSe alguém desembainhar a espada, eles ouvirão Anubis falando em sua mente, os encorajando a usá-la contra todos em seu caminho. Eventualmente, eles serão completamente controlados pelo próprio Anubis, permitindo com que o Stand controle seu corpo. Mesmo que outros usuários de Stand não sejam imunes a esse feito - se o Anubis controlá-los, ele também tomará controle de seus Stands.\r\n";
+                label3.Text = "Anubis é um Stand sem usuário, e uma referência ao deus egípcio Anubis, o deus da morte.";
                 pictureBox1.Image = Properties.Resources.AnubisUManga;
                 pictureBox2.Image = Properties.Resources.AnubisChakaManga;
                 pictureBox3.Image = Properties.Resources.AnubisKhanManga;
@@ -719,9 +719,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Bastet";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Carla Martelli";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Enquanto Alessi ataca Jean Pierre Polnareff e Jotaro Kujo, Mariah tenta eliminar Joseph Joestar e Muhammad Avdol magnetizando seus corpos com seu Stand, Bastet dos 9 Deuses da Glória do Egito.\r\nMariah parece uma pessoa calma e sensata. Como a maioria dos usuários do Stand, Mariah tem grande confiança em seu Bastet, principalmente no fato de que todos acabarão sucumbindo a ele com o tempo. No entanto, ela perde a calma facilmente sempre que as coisas não saem conforme o planejado.\r\n";
+                label4.Text = "Bastet é um suporte em formato de tomada com um cabo visível embaixo, que pode ser colocado em qualquer superfície.\r\nBastet foi criado para voltar a curiosidade das pessoas contra eles. Não tem nenhuma habilidade de combate direto e não serve além de prender vítimas, forçando Mariah a esperar até que suas vítimas morram sozinhas. Por outro lado, é adequado para assassinatos porque, a menos que Mariah se exponha, não há como pegá-la.\r\nQuando uma pessoa toca na tomada, ela recebe um choque e se torna um ímã que atrai objetos metálicos próximos.\r\nA força magnética gradualmente se tornará mais forte, a ponto de objetos atraídos pela pessoa serem esmagados pela massa ou simplesmente empalá-los.Uma desvantagem da habilidade deste Stand é que Mariah deve manter certa distância do alvo ou o magnetismo desaparecerá.\r\n";
+                label3.Text = "O Stand de Mariah é uma referência a deusa egípcia Bastet, a deusa da proteção.\r\n";
                 pictureBox1.Image = Properties.Resources.MariahManga;
                 pictureBox2.Image = Properties.Resources.MariahAnime1;
                 pictureBox3.Image = Properties.Resources.MariahAnime2;
@@ -739,9 +739,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Set";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fábio de Castro";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Alessi é um assassino covarde que tenta assassinar Polnareff em Luxor enquanto Mariah luta contra Joseph e Avdol. Ele é um usuário do Stand que empunha Sethan dos 9 Deuses da Glória do Egito.Alessi é um homem sádico, porém covarde, que só luta contra quem é mais fraco que ele. Ele sente um prazer extremo em provocar e humilhar seus oponentes antes de finalizá-los, e explora qualquer método desonesto para obter uma vantagem injusta.\r\n";
+                label4.Text = "Pelo fato do Sethan assumir a forma da sombra de Alessi, ele imita e replica tudo o que ele faz e tem.\r\nor causa disso, qualquer arma que Alessi possua também é mantida por Sethan, permitindo que ele ataque o oponente com a sombra da arma. Além disso, a sombra pode se mover independentemente de seu possuidor e até mesmo sair parcialmente de uma superfície para atacar.\r\nQualquer um que estiver na sombra de Alessi rejuvenecerá em alta velocidade.\r\nA mente do alvo também rejuvenesce, levando suas memórias a se degradarem progressivamente em vagas lembranças de coisas que ele só saberia como adulto (como nomes de amigos ou como manifestar um Stand).\r\n";
+                label3.Text = "O Stand de Alessi é uma referência ao deus Seth, o deus do caos e tempestade.";
                 pictureBox1.Image = Properties.Resources.AlessiManga;
                 pictureBox2.Image = Properties.Resources.AlessiAnime;
                 pictureBox3.Image = Properties.Resources.AlessiManga2;
@@ -759,9 +759,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Osiris";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Hélio Ribeiro";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Daniel J. D'Arby é um apostador inveterado e seu Stand, Osiris, pode roubar almas. Ele é um membro dos 9 Deuses Egípcios da Glória e encontra o Grupo Joestar em Cairo. Lá, ele os convence a apostar suas almas em várias apostas. D'Arby também é o irmão mais velho de Telence T. D'Arby.\r\nA característica mais prominente de sua personalidade é seu amor por apostas. Ele afirma que vive pela emoção de apostar.\r\n";
+                label4.Text = "Osíris é um Stand humanoide enorme e automático. Desde que o oponente de D'Arby concorde com suas regras, Osíris pode roubar a alma do oponente com apostas rápidas e simples.\r\nSe o perdedor apostar a alma de outra pessoa, Osíris pode tomá-la mesmo que essa pessoa não esteja presente ou concorde. Trapacear também é permitido ao apostar contra D'Arby, já que ele considera trapaça aceitável, desde que você não seja pego.\r\nQuando almas são roubadas de um corpo, esse corpo não tem mais pulso e cai em estado de morte a menos que D'Arby devolva a alma a eles.\r\nAs almas são comprimidas pelas mãos de Osíris e armazenadas na forma de fichas de pôquer, se D'Arby reconhecer a derrota, as almas que ele apostou são automaticamente liberadas.\r\n";
+                label3.Text = "O Stand de Daniel J. D'Arby é uma referência ao deus egípcio Osíris, o deus da prosperidade e vida após a morte. \r\n";
                 pictureBox1.Image = Properties.Resources.DanielManga;
                 pictureBox2.Image = Properties.Resources.DanielAnime;
                 pictureBox3.Image = Properties.Resources.DanielManga2;
@@ -779,9 +779,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Atum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marcelo Garcia";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Telence é o irmão mais novo de Daniel J. D'Arby. Residindo na Mansão de DIO no Cairo e atuando como mordomo de DIO, ele isola e desafia Jotaro, Joseph e Kakyoin quando o Grupo Joestar entra na mansão e os força a lutar suas almas contra ele em vários desafios de videogame.\r\nelence é uma pessoa educada. No entanto, seu comportamento é uma fachada para sua personalidade distorcida e arrogante.\r\n";
+                label4.Text = "Atum é um Stand humanoide com algumas características mecânicas.\r\nA habilidade primária de Atum permite que Telence roube almas de alguém que reconheceu derrota em um jogo, que Telence normalmente usa em vídeo-games.\r\nas vítimas devem apostar suas almas primeiro, mas Atum é sutil o suficiente para parcialmente pegar a alma de alguém surpreendido. Na teoria, Atum está livre para atacar a parte do corpo associada, mas nunca foi mostrado executando isso.\r\nA habilidade secundária de Atum permite que ele leia almas.\r\nPara executá-la, ele psíquicamente pergunta a alguém próximo uma pergunta de sim ou não, cuja a alma é obrigada a responder, sem que a pessoa que está sendo lida saiba, permitindo que Telence adivinhe as intenções de alguém.\r\n";
+                label3.Text = "O Stand de Telence T. D'Arby é uma referência ao deus egípcio Atum, o deus primordial. ";
                 pictureBox1.Image = Properties.Resources.TelenceManga;
                 pictureBox2.Image = Properties.Resources.TelenceAnime;
                 pictureBox3.Image = Properties.Resources.TelenceAnime2;
@@ -799,9 +799,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Hórus";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Não possui dublador";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Pet Shop é um falcão feroz e o guardião da mansão de DIO. Seu Stand, Horus dos 9 Deuses da Glória do Egito, permite que ele crie temperaturas criogênicas ao redor de si e forme armas a partir de gelo sólido. Quando Iggy acidentalmente encontra a mansão, a Pet Shop persegue o cachorro incansavelmente com a intenção de matar.\r\nUm sentinela implacável e leal ao seu posto, Pet Shop quase sempre exibe um olhar ameaçador e não discrimina quem invade a mansão de DIO.\r\n";
+                label4.Text = "Horus raramente aparece em sua forma verdadeira, passando a maior parte do tempo preso diretamente ao corpo da Pet Shop. Quando se manifesta separadamente de seu mestre, aparece como uma grande criatura esquelética com cabeça de pterossauro.\r\nHórus dá ao seu mestre a habilidade de gerar gelo em grande quantidade e em ritmo acelerado. \r\nHorus é tão poderoso que pode gerar blocos de gelo grandes o suficiente para esmagar um carro e fazer a temperatura ao redor dele cair visivelmente apesar da atmosfera quente e seca do Egito. Em um ambiente úmido, seu verdadeiro potencial é liberado e a criocinese é ainda mais eficiente.\r\n";
+                label3.Text = "O Stand de Pet Shop é uma referência ao deus egípcio Horus, o deus do céu.";
                 pictureBox1.Image = Properties.Resources.PetShopManga;
                 pictureBox2.Image = Properties.Resources.PetShopAnime;
                 pictureBox3.Image = Properties.Resources.PetShopManga2;
@@ -810,7 +810,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox6.Image = Properties.Resources.Horus2;
                 pictureBox8.Image = Properties.Resources.Carta_Horus;
             }
-            else if (comboBox1.Text == "Dio")
+            else if (comboBox1.Text == "DIO")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -819,9 +819,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "O Mundo";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Francisco Júnior";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Dio Brando, mais tarde simplesmente chamado de DIO, é o primeiro antagonista principal de JoJo's Bizarre Adventure. \r\nDepois de se tornar um vampiro e um usuário de Stand, Dio juntou muitos capangas entre ele e é responsável por muitos dos eventos principais da série, da morte de Jonathan Joestar à abrupta aquisição de poderes de Stand da Família Joestar, e seu legado persiste por toda a série.\r\nAs características mais reconhecíveis de Dio são sua ambição sem limites e seu amor pelo poder. \r\nDIO é um dos personagens mais poderosos na série.\r\n";
+                label4.Text = "The World é um Stand extremamente poderoso e capaz de controlar o tempo manejado por um usuário igualmente poderoso, é um Stand esotérico, tanto reverenciado quanto temido por quase todos personagens em Stardust Crusaders.\r\nThe World é um Stand de curto-alcance exepcionalmente poderoso muito semelhante ao Star Platinum.\r\nO poder assinatura de O Mundo é sua habilidade de parar o tempo, permitindo que apenas ele, DIO e outra pessoa com o mesmo poder possam agir durante o tempo pausado.\r\nNo tempo parado, DIO pode mexer seu corpo livremente junto de qualquer objeto que ele toque e deseje que se mova, permitindo que ele golpeie seus inimigos indefesos, ir para uma posição melhor, e brincar com suas vítimas.\r\n";
+                label3.Text = "O Stand de DIO é uma referência a carta 22 do tarot, O Mundo.";
                 pictureBox1.Image = Properties.Resources.DioManga;
                 pictureBox2.Image = Properties.Resources.DioAnime;
                 pictureBox3.Image = Properties.Resources.DioManga2;
@@ -840,6 +840,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Golden Wind";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Vagner Fagundes";
+                label2.Text = "Giorno Giovanna é o protagonista da parte 5, é o filho ilegítimo de DIO, concebido com o corpo roubado de Jonathan Joestar. Um adolescente meio-japonês morando na Itália. Giorno fala da sua intenção de se juntar à poderosa gangue Passione e de seu sonho de se tornar um Gang-Star para trazer a virtude de volta à corrupta máfia italiana.\r\nNormalmente introvertido, Giorno frequentemente mantem uma fachada de ousadia confiante, apoiado pela sua inteligência e carisma natural, para fazê-lo parecer uma pessoa sem falhas para seus amigos.";
+                label4.Text = "Gold Experience é um Stand de curto-alcance, com um alcance de 2 metros de seu usuário e pode dotar qualquer coisa que seus punhos toquem com vida, o que é traduzido para uma variedade de efeitos diferentes.\r\nO uso mais visto dessa habilidade é converter objetos inorgânicos para organismos vivos, seja um animal pequeno ou uma planta, ele pode transformar um pedaço de uma bagagem em um sapo ou um isqueiro em uma rosa.\r\nQuando qualquer um dos seres vivos criados por ele são atacados, o dano é refletido de volta para o atacante, incluindo habilidades de Stand.\r\nGold Experience pode acelerar a vida já existente de um ser vivo através de sua habilidade.\r\nGiorno descobriu que podia criar partes do corpo singulares e órgãos através de material inorgânico que faz ele capaz de curar ferimentos espantadores através de vários meios.\r\nQuando ele toca alguém ou alguma coisa, ele pode sentir outras formas de vida de dentro, o permitindo checar se alguém está vivo.\r\n";
+                label3.Text = "Levando em conta os Stands até Vento Aureo, Araki lista o Gold Experience como o seu favorito em termos de design.\r\n";
+                pictureBox1.Image = Properties.Resources.GiornoManga;
+                pictureBox2.Image = Properties.Resources.GiornoAnime;
+                pictureBox3.Image = Properties.Resources.GiornoAnime2;
+                pictureBox4.Image = Properties.Resources.GiornoManga2;
+                pictureBox5.Image = Properties.Resources.Goldenwind;
+                pictureBox6.Image = Properties.Resources.Goldenwind2;
             }
             else if (comboBox1.Text == "Bruno Bucciarati")
             {
@@ -850,19 +859,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Sticky Fingers";
                 groupBox3.Text = "Morte";
                 groupBox4.Text = "Lucas Gama";
-                pictureBox1.Image = Properties.Resources.brunoanime;
-                pictureBox2.Image = Properties.Resources.brunomanga;
-                pictureBox3.Image = Properties.Resources.brunochangec;
+                label2.Text = "Bruno Bucciarati é o deuteragonista de Vento Aureo/Golden Wind. Ele é um mafioso e líder de seu próprio esquadrão dentro da poderosa gangue napolitana, Passione. Enviado para rastrear quem atacou Leaky-Eye Luca e estreando como  oponente de Giorno Giovanna, Bucciarati se torna o primeiro a dar apoio significativo a Giorno em sua ascensão nas fileiras de Passione.";
+                label4.Text = "Sticky Fingers é um Stand humanoide de altura e constituição semelhante à de Bucciarati. Sticky Fingers é um Stand de curto alcance cuja excelente força e velocidade o tornam adequado para combate direto. A principal habilidade do Sticky Fingers é criar zíperes em qualquer superfície que toca com o punho, que pode abrir ou fechar remotamente quando quiser. Por exemplo, Sticky Fingers pode atingir uma parede, abri-la para criar uma abertura e passar por ela, depois fechar o zíper.";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.brunomanga;
+                pictureBox2.Image = Properties.Resources.brunoanime;
+                pictureBox3.Image = Properties.Resources.BrunoAnime2;
                 pictureBox4.Image = Properties.Resources.brunomangaziper;
-                pictureBox5.Image = Properties.Resources.stickyfanime;
-                pictureBox6.Image = Properties.Resources.stickyfmanga;
-                label2.Text = "Bruno Bucciarati é o deuteragonista de Vento Aureo/Golden Wind. Ele é um mafioso e líder de seu próprio esquadrão dentro da poderosa gangue napolitana," +
-                    " Passione. Enviado para rastrear quem atacou Leaky-Eye Luca e estreando como  oponente de Giorno Giovanna, Bucciarati se torna o primeiro a dar apoio significativo" +
-                    " a Giorno em sua ascensão nas fileiras de Passione.";
-                label4.Text = "Sticky Fingers é um Stand humanoide de altura e constituição semelhante à de Bucciarati. Sticky Fingers é um Stand de curto alcance cuja excelente força e" +
-                    " velocidade o tornam adequado para combate direto. A principal habilidade do Sticky Fingers é" +
-                    " criar zíperes em qualquer superfície que toca com o punho, que pode abrir ou fechar remotamente quando quiser. Por exemplo, Sticky Fingers pode atingir uma parede, abri-la" +
-                    " para criar uma abertura e passar por ela, depois fechar o zíper.";
+                pictureBox5.Image = Properties.Resources.StickyFingers;
+                pictureBox6.Image = Properties.Resources.stickyfanime;
+                
             }
             else if (comboBox1.Text == "Narancia Ghirga")
             {
@@ -873,8 +879,17 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Li'l Bomber";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marcus Pejon";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.NaranciaManga;
+                pictureBox2.Image = Properties.Resources.NaranciaAnime;
+                pictureBox3.Image = Properties.Resources.NaranciaAnime2;
+                pictureBox4.Image = Properties.Resources.NaranciaManga2;
+                pictureBox5.Image = Properties.Resources.Aerosmith;
+                pictureBox6.Image = Properties.Resources.Aerosmith2;
             }
-            else if (comboBox1.Text == "Pannacota Fugo")
+            else if (comboBox1.Text == "Pannacotta Fugo")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -883,6 +898,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Purple Smoke";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marcio Vaz";
+                label2.Text = "Um jovem e esperto estrategista, Fugo é um membro da equipe de Bucciarati, e por extensão, da Passione. Ele segue Giorno e Bucciarati na sua missão para proteger Trish Una. Além de ser um dos membros mais calculistas da equipe, ele também possui um Stand particularmente letal.\r\nPannacotta Fugo é um jovem sério e gentil porém facilmente irritado, e por final um indivíduo inibido.\r\nApós sua equipe trair a Passione, Fugo não concorda com a atitude e decide sair da equipe.\r\n\r\n";
+                label4.Text = "Purple Haze é um Stand instável que contem um vírus comedor de carne particularmente mortal em cada uma das três capsulas em cada uma de suas mãos.\r\nQuando uma capsula quebra, normalmente porque o Purple Haze soca algo, o vírus é liberado e cerca o Stand. Qualquer coisa que entre em seu alcance é infectado, e um humano adulto irá derreter e se transformar em uma gosma orgânica dentro de 30 segundos enquanto o vírus rapidamente se multiplica dentro de seu corpo, sobrepondo suas funções metabólicas e o fazendo apodrecer por dentro.\r\no Purple Haze se torna um Stand muito perigoso para os aliados de Fugo. Até mesmo seu usuário não é imune aos efeitos do vírus. Felizmente, o alcance do vírus é curto e é enfraquecido pela luz de qualquer fonte seja do sol ou de uma lâmpada.\r\n\r\n";
+                label3.Text = "Fugo voltaria como vilão posteriormente, mas a ideia foi descartada.";
+                pictureBox1.Image = Properties.Resources.FugoManga;
+                pictureBox2.Image = Properties.Resources.FugoAnime;
+                pictureBox3.Image = Properties.Resources.FugoAnime2;
+                pictureBox4.Image = Properties.Resources.FugoManga2;
+                pictureBox5.Image = Properties.Resources.PurpleSmoke;
+                pictureBox6.Image = Properties.Resources.PurpleSmoke2;
             }
             else if (comboBox1.Text == "Leone Abbacchio")
             {
@@ -893,6 +917,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Moody Jazz";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "André Sauer";
+                label2.Text = "Leone Abbacchio é um dos membros da Equipe Bucciarati e por extensão da Passione. Ele antigamente era um policial que aceitava subornos e foi subsequentemente demitido, apenas para ser recrutado pelo Bruno Bucciarati. Ele acompanha Bucciarati e Giorno Giovanna em sua missão para proteger Trish Una.\r\nDurante batalhas, Abbacchio expressa um lado agressivo, primeiramente o demonstrando em ameaças verbais e insultos quando falando sobre ou com o inimigo. Abbacchio é altamente dedicado a missão de seu grupo, almejando se absolver ou esquecer de seu erro passado.\r\n";
+                label4.Text = "Moody Blues é um Stand humanoide de altura e porte parecido com o de Abbacchio.\r\nA habilidade primária do Moody Blues é retrocognição; em particular, a habilidade de reconstituir, ou \"reproduzir\" eventos passados com total precisão, permitindo que Abbacchio livremente investigue eventos. Todo evento acontecendo à uma localização particular ou pessoa será exatamente recriado pelo Moody Blues, mesmo se não fosse fisicamente possível.\r\nA \"reprodução\" pode ser controlada como se fosse um vídeo, logo Abbacchio pode acelerar sua velocidade e pular eventos desinteressantes ou pausá-los, permitindo que pessoas interajam com o evento pausado caso necessário.O quanto mais fundo no passado o evento é, mais tempo o Moody Blues permanecerá imóvel para alcançá-lo.\r\nJá que ele não pode atacar enquanto está \"retransmitindo\", Moody Blues fica vulnerável. Assim que terminado, entretanto, ele pode novamente atacar.\r\n";
+                label3.Text = "De acordo com Araki porém nunca demonstrado na história, Abbacchio é o mais fisicamente forte da Equipe Bucciarati.\r\n";
+                pictureBox1.Image = Properties.Resources.AbbacchioManga;
+                pictureBox2.Image = Properties.Resources.AbbacchioAnime;
+                pictureBox3.Image = Properties.Resources.AbbacchioAnime2;
+                pictureBox4.Image = Properties.Resources.AbbacchioManga2;
+                pictureBox5.Image = Properties.Resources.Moddyjazz;
+                pictureBox6.Image = Properties.Resources.Moddyjazz2;
             }
             else if (comboBox1.Text == "Guido Mista")
             {
@@ -903,8 +936,17 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Six Bullets";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "William Viana";
+                label2.Text = "Guido Mista é um membro da equipe de Bucciarati e, por extensão, da Passione, ele segue Giorno e Bucciarati na sua missão de proteger a filha do Chefe, Trish Una. Ele é um pistoleiro e um usuário de Stand que atira em seus oponentes com a ajuda de seu Stand. Mista é percebido como um adolescente preguiçoso, sendo um dos membros menos sérios da equipe Bucciarati, mas não tão infantil quanto Narancia. Seu passado o descreve como um indivíduo sem cuidado, cujo objetivo era aproveitar prazeres diários e mundanos como comida e garotas bonitas.\r\n";
+                label4.Text = "Sex Pistols ou Six Bullets é um grupo de seis pequenos Stands vivendo no revólver de Mista. Eles são numerados do 1 ao 7, pulando o número 4.\r\nA habilidade dos Pistols é de literalmente cavalgar as balas que Mista dispara para se posicionarem sobre uma área, e então violentamente chutar as balas para mudar seu trajeto.\r\nSe todos os 6 Sex Pistols estiverem em uma única bala, eles tem o poder de cortar dita bala em vários pedaços caso eles todos chutem-na, criando vários projéteis.Porém, o Stand é vulnerável a ataques enquanto ativo.\r\nDiferente da maioria dos Stands, cada Bullet tem uma personalidade distinta, muitas vezes interagindo um com o outro e com Mista.\r\nMista normalmente não recarrega sua própria arma mas faz os Sex Pistols fazerem isso por ele.\r\n";
+                label3.Text = "Mista possui Tetrafobia, por isso não existe uma Bullet Nº4.";
+                pictureBox1.Image = Properties.Resources.MistaManga;
+                pictureBox2.Image = Properties.Resources.MistaAnime;
+                pictureBox3.Image = Properties.Resources.MistaAnime2;
+                pictureBox4.Image = Properties.Resources.MistaManga2;
+                pictureBox5.Image = Properties.Resources.SixBullets;
+                pictureBox6.Image = Properties.Resources.SixBullets2;
             }
-            else if (comboBox1.Text == "Trish")
+            else if (comboBox1.Text == "Trish Una")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -913,6 +955,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Spice Lady";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Bianca Alencar";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.TrishManga;
+                pictureBox2.Image = Properties.Resources.TrishAnime;
+                pictureBox3.Image = Properties.Resources.TrishAnime2;
+                pictureBox4.Image = Properties.Resources.TrishManga2;
+                pictureBox5.Image = Properties.Resources.SpiceGirl;
+                pictureBox6.Image = Properties.Resources.SpiceGirl2;
             }
             //GOLDEN WIND VILÕES
             else if (comboBox1.Text == "Polpo")
@@ -924,6 +975,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Shadow Sabbath";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Luiz Carlos Persy";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.PolpoManga;
+                pictureBox2.Image = Properties.Resources.PolpoAnime;
+                pictureBox3.Image = Properties.Resources.PolpoAnime2;
+                pictureBox4.Image = Properties.Resources.PolpoManga3;
+                pictureBox5.Image = Properties.Resources.BlackSabbath;
+                pictureBox6.Image = Properties.Resources.BlackSabbath2;
             }
             else if (comboBox1.Text == "Mario Zucherro")
             {
@@ -934,6 +994,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Tender Machine";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Renato Soares";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.MarioManga;
+                pictureBox2.Image = Properties.Resources.MarioAnime;
+                pictureBox3.Image = Properties.Resources.MarioAnime2;
+                pictureBox4.Image = Properties.Resources.MarioManga2;
+                pictureBox5.Image = Properties.Resources.SoftMachine;
+                pictureBox6.Image = Properties.Resources.SoftMachine2;
             }
             else if (comboBox1.Text == "Sale")
             {
@@ -944,6 +1013,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Arts & Crafts";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rodrigo Andreatto";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.SaleManga;
+                pictureBox2.Image = Properties.Resources.SaleAnime;
+                pictureBox3.Image = Properties.Resources.SaleAnime2;
+                pictureBox4.Image = Properties.Resources.SaleManga2;
+                pictureBox5.Image = Properties.Resources.ArtsCrafts;
+                pictureBox6.Image = Properties.Resources.ArtsCrafts2;
             }
             else if (comboBox1.Text == "Formaggio")
             {
@@ -954,6 +1032,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Tiny Feet";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Márcio Araújo";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.FormaggioManga;
+                pictureBox2.Image = Properties.Resources.FormaggioAnime;
+                pictureBox3.Image = Properties.Resources.FormaggioAnime2;
+                pictureBox4.Image = Properties.Resources.FormaggioManga2;
+                pictureBox5.Image = Properties.Resources.TinyFeet;
+                pictureBox6.Image = Properties.Resources.TinyFeet2;
             }
             else if (comboBox1.Text == "Illuso")
             {
@@ -964,6 +1051,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Mirror Man";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Douglas Guedes";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.IllusoManga;
+                pictureBox2.Image = Properties.Resources.IllusoAnime;
+                pictureBox3.Image = Properties.Resources.IllusoAnime2;
+                pictureBox4.Image = Properties.Resources.IllusoManga2;
+                pictureBox5.Image = Properties.Resources.ManMirror;
+                pictureBox6.Image = Properties.Resources.ManMirror2;
             }
             else if (comboBox1.Text == "Prosciutto")
             {
@@ -974,6 +1070,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "The Thankful Dead";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Guilherme Marques";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.ProsciuttoManga;
+                pictureBox2.Image = Properties.Resources.ProsciuttoAnime;
+                pictureBox3.Image = Properties.Resources.ProsciuttoAnime2;
+                pictureBox4.Image = Properties.Resources.ProsciuttoManga2;
+                pictureBox5.Image = Properties.Resources.ThankfulDeath;
+                pictureBox6.Image = Properties.Resources.ThankfulDeath2;
             }
             else if (comboBox1.Text == "Pesci")
             {
@@ -984,6 +1089,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Fisher Man";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rogério César";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.PesciManga;
+                pictureBox2.Image = Properties.Resources.PesciAnime;
+                pictureBox3.Image = Properties.Resources.PesciAnime2;
+                pictureBox4.Image = Properties.Resources.PesciManga2;
+                pictureBox5.Image = Properties.Resources.BeachBoy;
+                pictureBox6.Image = Properties.Resources.BeachBoy2;
             }
             else if (comboBox1.Text == "Melone")
             {
@@ -994,6 +1108,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Babyhead";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Robson Kumode";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.MeloneManga;
+                pictureBox2.Image = Properties.Resources.MeloneAnime;
+                pictureBox3.Image = Properties.Resources.MeloneAnime2;
+                pictureBox4.Image = Properties.Resources.MeloneManga2;
+                pictureBox5.Image = Properties.Resources.Babyhead;
+                pictureBox6.Image = Properties.Resources.Babyhead2;
             }
             else if (comboBox1.Text == "Ghiaccio")
             {
@@ -1004,6 +1127,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "White Ice";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Vinícius Fagundes";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.GhiaccioManga;
+                pictureBox2.Image = Properties.Resources.GhiaccioAnime;
+                pictureBox3.Image = Properties.Resources.GhiaccioAnime2;
+                pictureBox4.Image = Properties.Resources.GhiaccioManga2;
+                pictureBox5.Image = Properties.Resources.WhiteAlbum;
+                pictureBox6.Image = Properties.Resources.WhiteAlbum2;
             }
             else if (comboBox1.Text == "Squalo")
             {
@@ -1014,6 +1146,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Crush";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Gustavo Vergani";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.SqualoManga;
+                pictureBox2.Image = Properties.Resources.SqualoAnime;
+                pictureBox3.Image = Properties.Resources.SqualoAnime2;
+                pictureBox4.Image = Properties.Resources.SqualoManga2;
+                pictureBox5.Image = Properties.Resources.Clash;
+                pictureBox6.Image = Properties.Resources.Clash2;
             }
             else if (comboBox1.Text == "Tiziano")
             {
@@ -1024,6 +1165,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Talking Mouth";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Charles Dalla";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.TizzanoManga;
+                pictureBox2.Image = Properties.Resources.TizzanoAnime;
+                pictureBox3.Image = Properties.Resources.TizzanoManga2;
+                pictureBox4.Image = Properties.Resources.TizzanoManga3;
+                pictureBox5.Image = Properties.Resources.TalkingMouth;
+                pictureBox6.Image = Properties.Resources.TalkingMouth2;
             }
             else if (comboBox1.Text == "Carne")
             {
@@ -1034,6 +1184,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Notorious Chase";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Miguel de Britto";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.CarneManga;
+                pictureBox2.Image = Properties.Resources.CarneAnime;
+                pictureBox3.Image = Properties.Resources.CarneAnime2;
+                pictureBox4.Image = Properties.Resources.CarneManga2;
+                pictureBox5.Image = Properties.Resources.NotoriousBIG;
+                pictureBox6.Image = Properties.Resources.NotoriousBIG2;
             }
             else if (comboBox1.Text == "Risotto Nero")
             {
@@ -1044,6 +1203,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Metallic";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Reginaldo Primo";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.RisottoManga;
+                pictureBox2.Image = Properties.Resources.RisottoAnime;
+                pictureBox3.Image = Properties.Resources.RisottoAnime2;
+                pictureBox4.Image = Properties.Resources.RisottoManga2;
+                pictureBox5.Image = Properties.Resources.Metallica;
+                pictureBox6.Image = Properties.Resources.Metallica2;
+                pictureBox8.Image = Properties.Resources.RisottoCuriosidade;
             }
             else if (comboBox1.Text == "Cioccolatta")
             {
@@ -1054,6 +1223,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Green Tea";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Glauco Marques";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.CiocolattaManga;
+                pictureBox2.Image = Properties.Resources.CiocolattaAnime;
+                pictureBox3.Image = Properties.Resources.CiocolattaAnime2;
+                pictureBox4.Image = Properties.Resources.CiocolattaAnime3;
+                pictureBox5.Image = Properties.Resources.GreenDay;
+                pictureBox6.Image = Properties.Resources.GreenDay2;
             }
             else if (comboBox1.Text == "Secco")
             {
@@ -1064,6 +1242,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Sanctuary";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wallace Raj";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.SeccoManga;
+                pictureBox2.Image = Properties.Resources.SeccoAnime;
+                pictureBox3.Image = Properties.Resources.SeccoAnime2;
+                pictureBox4.Image = Properties.Resources.SeccoManga2;
+                pictureBox5.Image = Properties.Resources.Sanctuary;
+                pictureBox6.Image = Properties.Resources.Sanctuary2;
             }
             else if (comboBox1.Text == "Doppio")
             {
@@ -1074,6 +1261,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Emperor Crimson";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Ítalo Luiz";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.DoppioManga;
+                pictureBox2.Image = Properties.Resources.DoppioAnime;
+                pictureBox3.Image = Properties.Resources.DoppioAnime2;
+                pictureBox4.Image = Properties.Resources.DoppioManga2;
+                pictureBox5.Image = Properties.Resources.EmperorCrimson;
+                pictureBox6.Image = Properties.Resources.EmperorCrimson2;
+                pictureBox8.Image = Properties.Resources.DoppioEulogy;
             }
             else if (comboBox1.Text == "Diavolo")
             {
@@ -1084,6 +1281,15 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Emperor Crimson";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Felipe Zilse";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
+                pictureBox1.Image = Properties.Resources.DiavoloManga;
+                pictureBox2.Image = Properties.Resources.DiavoloAnime;
+                pictureBox3.Image = Properties.Resources.DiavoloAnime2;
+                pictureBox4.Image = Properties.Resources.DiavoloManga2;
+                pictureBox5.Image = Properties.Resources.EmperorCrimson;
+                pictureBox6.Image = Properties.Resources.EmperorCrimson2;
             }
             //STONE OCEAN HEROIS
             else if (comboBox1.Text == "Jolyne Kujo")
@@ -1095,6 +1301,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Stone Ocean";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Patt Souza";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Jotaro Kujo")
             {
@@ -1105,6 +1314,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Star Platinum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wilken Mazzai";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Ermes Costello")
             {
@@ -1115,6 +1327,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Smack";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Tatiane Keplmair";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "F.F")
             {
@@ -1125,6 +1340,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "F.F";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Vii Zedek";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Anastasia")
             {
@@ -1135,6 +1353,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Diver Drive";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Márcio Araújo";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Wheater Forecast")
             {
@@ -1145,6 +1366,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Wheather Forecast";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Gabriel Noya";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Emporio Alnino")
             {
@@ -1155,6 +1379,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Burn the House Down";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Gabriel Martins";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             //STONCE OCEAN VILÕES
             else if (comboBox1.Text == "Gwess")
@@ -1166,6 +1393,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "GG Dolls";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Flora Paulita";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Jongalli A")
             {
@@ -1176,6 +1406,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Downtown Transfer";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fernando Lopes";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Thunder McQueen")
             {
@@ -1186,6 +1419,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Freeway Thru Hell";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Clécio Souto";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Miraschon")
             {
@@ -1196,6 +1432,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Mary Lynn Manson";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fernanda Bellara";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Lang Rangler")
             {
@@ -1206,6 +1445,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Jumping Jack Spark";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Philippe Maia";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Sports Maximum")
             {
@@ -1216,6 +1458,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Limp Viscuit";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rodrigo Nanal";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Viviano Westwood")
             {
@@ -1226,6 +1471,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Starlight Waves";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Glauco Marques";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Kenzou")
             {
@@ -1236,6 +1484,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Drake's Dream";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Hélio Vaccari";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Gucci")
             {
@@ -1246,6 +1497,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Survivor";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marco Aurélio Campos";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "D&G")
             {
@@ -1256,6 +1510,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "YA-YA MA";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marco Antônio Abreu";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Bêbe verde")
             {
@@ -1266,6 +1523,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Green, Green, Green Home";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Miu Miu")
             {
@@ -1276,6 +1536,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Jailhouse Lock";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rebeca Zadra";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Ungalo")
             {
@@ -1286,6 +1549,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Bohemian Ecstatic";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Yan Gesteira";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Rikiel")
             {
@@ -1296,6 +1562,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Sky Guy";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fábio Lucindo";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Versus")
             {
@@ -1306,6 +1575,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "NetherWorld";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Renan Freitas";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
             else if (comboBox1.Text == "Enrico Pucci")
             {
@@ -1316,6 +1588,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Pale Snake - Madein Heaven";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Duda Espinoza";
+                label2.Text = "";
+                label4.Text = "";
+                label3.Text = "";
             }
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -1420,15 +1695,8 @@ namespace Jojos_Bizarre_Adventure
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
+       
     }
 }
 
