@@ -83,11 +83,11 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(23, 233);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(421, 59);
+            this.comboBox1.Size = new System.Drawing.Size(421, 47);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Visible = false;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -95,10 +95,10 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(952, 12);
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(1038, 23);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(235, 77);
+            this.radioButton1.Size = new System.Drawing.Size(181, 59);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Heróis";
@@ -109,10 +109,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(952, 115);
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(1038, 133);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(225, 77);
+            this.radioButton2.Size = new System.Drawing.Size(172, 59);
             this.radioButton2.TabIndex = 3;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Vilões";
@@ -174,7 +174,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(657, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 169);
+            this.label1.Size = new System.Drawing.Size(356, 169);
             this.label1.TabIndex = 10;
             this.label1.Text = "label1";
             this.label1.Visible = false;
@@ -184,7 +184,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(28, 637);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(586, 164);
+            this.label2.Size = new System.Drawing.Size(586, 152);
             this.label2.TabIndex = 11;
             this.label2.Text = "label2";
             this.label2.Visible = false;
@@ -239,9 +239,9 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(97, 47);
+            this.pictureBox7.Location = new System.Drawing.Point(114, 50);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(290, 290);
+            this.pictureBox7.Size = new System.Drawing.Size(220, 300);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 16;
             this.pictureBox7.TabStop = false;
@@ -251,7 +251,7 @@
             // 
             this.pictureBox8.Location = new System.Drawing.Point(30, 39);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(204, 305);
+            this.pictureBox8.Size = new System.Drawing.Size(250, 250);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 17;
             this.pictureBox8.TabStop = false;
@@ -260,9 +260,9 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(273, 50);
+            this.label3.Location = new System.Drawing.Point(324, 39);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(276, 281);
+            this.label3.Size = new System.Drawing.Size(246, 250);
             this.label3.TabIndex = 19;
             this.label3.Text = "label3";
             this.label3.Visible = false;
@@ -285,9 +285,9 @@
             this.groupBox1.Controls.Add(this.pictureBox4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(546, 218);
+            this.groupBox1.Location = new System.Drawing.Point(546, 198);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(641, 811);
+            this.groupBox1.Size = new System.Drawing.Size(641, 808);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
@@ -330,7 +330,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.pictureBox7);
-            this.groupBox4.Location = new System.Drawing.Point(23, 650);
+            this.groupBox4.Location = new System.Drawing.Point(23, 637);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(482, 369);
             this.groupBox4.TabIndex = 24;
@@ -342,7 +342,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1856, 1015);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);

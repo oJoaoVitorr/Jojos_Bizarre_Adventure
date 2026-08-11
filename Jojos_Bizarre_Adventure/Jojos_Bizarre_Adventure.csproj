@@ -1208,5 +1208,131 @@
   <ItemGroup>
     <None Include="Resources\TizzanoManga3.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnasuiAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnasuiAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnasuiManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnasuiManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiverDown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiverDown2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BurningDown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BurningDown2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmporioAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmporioAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmporioManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmporioManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErmesAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErmesAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErmesManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErmesManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kiss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kiss2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JolyneAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JolyneAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JolyneManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JolyneManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoneOcean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoneOcean2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroSOAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroSOAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroSOManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroSOManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarPlatinumSO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarPlatinumSO2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherReport.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherReport2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
