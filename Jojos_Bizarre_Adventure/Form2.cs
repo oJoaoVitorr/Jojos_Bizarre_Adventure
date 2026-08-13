@@ -21,12 +21,22 @@ namespace Jojos_Bizarre_Adventure
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           if(listBox1.Text == "GOLDEN WIND")
+            if (listBox1.Text == "GOLDEN WIND")
             {
-                label1.Text = "Vento Aureo, traduzido em inglês como Golden Wind é a quinta parte de JoJo's Bizarre Adventure, serializada na Weekly Shōnen Jump de dezembro de" +
+                this.BackgroundImage = Properties.Resources.WallpaperGoldenAll;
+                label1.Text = "Golden Wind é a quinta parte de JoJo's Bizarre Adventure, serializada na Weekly Shōnen Jump de dezembro de" +
                     " 1995 a abril de 1999. O arco abrange um total de 155 capítulos e ocorre após Diamond is Unbreakable.";
             }
-            radioButton1.Visible = true; radioButton1.Checked = false;
+            else if (listBox1.Text == "STARDUST CRUSADERS")
+            { 
+                this.BackgroundImage = Properties.Resources.WallpaperStardust;
+
+            }
+            else if (listBox1.Text == "STONE OCEAN")
+            {
+                this.BackgroundImage = Properties.Resources.WallpaperStone;
+            }
+                radioButton1.Visible = true; radioButton1.Checked = false;
             radioButton2.Visible = true; radioButton2.Checked = false;
             label1.Visible = true;
             comboBox1.Visible = false;
@@ -75,31 +85,31 @@ namespace Jojos_Bizarre_Adventure
             {
 
                 comboBox1.Items.Clear();
-                comboBox1.Items.Add("Midler");
-                comboBox1.Items.Add("Nena");
-                comboBox1.Items.Add("Hol Horse");
-                comboBox1.Items.Add("Steely Dan");
+                comboBox1.Items.Add("Gray Fly");
+                comboBox1.Items.Add("Capitão Tennille");
                 comboBox1.Items.Add("Forever");
+                comboBox1.Items.Add("Devo");
+                comboBox1.Items.Add("Rubber Soul");
+                comboBox1.Items.Add("Hol Horse");
+                comboBox1.Items.Add("J. Geil");
+                comboBox1.Items.Add("Nena");
                 comboBox1.Items.Add("ZZ");
                 comboBox1.Items.Add("Enya");
-                comboBox1.Items.Add("J. Geil");
-                comboBox1.Items.Add("Manish Boy");
-                comboBox1.Items.Add("Rubber Soul");
-                comboBox1.Items.Add("Capitão Tennille");
-                comboBox1.Items.Add("Devo");
+                comboBox1.Items.Add("Steely Dan");
                 comboBox1.Items.Add("Arabia Fats");
+                comboBox1.Items.Add("Manish Boy");
                 comboBox1.Items.Add("Cameo");
-                comboBox1.Items.Add("Gray Fly");
-                comboBox1.Items.Add("Vanilla Ice");
+                comboBox1.Items.Add("Midler");
                 comboBox1.Items.Add("N'Doul");
-                comboBox1.Items.Add("Oingo");
                 comboBox1.Items.Add("Boingo");
+                comboBox1.Items.Add("Oingo");
                 comboBox1.Items.Add("Anubis");
                 comboBox1.Items.Add("Mariah");
                 comboBox1.Items.Add("Alessi");
-                comboBox1.Items.Add("Daniel J. D'arby");
-                comboBox1.Items.Add("Telence T. D'arby");
+                comboBox1.Items.Add("Daniel J. D'Arby");
                 comboBox1.Items.Add("Pet Shop");
+                comboBox1.Items.Add("Telence T. D'Arby");
+                comboBox1.Items.Add("Vanilla Ice");
                 comboBox1.Items.Add("DIO");
 
 
@@ -124,8 +134,8 @@ namespace Jojos_Bizarre_Adventure
                 comboBox1.Items.Add("Risotto Nero");
                 comboBox1.Items.Add("Cioccolatta");
                 comboBox1.Items.Add("Secco");
-                comboBox1.Items.Add("Doppio");
                 comboBox1.Items.Add("Diavolo");
+                comboBox1.Items.Add("Doppio");
 
             } // FIM GOLDEN WIND
 
@@ -168,7 +178,7 @@ namespace Jojos_Bizarre_Adventure
             checkBox4.Visible = true; checkBox4.Checked = false;
 
             //STARDUST HEROIS
-            if (comboBox1.Text == "Jotaro Kujo")
+            if (comboBox1.Text == "Jotaro Kujo" && listBox1.Text=="STARDUST CRUSADERS")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -849,6 +859,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.GiornoManga2;
                 pictureBox5.Image = Properties.Resources.Goldenwind;
                 pictureBox6.Image = Properties.Resources.Goldenwind2;
+                pictureBox8.Image = Properties.Resources.Araki;
             }
             else if (comboBox1.Text == "Bruno Bucciarati")
             {
@@ -926,6 +937,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.AbbacchioManga2;
                 pictureBox5.Image = Properties.Resources.Moddyjazz;
                 pictureBox6.Image = Properties.Resources.Moddyjazz2;
+                pictureBox8.Image = Properties.Resources.Araki;
             }
             else if (comboBox1.Text == "Guido Mista")
             {
@@ -945,6 +957,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MistaManga2;
                 pictureBox5.Image = Properties.Resources.SixBullets;
                 pictureBox6.Image = Properties.Resources.SixBullets2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Mista;
             }
             else if (comboBox1.Text == "Trish Una")
             {
@@ -955,15 +968,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Spice Lady";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Bianca Alencar";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Trish é a filha do Chefe da Passione. Sendo alvo dos numerosos inimigos do Chefe, ela é protegida pela gangue de Bucciarati. Ela eventualmente desperta seu próprio Stand, Spice Girl e se torna uma aliada valiosa da equipe.\r\nComo a filha de Diavolo, Trish tem uma conexão espiritual com ele. Ela pode notavelmente sentir sempre que ele está por perto.\r\n";
+                label4.Text = "Spice Girl é um Stand consciente e capaz de suavizar qualquer material que ataca.\r\nQuando Spice Girl bate em algo com os punhos, pode suavizar o referido objeto em uma consistência de borracha. Qualquer material, mesmo metal ou pedra, será suavizado no mesmo estado. Esses objetos ganham consistência e elasticidade semelhantes à borracha ou uma massa, incapazes de serem esmagados por uma grande força ou serem perfurados por qualquer força, incluindo objetos pontiagudos, e assim tornando esse objeto realmente muitas vezes mais resiliente. Ele pode até mesmo suavizar objetos em movimento, como balas, fazendo com que os projéteis simplesmente se achatem ao contato.\r\n";
+                label3.Text = "Trish é baseada na modelo americana Trish Goff, de quem Araki é um grande fã.\r\n";
                 pictureBox1.Image = Properties.Resources.TrishManga;
                 pictureBox2.Image = Properties.Resources.TrishAnime;
                 pictureBox3.Image = Properties.Resources.TrishAnime2;
                 pictureBox4.Image = Properties.Resources.TrishManga2;
                 pictureBox5.Image = Properties.Resources.SpiceGirl;
                 pictureBox6.Image = Properties.Resources.SpiceGirl2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Trish;
             }
             //GOLDEN WIND VILÕES
             else if (comboBox1.Text == "Polpo")
@@ -975,15 +989,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Shadow Sabbath";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Luiz Carlos Persy";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Polpo é o primeiro dos capo da Passione que Giorno Giovanna encontra. Mantido na prisão em uma cela luxuosa, Polpo é responsável por recrutar novos membros para sua divisão. Ele atarefa Giorno com manter um isqueiro aceso por 24 horas como um teste. Polpo é um usuário de Stand e seu Black Sabbath automaticamente ataca Giorno durante dito teste.\r\n";
+                label4.Text = "Black Sabbath é um Stand automático que segue comandos simples e já feitos. Como tal, ele é caracterizado por força de longo-alcance, ausência de transferência de dano.\r\nA habilidade principal do Black Sabbath é receber poder das sombras. O Stand é incrivelmente poderoso nas sombras; sua habilidade pode aumentar ao ponto de se tornar mais forte e veloz que o Gold Experience.\r\nAdemais, Black Sabbath pode se esconder nas sombras. Ele pode se afundar dentro de uma sombra como se ela fosse água e ir de um ponto para o outro instantaneamente desde que as sombras estejam ligadas.\r\nAo agarrar a sombra de um humano ordinário, Black Sabbath é capaz de puxar suas sombras à força, enquanto agarrar a sombra de um usuário de Stand puxaria seu Stand.\r\n";
+                label3.Text = "Polpo significa polvo em italiano.";
                 pictureBox1.Image = Properties.Resources.PolpoManga;
                 pictureBox2.Image = Properties.Resources.PolpoAnime;
                 pictureBox3.Image = Properties.Resources.PolpoAnime2;
                 pictureBox4.Image = Properties.Resources.PolpoManga3;
                 pictureBox5.Image = Properties.Resources.BlackSabbath;
                 pictureBox6.Image = Properties.Resources.BlackSabbath2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Polpo;
             }
             else if (comboBox1.Text == "Mario Zucherro")
             {
@@ -994,15 +1009,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Tender Machine";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Renato Soares";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Mario Zucchero é um membro da Passione e o parceiro de Sale, assim como um usuário de Stand. Ele embosca a Equipe Bucciarati com seu Soft Machine pela posse do tesouro de Polpo.\r\nEm batalha, Zucchero é habilidoso com ataques sorrateiros e emboscadas, tendo conseguido esconder um barco em cima de outro para realizar seu ataque contra a equipe Bucciarati.\r\n";
+                label4.Text = "Soft Machine é capaz de literalmente desinflar pessoas (incluindo seu próprio usuário) e objetos ao furá-los com sua pequena rapieira.\r\nO 'ar' visivelmente vaza do furo criado no corpo do alvo e seu corpo eventualmente fica desinflado, mole e elástico.\r\nVítimas são mantidas vivas, mas recobrarão sua consciência até que os efeitos da habilidade sejam cancelados.\r\nAs vítimas desinfladas podem então ser puxadas por espaços pequenos, como canos, muitas vezes ao esticá-los. Um dos melhores exemplos do uso da habilidade é quando o Soft Machine cobriu um barco com uma versão desinflada de um barco idêntico, permitindo com que seu usuário se escondesse entre duas camadas e permanecesse sem ser detectado.\r\n";
+                label3.Text = "Zucchero significa açúcar em italiano.";
                 pictureBox1.Image = Properties.Resources.MarioManga;
                 pictureBox2.Image = Properties.Resources.MarioAnime;
                 pictureBox3.Image = Properties.Resources.MarioAnime2;
                 pictureBox4.Image = Properties.Resources.MarioManga2;
                 pictureBox5.Image = Properties.Resources.SoftMachine;
                 pictureBox6.Image = Properties.Resources.SoftMachine2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Mario;
             }
             else if (comboBox1.Text == "Sale")
             {
@@ -1013,15 +1029,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Arts & Crafts";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rodrigo Andreatto";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Sale é um membro da Passione aliado de Mario Zucchero, e usuário de Stand. Para tomar a fortuna de Polpo, ele segue a Equipe Bucciarati até Capri e luta contra Guido Mista e com seu Stand.\r\nSale também demonstra um certo grau de confiança excessiva em combate, explicando cada uma de suas ações ao Mista e abertamente declarando a superiodade de seu Stand.\r\n";
+                label4.Text = "Kraft Work é um Stand de curto-alcance, sua habilidade primária é a manipulação de energia cinética, retirando a energia cinética de um objeto, o congelando no lugar, ou adicionando mais energia cinética em um objeto anteriormente congelado, o fazendo se mover novamente.\r\nO Kraft Work também permite que Sale deixe pessoas parcialmente travadas no lugar depois delas entrarem em contato com algo que o Kraft Work afetou.\r\nAo repetidamente tocar em um objeto travado vezes o suficiente, Sale pode criar energia cinética nele antes de liberá-lo; ele é então capaz de lançar uma bala com tanta força quanto uma arma real.\r\n";
+                label3.Text = "Sale significa sal em italiano.";
                 pictureBox1.Image = Properties.Resources.SaleManga;
                 pictureBox2.Image = Properties.Resources.SaleAnime;
                 pictureBox3.Image = Properties.Resources.SaleAnime2;
                 pictureBox4.Image = Properties.Resources.SaleManga2;
                 pictureBox5.Image = Properties.Resources.ArtsCrafts;
                 pictureBox6.Image = Properties.Resources.ArtsCrafts2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Sale;
             }
             else if (comboBox1.Text == "Formaggio")
             {
@@ -1032,9 +1049,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Tiny Feet";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Márcio Araújo";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Formaggio é um membro do La Squadra Esecuzioni e o primeiro a ser batalhado. Ele vai atrás do Narancia e eventualmente confronta-o quando o jovem sai para buscar suprimentos e tenta sobreviver a luta enquanto tentando descobrir aonde a a filha do Chefe, Trish Una, está.\r\nFormaggio é um indivíduo muito relaxado. Diferente da maioria dos assassinos perseguidores, Formaggio se introduz abertamente a Narancia, tenta conversar, e até ri de suas próprias piadas.\r\n";
+                label4.Text = "Little Feet ou Tiny Feet pode encolher qualquer pessoa ou objeto ao cortá-los com seu longo e afiado dedo indicativo.\r\nUm carro é encolhido ao ponto dele caber em uma palma\r\nO alvo cortado irá gradualmente encolher com o passar do tempo junto de suas roupas, quaisquer itens que ele carregue, e seu possível Stand. O encolhimento é gradual e lento. Little Feet pode livremente controlar o seu próprio tamanho e o de Formaggio.\r\n";
+                label3.Text = "Seu nome significa queijo em italiano.";
                 pictureBox1.Image = Properties.Resources.FormaggioManga;
                 pictureBox2.Image = Properties.Resources.FormaggioAnime;
                 pictureBox3.Image = Properties.Resources.FormaggioAnime2;
@@ -1051,15 +1068,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Mirror Man";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Douglas Guedes";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Illuso, um membro da La Squadra Esecuzioni, confronta Pannacotta Fugo, Leone Abbacchio e Giorno Giovanna em Pompeia em uma corrida para obter uma chave importante deixada pelo Chefe. Ele é um usuário de Stand e aproveita seus poderes para emboscar seus inimigos.\r\nIlluso aparece como um assassino confiante e convencido, ele expressa grande confiança em sua vantagem já que seu poder torna seus oponentes indefesos perante ele.\r\n";
+                label4.Text = "Man in the Mirror permite que seu usuário entre em um \"mundo do espelho\".\r\nAlém disso, o Man in the Mirror também pode levar qualquer coisa para o mundo do espelho ao usar superfícies refletivas como portais, selecionando qualquer coisa que possa entrar através das ordens de Illuso, e também pode fazer isso independente do quão pequeno o \"portal\" seja. Quebrar o espelho não para a habilidade e acaba criando mais aberturas levando ao mundo do espelho.\r\nCaso outro usuário de Stand seja levado para dentro do espelho, Illuso pode escolher proibir seu Stand de entrar com seu usuário e um Stand invocado se encontrará sozinho no mundo real, embora ele possa ser remotamente manipulado pelo usuário.\r\n";
+                label3.Text = "Illuso significa iludido em italiano.";
                 pictureBox1.Image = Properties.Resources.IllusoManga;
                 pictureBox2.Image = Properties.Resources.IllusoAnime;
                 pictureBox3.Image = Properties.Resources.IllusoAnime2;
                 pictureBox4.Image = Properties.Resources.IllusoManga2;
                 pictureBox5.Image = Properties.Resources.ManMirror;
                 pictureBox6.Image = Properties.Resources.ManMirror2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Illuso;
             }
             else if (comboBox1.Text == "Prosciutto")
             {
@@ -1070,15 +1088,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "The Thankful Dead";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Guilherme Marques";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Prosciutto é um assassino da La Squadra Esecuzioni, que junto a Pesci, luta contra a Equipe Bucciarati dentro de um trem de alta-velocidade em direção à Florença.\r\nProsciutto é um homem sério. Ele sempre aparece focado em sua missão e aderindo ao lema da Squadra de manter sua posição, até quando mortalmente ferido.";
+                label4.Text = "The Grateful Dead tem a habilidade de fazer com que organismos fisicamente e mentalmente envelheçam em um ritmo acelerado. Há duas maneiras nas quais o The Grateful Dead pode ativar seu poder. O primeiro modo é espalhar o envelhecimento por uma grande área e indiscriminadamente atacar aliados e oponentes, o que é perigoso para os companheiros de Prosciutto. O segundo modo é dirigir seu poder precisamente ao agarrar uma pessoa, nesse caso o envelhecimento sendo mais rápido do que pode-se reagir. A ativação dessa habilidade se manifesta como uma nevoa sendo espalhada pelo The Grateful Dead.\r\nO ritmo com o qual as pessoas envelhecem é dependente de seu calor corporal. O mais quente que o corpo de alguém está, o mais rápido eles envelhecerão.\r\nProsciutto é normalmente imune ao The Grateful Dead e pode permanecer jovem dentro de seu alcance.\r\n";
+                label3.Text = "Prosciutto significa presunto curado em italiano.";
                 pictureBox1.Image = Properties.Resources.ProsciuttoManga;
                 pictureBox2.Image = Properties.Resources.ProsciuttoAnime;
                 pictureBox3.Image = Properties.Resources.ProsciuttoAnime2;
                 pictureBox4.Image = Properties.Resources.ProsciuttoManga2;
                 pictureBox5.Image = Properties.Resources.ThankfulDeath;
                 pictureBox6.Image = Properties.Resources.ThankfulDeath2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Prosciutto;
             }
             else if (comboBox1.Text == "Pesci")
             {
@@ -1089,9 +1108,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Fisher Man";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rogério César";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Pesci é um membro da La Squadra Esecuzioni. Junto ao Prosciutto, Pesci batalha a Equipe Bucciarati dentro de um trem de alta-velocidade em direção à Florença.\r\nPesci é introduzido como um homem de pouca vontade, usando ameaças quando ele deveria agir, e é sobre tudo tímido.\r\nPesci demonstra muito respeito por Prosciutto, referindo-se a ele como irmão mais velho.\r\n";
+                label4.Text = "Apesar de sua aparência inócua, o Beach Boy é um Stand notavelmente letal, tanto em curto quanto longo alcance.\r\nEle pode não apenas matar alguém ao fatiar seu coração com seu anzol intangível, mas também é quase impossível de se defender contra.\r\nA habilidade assinatura do Beach Boy é atravessar sua linha e anzol por qualquer objeto, incluindo paredes ou carne.\r\nA linha do Beach Boy é extremamente sensivel e transmite informações a vara para que Pesci veja.\r\nO fio do Beach Boy não pode ser destruído de maneiras comuns, já que qualquer dano causado ao fio em vez disso afetará aquele fisgado no fio.\r\n";
+                label3.Text = "Pesci significa peixes em italiano.";
                 pictureBox1.Image = Properties.Resources.PesciManga;
                 pictureBox2.Image = Properties.Resources.PesciAnime;
                 pictureBox3.Image = Properties.Resources.PesciAnime2;
@@ -1108,15 +1127,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Babyhead";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Robson Kumode";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Melone é um membro da Squadra Esecuzioni. Após a Equipe Bucciarati ser forçada a tomar a estrada, ele tenta sequestrar Trish Una e usa seu Stand automático para batalhar contra Giorno Giovanna.\r\nMelone se mostra ser um homem educado na maioria das circunstâncias.\r\nAbordando todas atividades com um profissionalismo frio, ele fisicamente inspeciona suas vítimas futuras, vendo elas mais como gado para criar seu Stand em vez de como outros seres humanos.\r\n";
+                label4.Text = "Através de seu Stand computador, o Baby Face tem a habilidade de gerar um Stand secundário que lutará em seu lugar. Ao pesquisar sobre um alvo adequado através da pseudociência de examinar as características de uma mulher, Melone consegue informações e prevê o as predisposições futuras do junior.\r\nO Stand secundário (ou junior) que o Baby Face cria é um Stand independente de longo alcance e grande poder que age como um lutador que faz o trabalho para Melone.\r\no Stand secundário é capaz de quebrar matéria em cubos enquanto mantendo os seres vivos.\r\nEle pode dividir qualquer que ele toque em cubos a força, ou meramente extrair uma única parte cúbica de um alvo.\r\nAo retalhar alguém, o Baby Face consegue reorganizar e reconstituir a estrutura de ditos objetos para qualquer coisa que ele desejar.\r\n";
+                label3.Text = "Melone significa melão em italiano.";
                 pictureBox1.Image = Properties.Resources.MeloneManga;
                 pictureBox2.Image = Properties.Resources.MeloneAnime;
                 pictureBox3.Image = Properties.Resources.MeloneAnime2;
                 pictureBox4.Image = Properties.Resources.MeloneManga2;
                 pictureBox5.Image = Properties.Resources.Babyhead;
                 pictureBox6.Image = Properties.Resources.Babyhead2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Melone;
             }
             else if (comboBox1.Text == "Ghiaccio")
             {
@@ -1127,9 +1147,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "White Ice";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Vinícius Fagundes";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Ghiaccio é um membro da La Squadra Esecuzioni e persegue Giorno Giovanna e Guido Mista perto de Veneza com seu Stand.\r\nGhiaccio é um assassino confiante e de pavio curto que, apesar de suas peculiaridades, é bastante equilibrado.\r\nEle tem uma fixação com linguagem, expressando irritação com o fraseamento confuso de várias metáforas assim com como línguas estrangeiras não respeitam palavras italianas.\r\n";
+                label4.Text = "White Album é raro dentre os Stands no fato dele ser um traje que Ghiaccio veste.\r\nQuando o assassino toca em algo, a temperatura do objeto afetado diminui dramaticamente. O poder do White Album é tão poderoso que ele pode chegar à temperaturas de cerca de -100 °C facilmente.\r\nWhite Album pode solidificar a humidade à sua volta para criar armadura de gelo.\r\nA armadura é invulnerável a balas uma vez que ela para seu movimento bem antes delas penetrarem-na.\r\nA única abertura na armadura é um buraco de ar atrás do pescoço do usuário, tornando ela a única grande fraqueza do Stand.";
+                label3.Text = "Ghiaccio significa gelo em italiano.";
                 pictureBox1.Image = Properties.Resources.GhiaccioManga;
                 pictureBox2.Image = Properties.Resources.GhiaccioAnime;
                 pictureBox3.Image = Properties.Resources.GhiaccioAnime2;
@@ -1146,17 +1166,18 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Crush";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Gustavo Vergani";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Squalo trabalha com seu parceiro Tizzano em Veneza para assassinar a Equipe Bucciarati após sua deserção da Passione.\r\nSqualo é um indivíduo irritado, sendo o mais agressivo dentre sua parceria com Tizzano e deixando com que ele faça a maioria do raciocínio. Squalo é entretanto adepto a usar a maioria do seu ambiente em combate.\r\n";
+                label4.Text = "Clash é um Stand de longa adistância que pode ser precisamente manipulado por Squalo de longe.\r\nClash é um Stand peixe, logo ele precisa ficar dentro de líquidos para persistir e só pode dar breve saltos para fora de líquidos para atacar.\r\nNo entanto, ele pode instantaneamente teletransportar-se para qualquer corpo de líquido de tamanho minímo perto daquele que esteja o ocupando no momento.\r\nClash não pode se teletransportar mais de 3 metros da sua posição atual.\r\n";
+                label3.Text = "Squalo significa tubarão em italiano.\r\n";
                 pictureBox1.Image = Properties.Resources.SqualoManga;
                 pictureBox2.Image = Properties.Resources.SqualoAnime;
                 pictureBox3.Image = Properties.Resources.SqualoAnime2;
                 pictureBox4.Image = Properties.Resources.SqualoManga2;
                 pictureBox5.Image = Properties.Resources.Clash;
                 pictureBox6.Image = Properties.Resources.Clash2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Squalo;
             }
-            else if (comboBox1.Text == "Tiziano")
+            else if (comboBox1.Text == "Tizzano")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -1165,15 +1186,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Talking Mouth";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Charles Dalla";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Tizzano trabalha com seu parceiro Squalo para assassinar a Equipe Bucciarati em Veneza após a equipe desertar a gangue.\r\nTizzano é um homem estrategista, notando o comportamento de seu alvo para aconselhar seu parceiro Squalo. Dos dois, ele é o mais calmo e atencioso. Ele tem um hábito de dizer \"de acordo com o plano\" sempre que algo dá certo para ele.\r\n";
+                label4.Text = "Talking Head é um Stand de longa distância sem habilidades de combate que força suas vítimas a mentirem, permitindo com que Tizzano manipule seus inimigos e controle seus movimentos.\r\nPara surtir efeito, o Talking Head deve primeiro se prender à língua da vítima. Enquanto o Talking Head está preso, a vítima será automaticamente forçada a contar mentiras: sempre que a vítima falar, escrever, ou usar gestos, ela sempre expressará algo falso. Se Tizzano desejar, o Talking Head pode forçar uma vítima a falar alto e contar mentiras ou permanecer em silêncio, dependendo da resistência da vítima. Seguindo sua habilidade de forçar seu hospedeiro a mentir, o Talking Head também é capaz de controlar o corp oda vítima em um grau menor. Ele pode, por exemplo, forçar a vítima a realizar atos simples como acenar a cabeça e apontar.\r\n";
+                label3.Text = "Seu nome vem de Ticiano Vecellio, pintor italiano.";
                 pictureBox1.Image = Properties.Resources.TizzanoManga;
                 pictureBox2.Image = Properties.Resources.TizzanoAnime;
                 pictureBox3.Image = Properties.Resources.TizzanoManga2;
                 pictureBox4.Image = Properties.Resources.TizzanoManga3;
                 pictureBox5.Image = Properties.Resources.TalkingMouth;
                 pictureBox6.Image = Properties.Resources.TalkingMouth2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Tizzano;
             }
             else if (comboBox1.Text == "Carne")
             {
@@ -1184,15 +1206,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Notorious Chase";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Miguel de Britto";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Carne é enviado em uma missão suicída contra a Equipe Bucciarati e Trish Una. Embora ele morra, seu agora invencível Stand continua a existir e ataca a gangue durante sua viagem para a Sardenha.\r\nPode ser assumido que ele era leal o suficiente ao Diavolo a ponto de sacrificar sua vida por ele.\r\n";
+                label4.Text = "Notorious B.I.G é um dos poucos Stands a serem capazes de seguir existindo após a morte de seu usuário.\r\nAo ser ativado, Notorious B.I.G lentamente infecta qualquer um que tocou nos restos de seu usuário e come sua carne e energia para criar um corpo; isso inclui a energia de Stands e a energia de objetos automáticos como um motor. Através dessa habilidade, Notorious B.I.G pode crescer à um grande volume com energia suficiente, eventualmente alcançando um tamanho comparável a um avião a jato. \r\nEm sua fase inicial de crescimento, Notorious B.I.G pode influenciar o corpo de seu hospedeiro, fazendo com que ele realize ações sem estar conscientemente ciente delas. \r\nEnquanto Notorious B.I.G é cego, ele pode detectar movimento em volta dele, o levando a automaticamente atacar o objeto mais rápido dentro de seu alcance.\r\n";
+                label3.Text = "Por razões desconhecidas, o nome do Carne nunca é revelado na adaptação de anime.";
                 pictureBox1.Image = Properties.Resources.CarneManga;
                 pictureBox2.Image = Properties.Resources.CarneAnime;
                 pictureBox3.Image = Properties.Resources.CarneAnime2;
                 pictureBox4.Image = Properties.Resources.CarneManga2;
                 pictureBox5.Image = Properties.Resources.NotoriousBIG;
                 pictureBox6.Image = Properties.Resources.NotoriousBIG2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Carne;
             }
             else if (comboBox1.Text == "Risotto Nero")
             {
@@ -1203,9 +1226,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Metallic";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Reginaldo Primo";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Risotto Nero é o líder da La Squadra Esecuzioni e envia seus companheiros para assassinar a Equipe Bucciarati; para tomar a filha Trish Una do Chefe da Passione e usá-la para chegar até ele. Após ele se tornar o único membro restante, Risotto persegue a Equipe Bucciarati até Sardenha e confronta Vinegar Doppio em uma praia na Costa Smeralda.\r\nEle vai às últimas consequências para descobrir a identidade do Chefe, e jura vingar as mortes de seus homens. Apesar de seu fracasso, o Chefe parabeniza Risotto por seu esforço e afirma que seus homens teriam orgulho de suas conquistas.\r\n";
+                label4.Text = "Metallica tem a habilidade de livremente manipular ferro no ar e no chão através de magnetismo. O Stand é ativo em um círculo de 5 à 10 metros em volta de Risotto, e tem precisão suficiente para formar objetos ao juntar o ferro dentro do corpo de outra pessoa. Por padrão, ele naturalmente atrai ferro.\r\nO ferro é um dos elementos mais comuns a terra e por causa disso Metallica também pode manipular o ferro do ambiente para criar objetos, por exemplo criar facas do ferro da terra para jogá-las no seu alvo.\r\nCom sua habilidade, Metallica pode grudar partículas finas de ferro no corpo de Risotto, fazendo com que ele reflita luz e se misture com a redondeza.\r\n";
+                label3.Text = "Risotto é o nome de um prato típico italiano.";
                 pictureBox1.Image = Properties.Resources.RisottoManga;
                 pictureBox2.Image = Properties.Resources.RisottoAnime;
                 pictureBox3.Image = Properties.Resources.RisottoAnime2;
@@ -1213,6 +1236,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.Metallica;
                 pictureBox6.Image = Properties.Resources.Metallica2;
                 pictureBox8.Image = Properties.Resources.RisottoCuriosidade;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Risotto;
             }
             else if (comboBox1.Text == "Cioccolatta")
             {
@@ -1223,15 +1247,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Green Tea";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Glauco Marques";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Cioccolata é enviado para perto de Roma junto de seu \"animal\" de estimação Secco para matar a Equipe Bucciarati. Ele subsequentemente batalha contra Giorno Giovanna e Guido Mista no topo de uma torre.\r\nCioccolata é um habilidoso manipulador sadista. Sua insanidade, brutalidade, e sadismo são fortes o suficiente para causar nojo até mesmo a Diavolo, que evita usá-lo em missões a menos que ele sinta que é absolutamente necessário.\r\n";
+                label4.Text = "Green Day é um Stand humainóide, sua habilidade primária é de produzir um mofo potente que putrefica e destrói a carne daqueles que ele infecta em um instante. Dito mofo é espalhado no ar através de vários tubos que saem da cabeça, ombros, e mãos do Green Day.\r\nO crescimento do mofo é ativado quando as vítimas em potencial abaixam sua atual altitude, uma condição que se aplica a até mesmo membros individuais, forçando seus alvos a ficarem imóveis ou irem para cima.\r\nO mofo se espalha rapidamente de cadáver para cadáver, logo potencialmente tendo um alcance infinito e poderia matar um grande número de pessoas em áreas populadas, assim como deixando difícil de se encontrar seu usuário entre os cadáveres.\r\n";
+                label3.Text = "Cioccolata é o primeiro e único antagonista a sofrer um espancamento de 7 páginas.";
                 pictureBox1.Image = Properties.Resources.CiocolattaManga;
                 pictureBox2.Image = Properties.Resources.CiocolattaAnime;
                 pictureBox3.Image = Properties.Resources.CiocolattaAnime2;
                 pictureBox4.Image = Properties.Resources.CiocolattaAnime3;
                 pictureBox5.Image = Properties.Resources.GreenDay;
                 pictureBox6.Image = Properties.Resources.GreenDay2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Cioccolata;
             }
             else if (comboBox1.Text == "Secco")
             {
@@ -1242,9 +1267,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Sanctuary";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wallace Raj";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Secco é despachado junto de seu mestre Cioccolata perto de Roma para matar a Equipe Bucciarati. Ele subsequentemente enfrenta Bruno Bucciarati pessoalmente nas ruas de Roma. \r\nPouco é conhecido sobre Secco, já que nem o próprio chefe foi capaz de encontrar informações concretas sobre seu passado. É conhecido que ele uma vez foi um paciente de Cioccolata; entretanto, já que ele compartilhava a mente e pensamentos deturpados de Cioccolata, eles formaram uma parceria.\r\n";
+                label4.Text = "Oasis se manifesta como um traje o qual Secco usa para lutar, ele permite com que ele liquidifique o chão e lute em curto alcance com uma força física aprimorada.\r\nO uso principal dessa habilidade é permitir que Secco viaje pelo subterrâneo ao nadar nele, o mantendo escondido e seguro de ataques.\r\nO Oasis também derrete o corpo humano caso alguém fique no subterrâneo perto de Secco ou através de contato direto com ele.\r\nJá que após certa distancia o chao volta a solidificar, secco usa isso ao seu favor, cuspindo barro para atacar em forma de pedras ou fazendo uma chuva de espinhos de barro.\r\n";
+                label3.Text = "Secco significa seco em italiano.";
                 pictureBox1.Image = Properties.Resources.SeccoManga;
                 pictureBox2.Image = Properties.Resources.SeccoAnime;
                 pictureBox3.Image = Properties.Resources.SeccoAnime2;
@@ -1261,16 +1286,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Emperor Crimson";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Ítalo Luiz";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Doppio é o mais jovem, inocente, e ecêntrico subchefe do Chefe. Como um membro da Passione, ele acredita ser o mais leal subordinado de Diavolo, mas na realidade, os dois são almas separadas habitando o mesmo corpo.\r\nDoppio é uma pessoa muito mais normal em contraste com Diavolo: amigável, honesto, e um pouco covarde. Doppio regularmente alucina objetos aleatórios como \"telefones\" com os quais ele usa para falar com seu alter-ego, sem saber que eles compartilham o mesmo corpo.\r\n";
+                label4.Text = "King Crimson ou Emperor Crimson ataca usando apenas um golpe ágil e que é sempre fatal, em vez de rápidas séries de socos. Doppio é capaz de usar apenas os braços de King Crimson, caso Diavolo permita. Outra habilidade emprestada é o Epitaph ou Eulogy que dá a habilidade de ver o futuro ao projetá-lo como imagens, que são normalmente projetadas no cabelo de Doppio.\r\n";
+                label3.Text = "Doppio morre no corpo de Bucciaratti.";
                 pictureBox1.Image = Properties.Resources.DoppioManga;
                 pictureBox2.Image = Properties.Resources.DoppioAnime;
                 pictureBox3.Image = Properties.Resources.DoppioAnime2;
                 pictureBox4.Image = Properties.Resources.DoppioManga2;
                 pictureBox5.Image = Properties.Resources.EmperorCrimson;
                 pictureBox6.Image = Properties.Resources.EmperorCrimson2;
-                pictureBox8.Image = Properties.Resources.DoppioEulogy;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Doppio;
             }
             else if (comboBox1.Text == "Diavolo")
             {
@@ -1281,15 +1306,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Emperor Crimson";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Felipe Zilse";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Diavolo mais conhecido como o \"Chefe\" da gangue Passione, corrompe Nápoles por vender drogas nas ruas, fazendo dele o superior e maior inimigo de Giorno Giovanna e Bruno Bucciarati. Por causa do seu sigilo obsessivo, quase ninguém sabe sobre sua aparência, nome ou passado. Diavolo possui outra personalidade é o pai de Trish Una.\r\nDiavolo tem uma tendência violenta de caçar e matar aqueles que tentam descobrir qualquer tipo de informação pessoal sobre ele.";
+                label4.Text = "King Crimson ou Emperor Crimson ataca usando apenas um golpe ágil e que é sempre fatal, em vez de rápidas séries de socos.\r\nEle é capaz de apagar 10 segundos do tempo, na porção de tempo apagada, outras pessoas serão incapazes de passar por qualquer coisa que tenha acontecido e também não guardarão nenhuma memória do que aconteceu. Do outro lado, Diavolo permanece completamente consciente durante o tempo apagado e apenas ele pode reajustar suas ações.\r\nEm até dez segundos, Epitaph ou Eulogy dá a Diavolo a habilidade de ver o futuro ao projetá-lo como imagens, que são normalmente projetadas no cabelo de Diavolo.\r\n";
+                label3.Text = "Diavolo possui outra personalidade, Vinegar Doppio.";
                 pictureBox1.Image = Properties.Resources.DiavoloManga;
                 pictureBox2.Image = Properties.Resources.DiavoloAnime;
                 pictureBox3.Image = Properties.Resources.DiavoloAnime2;
                 pictureBox4.Image = Properties.Resources.DiavoloManga2;
                 pictureBox5.Image = Properties.Resources.EmperorCrimson;
                 pictureBox6.Image = Properties.Resources.EmperorCrimson2;
+                pictureBox8.Image = Properties.Resources.DoppioManga;
             }
             //STONE OCEAN HEROIS
             else if (comboBox1.Text == "Jolyne Kujo")
@@ -1304,6 +1330,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.JolyneManga;
+                pictureBox2.Image = Properties.Resources.JolyneAnime;
+                pictureBox3.Image = Properties.Resources.JolyneAnime2;
+                pictureBox4.Image = Properties.Resources.JolyneManga2;
+                pictureBox5.Image = Properties.Resources.StoneOcean;
+                pictureBox6.Image = Properties.Resources.StoneOcean2;
+                pictureBox8.Image = Properties.Resources.JotaroSOManga;
             }
             else if (comboBox1.Text == "Jotaro Kujo")
             {
@@ -1317,6 +1350,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.JotaroSOManga;
+                pictureBox2.Image = Properties.Resources.JotaroSOAnime;
+                pictureBox3.Image = Properties.Resources.JotaroSOAnime2;
+                pictureBox4.Image = Properties.Resources.JotaroSOManga2;
+                pictureBox5.Image = Properties.Resources.StarPlatinumSO;
+                pictureBox6.Image = Properties.Resources.StarPlatinumSO2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Jotaro;
             }
             else if (comboBox1.Text == "Ermes Costello")
             {
@@ -1330,6 +1370,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.ErmesManga;
+                pictureBox2.Image = Properties.Resources.ErmesAnime;
+                pictureBox3.Image = Properties.Resources.ErmesAnime2;
+                pictureBox4.Image = Properties.Resources.ErmesManga2;
+                pictureBox5.Image = Properties.Resources.Kiss;
+                pictureBox6.Image = Properties.Resources.Kiss2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Kiss;
             }
             else if (comboBox1.Text == "F.F")
             {
@@ -1343,6 +1390,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.FFManga;
+                pictureBox2.Image = Properties.Resources.FFAnime;
+                pictureBox3.Image = Properties.Resources.FFAnime2;
+                pictureBox4.Image = Properties.Resources.FFManga2;
+                pictureBox5.Image = Properties.Resources.FF;
+                pictureBox6.Image = Properties.Resources.FF2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_FF;
             }
             else if (comboBox1.Text == "Anastasia")
             {
@@ -1356,8 +1410,15 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.AnasuiManga;
+                pictureBox2.Image = Properties.Resources.AnasuiAnime;
+                pictureBox3.Image = Properties.Resources.AnasuiAnime2;
+                pictureBox4.Image = Properties.Resources.AnasuiManga2;
+                pictureBox5.Image = Properties.Resources.DiverDown;
+                pictureBox6.Image = Properties.Resources.DiverDown2;
+               
             }
-            else if (comboBox1.Text == "Wheater Forecast")
+            else if (comboBox1.Text == "Weather Forecast")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -1369,6 +1430,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.WeatherManga;
+                pictureBox2.Image = Properties.Resources.WeatherAnime;
+                pictureBox3.Image = Properties.Resources.WeatherAnime2;
+                pictureBox4.Image = Properties.Resources.WeatherManga2;
+                pictureBox5.Image = Properties.Resources.WeatherReport;
+                pictureBox6.Image = Properties.Resources.WeatherReport2;
+               // pictureBox8.Image = Properties.Resources.PucciManga;
             }
             else if (comboBox1.Text == "Emporio Alnino")
             {
@@ -1382,6 +1450,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.EmporioManga;
+                pictureBox2.Image = Properties.Resources.EmporioAnime;
+                pictureBox3.Image = Properties.Resources.EmporioAnime2;
+                pictureBox4.Image = Properties.Resources.EmporioManga2;
+                pictureBox5.Image = Properties.Resources.BurningDown;
+                pictureBox6.Image = Properties.Resources.BurningDown2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Emporio;
             }
             //STONCE OCEAN VILÕES
             else if (comboBox1.Text == "Gwess")

@@ -1334,5 +1334,101 @@
   <ItemGroup>
     <None Include="Resources\WeatherReport2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallpaperGoldenAll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallpaperScreen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallpaperStardust.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallpaperStone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Araki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Carne.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Cioccolata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_DG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Doppio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Emporio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_FF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Guccio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Gwess.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Illuso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_JongalliA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Jotaro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Kiss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Mario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Melone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Mista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_MiuMiu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Polpo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Prosciutto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Rikiel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Risotto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Sale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Squalo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Thunder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Tizzano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Trish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Ungalo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Viviano.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
