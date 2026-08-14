@@ -1430,5 +1430,326 @@
   <ItemGroup>
     <None Include="Resources\Curiosidade_Viviano.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_AnasuiNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_DonatelloNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_FormaggioNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_GhiaccioNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_KenzouNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_LangNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_PesciNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_SportsNova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlanetWaves2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlanetWaves.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VivianoManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VivianoManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VivianoAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VivianoAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BohemianRapsody2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BohemianRapsody.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UngaloManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UngaloAnime3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UngaloAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UngaloAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Highwayto2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Highwayto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThunderAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThunderManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThunderManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThunderManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LimpBizkit2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LimpBizkit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SportsManga3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SportsAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SportsManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SportsManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkyHigh2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkyHigh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RikielAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RikielAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RikielManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RikielManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MadeinHeaven.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cmoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteSnake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PucciAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PucciAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PucciManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PucciManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JailHouseLock2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JailHouseLock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiuMiuAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiuMiuAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiuMiuManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiuMiuManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarilynManson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarilynManson2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiraschonAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiraschonAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiraschonManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiraschonManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DragonsDream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DragonsDream2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KenzouAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KenzouAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KenzouManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KenzouManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manhattan2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manhattan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JongalliAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JongalliAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JongalliManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JongalliManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GGDolls2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GGDolls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GwessAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GwessAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GwessManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GwessManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Survivor2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Survivor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuccioAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuccioAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuccioManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuccioManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Underworld2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Underworld.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DonatelloAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DonatelloAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DonatelloManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DonatelloManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YayamaManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YayamaAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YayamaAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanGAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanGAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanGManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanGManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenGreen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenGreen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BebeManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BebeManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BebeAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BebeAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpingJack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpingJack2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LangAnime2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LangAnime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LangManga2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LangManga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Bebe %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

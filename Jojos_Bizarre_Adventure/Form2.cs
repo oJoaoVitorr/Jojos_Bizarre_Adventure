@@ -1327,9 +1327,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Stone Ocean";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Patt Souza";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Jolyne é mandada para a Prisão Green Dolphin Street, onde ela investiga e batalha o mais confiado discípulo de DIO, o Padre Enrico Pucci. Inicialmente uma jovem comum, Jolyne rapidamente desperta seu Stand durante seu tempo na prisão.\r\nApós adquirir um Stand e conhecer o amor de Jotaro por ela, Jolyne notavelmente amadurece, se tornando mais corajosa e confiante.\r\n";
+                label4.Text = "Stone Free permite que Jolyne desfie seu corpo em até 75%/24 metros, tipicamente começando com suas mãos, e que ela livremente o manipule.\r\nO fio do Stone Free é invisível para não-usuários de Stand. Ele também é afiado e pode cortar carne se força suficiente for aplicada\r\nSe Jolyne junta o fio, ela pode concentrar seu poder e formar a aparência humanoide do Stone Free, que pode lutar em seu lugar, mas o alcance do Stone Free é encurtado para por volta de 2. Stone Free, composto de fios, pode também ser naturalmente desfiado. Stone Free é um Stand muito versátil e ja foi utilizado de diversas formas por Jolyne.\r\n";
+                label3.Text = "Jolyne Cujoh é filha de Jotaro Kujo.";
                 pictureBox1.Image = Properties.Resources.JolyneManga;
                 pictureBox2.Image = Properties.Resources.JolyneAnime;
                 pictureBox3.Image = Properties.Resources.JolyneAnime2;
@@ -1347,9 +1347,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Star Platinum";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Wilken Mazzai";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Jotaro é o JoJo protagonista mais recorrente em toda a série. Reaparecendo agora em Stone Ocean para salvar sua filha Jolyne da cadeia, dando a ela um Stand. Durante a batalha final contra Pucci, o amor de Jotaro por sua família foi maior, e ele fez o erro de tentar salvar Jolyne e matar Pucci ao mesmo tempo, não tendo sucesso em nenhum dos dois e resultando em sua morte trágica.\r\n";
+                label4.Text = "Star Platinum é um Stand de curto-alcance com força e velocidade excepcional, assim como a habilidade de parar o tempo que foi ganha durante a batalha contra DIO. Seu poder esmagador, junto da habilidade em lutas de Jotaro, o torna um dos Stands mais fortes e icônicos da obra.\r\nStar Platinum é um Stand de Curto Alcance com um alcance básico de apenas dois metros do corpo de Jotaro, mas ostenta velocidade, poder, e precisão inigualáveis.\r\nO Star Platinum pode estender seus dedos indicativos e do meio, permitindo que ele realize ataques sorrateiros e cortar oponentes um pouco fora de seu alcance.\r\n";
+                label3.Text = "Sua alma e Stand foram roubados por Whitesnake por um longo período.";
                 pictureBox1.Image = Properties.Resources.JotaroSOManga;
                 pictureBox2.Image = Properties.Resources.JotaroSOAnime;
                 pictureBox3.Image = Properties.Resources.JotaroSOAnime2;
@@ -1367,9 +1367,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Smack";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Tatiane Keplmair";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Ermes é uma mulher voluntariamente presa na Prisão Green Dolphin Street para buscar vingança contra o assassino de sua irmã Gloria Costello, Sports Maxx, e logo se alia com Jolyne Cujoh no ambiente hostil que a cadeia é.\r\nTendo perdido seu pai e irmã, Ermes esconde um núcleo vulnerável e tumultuoso atrás de seu ponto de vista geralmente realista sobre a vida.\r\n";
+                label4.Text = "Ermes e Kiss são capazes de criar adesivos quadrados distintivos de suas palmas. Se eles porem um adesivo em um objeto, uma cópia exata dele surge com o adesivo ou continua na cópia ou no original. Não há restrição sobre o quão longe a cópia pode ser levada de seu objeto. Se a Ermes põe um adesivo em alguém, o membro correspondente, seja um dedo, um braço ou a cabeça, ele sairá do corpo como uma parte adicional dele. Ela também pode colocar-lo em si mesma.\r\nQuando o adesivo é removido ou destruído, os dois objetos serão lançados em um ao outro e se fundiram em um objeto só com grande força, criando uma fissura e o danificando. Não importa a distância, condições do ambiente como uma gravidade alterada, ou o peso preso a ele, os dois sempre irão na direção uma do outro, até mesmo partes quebradas da cópia retornarão a original.\r\n";
+                label3.Text = "Kiss é uma referência a banda estadunidense de rock.";
                 pictureBox1.Image = Properties.Resources.ErmesManga;
                 pictureBox2.Image = Properties.Resources.ErmesAnime;
                 pictureBox3.Image = Properties.Resources.ErmesAnime2;
@@ -1387,9 +1387,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "F.F";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Vii Zedek";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "F.F. é uma fusão de Stand e usuário de Stand; uma colônia de plâncton que é organizada, preservada por, e essencialmente equivalente ao Stand Foo Fighters. Inicialmente servindo Enrico Pucci, ela logo se alia a Jolyne Cujoh por gratidão.\r\nF.F. pode mudar sua aparência à vontade. No entanto, sua aparência habitual é a da falecida detenta Atroe.\r\n";
+                label4.Text = "A natureza peculiar do Foo Fighters como uma colônia consciente de plâncton lhe dá várias habilidades.\r\nPrimeiro de tudo, a natureza do Foo Fighters significa que ele não tem fraqueza física. Não há um membro a ser ferido ou ponto vital a ser atacado para matá-lo e logo ele é invulnerável a ataques convencionais. Foo Fighters só pode ser ameaçado se a colônia inteira for danificada.\r\nAo infiltrar o corpo de alguém, Foo Fighters pode tomar controle de sua consciência e ter acesso a suas memórias.\r\nDentro de um hospedeiro, Foo Fighters pode disparar pequenas partes de si mesmo como se ele estivesse usando uma arma.\r\nOs plânctons podem ajudar a fechar ferimentos, evitando que alguém sofra de hemorragia e potencialmente lhes salvando de morrer.\r\n";
+                label3.Text = "Foo Fighters é uma referência a banda americana de rock.\r\n";
                 pictureBox1.Image = Properties.Resources.FFManga;
                 pictureBox2.Image = Properties.Resources.FFAnime;
                 pictureBox3.Image = Properties.Resources.FFAnime2;
@@ -1407,15 +1407,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Diver Drive";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Márcio Araújo";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Anasui é um condenado da Prisão Green Dolphin Street que se apaixona por Jolyne Cujoh e decide ajudá-la a derrotar Enrico Pucci.\r\nA característica mais significante da personalidade de Anasui é o seu amor obsessivo por Jolyne. Tendo se apaixonado com ela a primeira vista.\r\nAnasui alude várias vezes ter alguns problemas psicológicos dificéis de se resolver.\r\n";
+                label4.Text = "Diver Down tem como habilidade armanezar seus golpes em qualquer superfície.\r\nQuando o Diver Down acerta algo com um soco ou chute, a força do impacto é \"armanezado\" dentro do objeto. Sempre que Anasui desejar, a energia acumulada pode ser liberada fora do objeto na forma do membro correspondente do Diver Down chutando ou socando de dentro do objeto.\r\nAlternativamente, Anasui pode pôr o Diver Down dentro do corpo de alguém, para que qualquer dano que o alvo sofra seja transferido para o Diver Down em seu lugar, lhe protegendo.\r\nA habilidade assinatura do Diver Down é de atravessar coisas sólidas e livremente alterar suas partes internas.\r\nAo mergulhar em um objeto ou pessoa, o Diver Down pode livremente manipular sua estrutura interna; para destrui-los ou reestruturá-los.\r\n";
+                label3.Text = "Seu nome foi alterado para Anastacia em outros locais.";
                 pictureBox1.Image = Properties.Resources.AnasuiManga;
                 pictureBox2.Image = Properties.Resources.AnasuiAnime;
                 pictureBox3.Image = Properties.Resources.AnasuiAnime2;
                 pictureBox4.Image = Properties.Resources.AnasuiManga2;
                 pictureBox5.Image = Properties.Resources.DiverDown;
                 pictureBox6.Image = Properties.Resources.DiverDown2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_AnasuiNova;
                
             }
             else if (comboBox1.Text == "Weather Forecast")
@@ -1427,16 +1428,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Wheather Forecast";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Gabriel Noya";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Um amnésico em sua introdução, Weather Report, verdadeiramente Wes Bluemarine ou Domenico Pucci, é um detento que busca sua memória e se alia a Jolyne Cujoh.\r\nApós ser deprivado de suas memórias, Weather se tornou quieto, calmo, e excêntrico, tendo sido uma vez descrito por Emporio Alnino como agindo feito \"um fantasma\". Dentre suas peculiaridades são a necessidade de se aproximar dos rostos de outras pessoas já que ele não tende a abrir muito sua boca.\r\n";
+                label4.Text = "Weather manipula a atmosfera em sua volta com seu Stand, permitindo que ele invoque diversos fenômenos climáticos, como vento, chuva ou relâmpagos para sua vantagem. Weather Report tem precisão o suficiente para criar micro-climas, mas também um grande alcance para que possa fazer chover até 30 km de distância.\r\nA manipulação da atmosfera de Weather Report se estende a manipulação da humidade ao seu redor, permitindo geração livre e controle parcial sobre água e extensão das nuvens.\r\nHeavy Weather é uma habilidade que se ativa inconscientemente depois que Weather recupera suas memórias roubadas por Pucci.\r\narco-íris se manifestam na vizinhança ao redor. Aqueles que tocam os arco-íris vão se perceber como sendo um caracol graças a um efeito subliminal natural criado pelo ângulo de refração alterado.\r\nApenas uma transformação parcial já vem com um número de desvantagens, como ficar preso em superfícies, reações e velocidade lerdas, e perca de força graças ao amolecimento do corpo.\r\n";
+                label3.Text = "Enrico Pucci é seu irmão gêmeo.";
                 pictureBox1.Image = Properties.Resources.WeatherManga;
                 pictureBox2.Image = Properties.Resources.WeatherAnime;
                 pictureBox3.Image = Properties.Resources.WeatherAnime2;
                 pictureBox4.Image = Properties.Resources.WeatherManga2;
                 pictureBox5.Image = Properties.Resources.WeatherReport;
                 pictureBox6.Image = Properties.Resources.WeatherReport2;
-               // pictureBox8.Image = Properties.Resources.PucciManga;
+                pictureBox8.Image = Properties.Resources.PucciManga;
             }
             else if (comboBox1.Text == "Emporio Alnino")
             {
@@ -1447,9 +1448,9 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Burn the House Down";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Gabriel Martins";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Emporio é um jovem usuário de Stand, nascido e vivendo secretamente na Prisão Green Dolphin Street. Ele simpatiza com Jolyne e se torna um de seus aliados. Emporio é primeiro mostrado ser um menino tímido, e sem vontade de lutar.\r\nNo entanto, durante seu apoio aos heróis, ele é lentamente levado à luta. Ele parece ser confiável já que Jolyne confiou o disco de seu pai a ele. Ele prova ser útil ao usar seu computador para adquirir informações sobre os poderes dos vilões.\r\n";
+                label4.Text = "Burning Down the House permite que Emporio veja, toque e uso os fantasmas de objetos e salas.\r\nEm 1984, a Prisão Green Dolphin Street pegou fogo e várias partes foram completamente incineradas e eventualmente trocadas em renovações. Emporio é capaz de ver e usar os fantasmas dos objetos destruídos no incêndio, mas também acessar a sala de piano destruída através de uma rachadura escondida em uma parede.\r\nPara entrar na sala de piano, uma pessoa deve primeiro passar por uma pequena rachadura na parede de uma escadaria em que tudo parece achatado.\r\n";
+                label3.Text = "Emporio foi usuário de Weather Report temporaiamente após usá-lo em forma de disco.";
                 pictureBox1.Image = Properties.Resources.EmporioManga;
                 pictureBox2.Image = Properties.Resources.EmporioAnime;
                 pictureBox3.Image = Properties.Resources.EmporioAnime2;
@@ -1468,9 +1469,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "GG Dolls";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Flora Paulita";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Gwess é introduzida como a companheira de cela e primeira inimiga usuária de Stand de Jolyne.\r\nGwess é extremamente possessiva de suas coisas, embora isso possa ser uma tática de intimidação de sua parte. Ela também expressa a crença de que \"tudo tem um nome\", citando a Bíblia para justificar essa crença, e então decide nomear seu Stand.\r\n";
+                label4.Text = "Goo Goo Dolls tem a habilidade de reduzir o tamanho de qualquer um dentro de seu alcance. É sugerido que ele só irá funcionar naqueles que são alvos do desejo de amizade e controle de Gwess.\r\nQuando no alcance, o Goo Goo Dolls pode instantaneamente encolher sua vítima ao tamanho de um camundongo, a redução de tamanho é instantânea e imperceptível para a vítima. Pelo outro lado, uma vez que a vítima encolhida vai longe o suficiente de Gwess, ela crescerá de volta continuamente em um ritmo mais lento, embora tenha sido mostrado que Gwess também pode fazer suas vítimas crescerem de volta instantaneamente.\r\nGwess tipicamente usa esse poder para criar bichos de estimação improvisados que ela esconde em peles de animais e usa para brincar.\r\n";
+                label3.Text = "Goo Goo Dolls é uma referência a banda de rock estadunidense.";
+                pictureBox1.Image = Properties.Resources.GwessManga;
+                pictureBox2.Image = Properties.Resources.GwessAnime;
+                pictureBox3.Image = Properties.Resources.GwessAnime2;
+                pictureBox4.Image = Properties.Resources.GwessManga2;
+                pictureBox5.Image = Properties.Resources.GGDolls;
+                pictureBox6.Image = Properties.Resources.GGDolls2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Gwess;
             }
             else if (comboBox1.Text == "Jongalli A")
             {
@@ -1481,9 +1489,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Downtown Transfer";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fernando Lopes";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Johngalli A. é um assassino cego diretamente responsável por incriminar Jolyne Cujoh e enviá-la para a Prisão Green Dolphin Street. Ele é um dos últimos servos de DIO e embosca Jolyne e Jotaro Kujo dentro da prisão.\r\nEm certo ponto, Johngalli A. é visto expressando seu desejo de vingar DIO e alegando como os Joestars roubaram seu coração de seu apoio, DIO.\r\n";
+                label4.Text = "Manhattan Transfer pode precisamente sentir os movimentos do ar em volta dele e transferir a informação para Johngalli A., que pode visualizar o que está acontecendo em volta do Manhattan Transfer com precisão, e adivinhar a posição de seus alvos.\r\nA habilidade primária do Manhattan Transfer é de mudar a direção das balas disparads por seu usuário, permitindo que Johngalli A. mude o trajeto de suas balas uma vez e então atirar por coberturas e pontos cegos. Embora Johngalli precise conseguir atirar no Manhattan Transfer para redirecionar as balas, seu talento nato alivia essa fraqueza.\r\n";
+                label3.Text = "Manhattan Transfer é uma referência ao grupo vocal de jazz The Manhattan Transfer.\r\n";
+                pictureBox1.Image = Properties.Resources.JongalliManga;
+                pictureBox2.Image = Properties.Resources.JongalliAnime;
+                pictureBox3.Image = Properties.Resources.JongalliAnime2;
+                pictureBox4.Image = Properties.Resources.JongalliManga2;
+                pictureBox5.Image = Properties.Resources.Manhattan;
+                pictureBox6.Image = Properties.Resources.Manhattan2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_JongalliA;
             }
             else if (comboBox1.Text == "Thunder McQueen")
             {
@@ -1494,9 +1509,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Freeway Thru Hell";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Clécio Souto";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "McQueen é um detento suicída trabalhando como um zelador na Prisão Green Dolphin Street, que foi dado o Stand Highway to Hell pelo Whitesnake através de um disco de Stand. Ele logo liga sua morte à de Ermes Costello e tenta se matar repetidamente.\r\nA maior característica da personalidade de Thunder McQueen é sua depressão debilitante e tendências suicídas.\r\n";
+                label4.Text = "Quando McQueen aplica o Highway to Hell em alguém, o alvo sofrerá do mesmo dano que ele inflige a si mesmo, através do Highway to Hell se manifestando no corpo da vítima como a fonte do ferimento. Por exemplo, se McQueen tentar se enforcar, o Highway to Hell se manifesta em volta do pescoço da vítima com traços de uma corda esmagando sua garganta; quando McQueen tenta se afogar, o Highway to Hell aparece como uma massa de líquido cobrindo a boca e nariz da vítima.";
+                label3.Text = "Highway to Hell é uma referência ao álbum do AC/DC.";
+                pictureBox1.Image = Properties.Resources.ThunderManga;
+                pictureBox2.Image = Properties.Resources.ThunderAnime;
+                pictureBox3.Image = Properties.Resources.ThunderManga2;
+                pictureBox4.Image = Properties.Resources.ThunderManga3;
+                pictureBox5.Image = Properties.Resources.Highwayto;
+                pictureBox6.Image = Properties.Resources.Highwayto2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Thunder;
             }
             else if (comboBox1.Text == "Miraschon")
             {
@@ -1507,9 +1529,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Mary Lynn Manson";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fernanda Bellara";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Miraschon é uma detenta da Prisão Green Dolphin Street a quem Enrico Pucci confere o Stand, Marilyn Manson, e envia para assassinar Jolyne Cujoh. Ela então aposta com Jolyne, Ermes Costello e Foo Fighters para roubar seus órgãos assim como o disco de Stand de Jotaro Kujo.\r\nMiraschon é descrita como sendo uma mentirosa compulsiva que gosta de roubar e apostar.\r\n";
+                label4.Text = "Marilyn Manson ativa após Miraschon ou até ele mesmo fazer uma aposta com alguém. Se a pessoa com quem Miraschon apostar perder, Marilyn Manson se materializa perto dela e então tira deles quaisquer posses de valor para pagar pela aposta.\r\nDinheiro diretamente voa para os ganchos do Marilyn Manson, mas ele também pode mutilar a vítima para pegar órgãos valiosos para vender ao mercado negro, como dentes de ouro ou seu fígado. Ele pensa por si mesmo sobre o que coletar para ter algo equivalente ao que foi apostado.\r\nMarilyn Manson afirma que ele é meramente a \"sombra dentro do coração do perdedor\", que reconheceu sua derrota até minimamente, e logo não pode ser atacado pelo perdedor ou qualquer aliado. Golpes simplesmente atravessam o Marilyn Manson.\r\n";
+                label3.Text = "Marilyn Manson é uma referência a banda e ao cantor estadunidense de rock.\r\n";
+                pictureBox1.Image = Properties.Resources.MiraschonManga;
+                pictureBox2.Image = Properties.Resources.MiraschonAnime;
+                pictureBox3.Image = Properties.Resources.MiraschonAnime2;
+                pictureBox4.Image = Properties.Resources.MiraschonManga2;
+                pictureBox5.Image = Properties.Resources.MarilynManson;
+                pictureBox6.Image = Properties.Resources.MarilynManson2;
+                //pictureBox8.Image = Properties.Resources.;
             }
             else if (comboBox1.Text == "Lang Rangler")
             {
@@ -1520,9 +1549,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Jumping Jack Spark";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Philippe Maia";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Lang Rangler é um preso da Prisão Green Dolphin Street enviado por Enrico Pucci para assassinar Jolyne Cujoh e Weather Report no seu caminho ao pátio da prisão para pará-los de entregar o disco de Stand de Jotaro Kujo para a Fundação Speedwagon.\r\nLang Rangler é normalmente calmo mas é propenso a explosões violentas quando irritado. Ele foi preso por roubo e homicídio, esfaquando uma professora sessenta e nove vezes.\r\n";
+                label4.Text = "Jumpin' Jack Flash é um Stand poderoso dependendo em seu poder debilitante de remoção gravitacional.\r\nSe Lang Rangler cospe em alguém, a vítima se torna o centro de um ambiente zero gravidade.\r\nO cuspe de Lang Rangler faz com que a vítima para de ser sujeita a gravidade assim como qualquer coisa ou pessoa nas quais ela toque.\r\nEle eventualmente cria um vácuo de cerca de 20 metros em volta da vítima que ameaça sugar todo seu sangue de qualqeur ferimento e eventualmente faz com que a corrente sanguínea ferva antes que ela passe por sufocação.\r\nJumpin' Jack Flash é armado com duas centrifugas em cada pulso que podem guardar pequenos objetos como parafusos e porcas e então girar em alta velocidade, acumulando força centrífuga dentro dos objetos antes de lançá-los em inimigos como balas.\r\n";
+                label3.Text = "Jumpin' Jack Flash é uma referência a uma música dos The Rolling Stones.\r\n";
+                pictureBox1.Image = Properties.Resources.LangManga;
+                pictureBox2.Image = Properties.Resources.LangAnime;
+                pictureBox3.Image = Properties.Resources.LangAnime2;
+                pictureBox4.Image = Properties.Resources.LangManga2;
+                pictureBox5.Image = Properties.Resources.JumpingJack;
+                pictureBox6.Image = Properties.Resources.JumpingJack2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_LangNova;
             }
             else if (comboBox1.Text == "Sports Maximum")
             {
@@ -1536,6 +1572,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "";
                 label4.Text = "";
                 label3.Text = "";
+                pictureBox1.Image = Properties.Resources.SportsManga;
+                pictureBox2.Image = Properties.Resources.SportsAnime;
+                pictureBox3.Image = Properties.Resources.SportsManga2;
+                pictureBox4.Image = Properties.Resources.SportsManga3;
+                pictureBox5.Image = Properties.Resources.LimpBizkit;
+                pictureBox6.Image = Properties.Resources.LimpBizkit2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_SportsNova;
             }
             else if (comboBox1.Text == "Viviano Westwood")
             {
@@ -1546,9 +1589,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Starlight Waves";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Glauco Marques";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Viviano Westwood trabalha como um guarda penitenciário na Prisão Green Dolphin Street e é uma das quatro pessaos enviadas para assassinar Jolyne Cujoh na Unidade de Ultra-Segurança. Sob a influência do Survivor e em conjunção com seu próprio Stand, Planet Waves, ele prova ser uma força mortal em combate mano a mano.\r\n";
+                label4.Text = "Planet Waves atrai meteoritos distantes em direção de seu usuário, colidindo com qualquer pessoa ou objeto na proximidade. Ele atrai pequenas pedras do espaço, que então caem na Terra precisamente em direção do usuário com velocidade o suficiente para poderem criar buracos no corpo e não podem ser ouvidos até fazerem impacto.\r\nPara proteger o usuário no evento de um meteoro acertá-lo, eles desintegrarão antes de fazer contato, não importando o que acontece durante sua queda.\r\n";
+                label3.Text = "Planet Waves é uma referência ao álbum de Bob Dylan.";
+                pictureBox1.Image = Properties.Resources.VivianoManga;
+                pictureBox2.Image = Properties.Resources.VivianoAnime;
+                pictureBox3.Image = Properties.Resources.VivianoAnime2;
+                pictureBox4.Image = Properties.Resources.VivianoManga2;
+                pictureBox5.Image = Properties.Resources.PlanetWaves;
+                pictureBox6.Image = Properties.Resources.PlanetWaves2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Viviano;
             }
             else if (comboBox1.Text == "Kenzou")
             {
@@ -1559,11 +1609,18 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Drake's Dream";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Hélio Vaccari";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Kenzou é um detento idoso da Prisão Green Dolphin Street, e o antigo guru de uma seita. Ele é enviado para assassinar Jolyne Cujoh na Unidade de Ultra-Segurança. Ele eventualmente luta contra Foo Fighters em vez dela quando ela vem para salvar Jolyne.\r\nKenzou é um assassino e artista marcial esbanjando grande confiança. Seu cartão de privilégio também afirma que ele tem conhecimento sobre o kung-fu, tai chi, cerimônias de chá.\r\n";
+                label4.Text = "O Dragon's Dream é um Stand incomum no fato dele ser funcionalmente neutro durante uma luta e não pode atacar, deixando a responsabilidade de derrotar o inimigo para Kenzou.\r\nA habilidade do Dragon's Dream é dividida entre seu corpo e um anel ambos funcionando como uma bussóla com a qual Kenzou pode ler as coordenadas (em direções cardeais, graus e minutos) de \"lugares sortudos\", pontos no espaço em que Kenzou pode evitar ataques graças ao lugar sortudo.\r\nQuando um lugar azarado é lido, o corpo do Dragon's Dream se materializa como uma flecha dentro de uma esfera flutuante apontando em direção do lugar. Caso Kenzou possa pôr um golpe dentro da esfera cercando o Dragon's Dream, então o golpe será redirecionado para uma área mortal para o inimigo, O golpe será fatal.\r\n";
+                label3.Text = "Kenzou é uma referência a marca francesa Kenzo.";
+                pictureBox1.Image = Properties.Resources.KenzouManga;
+                pictureBox2.Image = Properties.Resources.KenzouAnime;
+                pictureBox3.Image = Properties.Resources.KenzouAnime2;
+                pictureBox4.Image = Properties.Resources.KenzouManga2;
+                pictureBox5.Image = Properties.Resources.DragonsDream;
+                pictureBox6.Image = Properties.Resources.DragonsDream2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_KenzouNova;
             }
-            else if (comboBox1.Text == "Gucci")
+            else if (comboBox1.Text == "Guccio")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -1572,9 +1629,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Survivor";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marco Aurélio Campos";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Guccio é um dos quatro detentos enviados para a Unidade de Ultra-Segurança para assassinar Jolyne Cujoh mas assume um papel passivo. Ele não é um usuário de Stand nato, tendo sido dado o Survivor pelo Whitesnake.\r\nSua biografia indica que ele foi preso por agressão sexual (e furto), lhe tornando um pervertindo.\r\n";
+                label4.Text = "Survivor é um Stand automático que viaja por superfícies molhadas e estimula o sistema límbico humano com um pequeno potencial elétrico de 0.07 Volts e uma corrente de contrário negligível, que é dita aumentar a fúria de um indivíduo ou seu 'espírito de luta. Qualquer sentimento de agressividade será grandemente multiplicado ao ponto daqueles afetados pelo Survivor começarem a lutar um contra o outro sem se importar com as consequências.\r\nAdicionalmente, aqueles sob a influência do Survivor são dados a habilidade de visualizar os músculos do inimigo, vendo os pontos fortes como estrelas brilhantes, enquanto pontos fracos ficam escuros.\r\n";
+                label3.Text = "Guccio é uma referência ao dono da marca Gucci.";
+                pictureBox1.Image = Properties.Resources.GuccioManga;
+                pictureBox2.Image = Properties.Resources.GuccioAnime;
+                pictureBox3.Image = Properties.Resources.GuccioAnime2;
+                pictureBox4.Image = Properties.Resources.GuccioManga2;
+                pictureBox5.Image = Properties.Resources.Survivor;
+                pictureBox6.Image = Properties.Resources.Survivor2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Guccio;
             }
             else if (comboBox1.Text == "D&G")
             {
@@ -1585,11 +1649,18 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "YA-YA MA";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Marco Antônio Abreu";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "D an G é uma das quatro pessoas que Enrico Pucci enviou para a Unidade de Ultra-Segurança para assassinar Jolyne Cujoh. Ele usa seu Stand automático para tentar matar ela e Narciso Anasui no pântano perto da Prisão Green Dolphin Street.\r\nÉ explicado que D an G é posto na segurança máxima para protegê-lo já que sua identidade como um ex-policial lhe faria ser morto na prisão.\r\n";
+                label4.Text = "Yo-Yo Ma é um Stand automático caracterizado por seu grande alcance, autonomia, e resistência.\r\nYo-Yo Ma produz uma saliva ácida, que ele solta em todo lugar. Ele então espera que suas vítimas sejam expostas a ela e derretam. Ele é então capaz de derreter pedaços inteiros de carne sem causar sangramento ou dor já que a solução pode passar despercebida por algum tempo. A dissolução da carne é completamente silenciosa e abrupta, capaz de destruir a mandíbula de Foo Fighters instantaneamente. Ele tem várias maneiras de atacar com ela, como o inserindo no corpo de mosquitos e a misturando com água na frente e um barco em movimento para fazer com que ela seja jogada naqueles a bordo. Humanos são os únicos seres afetados por sua saliva, permitindo com que ele use mosquitos para espalhá-la.\r\n";
+                label3.Text = "Bizarramente, Yo-Yo Ma como um Stand já demonstrou a habilidade de urinar.";
+                pictureBox1.Image = Properties.Resources.DanGManga;
+                pictureBox2.Image = Properties.Resources.DanGAnime;
+                pictureBox3.Image = Properties.Resources.DanGAnime2;
+                pictureBox4.Image = Properties.Resources.DanGManga2;
+                pictureBox5.Image = Properties.Resources.YayamaManga;
+                pictureBox6.Image = Properties.Resources.YayamaAnime;
+                pictureBox8.Image = Properties.Resources.Curiosidade_DG;
             }
-            else if (comboBox1.Text == "Bêbe verde")
+            else if (comboBox1.Text == "Bebê verde")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -1598,9 +1669,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Green, Green, Green Home";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "O Bebê Verde é uma criatura única feita do Osso de DIO e uma multitude de almas. Seu nascimento representa um estágio avançado no plano de DIO e Enrico Pucci, como escrito no Diário de DIO. O bebê é um usuário de Stand, e é automaticamente protegido por ele.\r\nO Bebê Verde em maior parte se comporta como uma criança normal se comportaria, mostrando uma curiosidade geral sobre seus arredores e tendo um hábito de morder coisas aleatórias.\r\n";
+                label4.Text = "Green, Green Grass of Home faz com que tudo em volta do Bebê Verde encolha conforme sua proximidade a ele.\r\nComeçando em uma distância desconhecida do Bebê Verde, qualquer coisa, sejam objetos ou pessoas, serão reduzidos proporcionalmente a sua proximidade ao Bebê. Caso alguém diminua a distância seu tamanho também será diminuído. Como tal, é impossível alcançar o Bebê Verde. Se alguém ir para longe do Bebê Verde, eles crescerão apropriadamente.\r\nÉ possível que a pessoa desapareça caso chegue extremamente perto do Bebê.\r\nSe o Bebê fica interessado em algo ou alguém e vai pegá-lo ou tocá-lo, ele vai automaticamente voltar para seu tamanho normal.\r\n";
+                label3.Text = "O Bebê se funde com o Padre Pucci.";
+                pictureBox1.Image = Properties.Resources.BebeManga;
+                pictureBox2.Image = Properties.Resources.BebeAnime;
+                pictureBox3.Image = Properties.Resources.BebeAnime2;
+                pictureBox4.Image = Properties.Resources.BebeManga2;
+                pictureBox5.Image = Properties.Resources.GreenGreen;
+                pictureBox6.Image = Properties.Resources.GreenGreen2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Bebe__1_;
             }
             else if (comboBox1.Text == "Miu Miu")
             {
@@ -1611,9 +1689,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Jailhouse Lock";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Rebeca Zadra";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Miu Miu é a guarda-chefe da Prisão Green Dolphin Street. Ela confronta Jolyne Cujoh e Emporio Alnino em uma tentativa de evitar com que ela fuja da prisão.\r\nMiu Miu parece levar seu trabalho como guarda seriamente. Pelo contrário dos outros guardas, Miu Miu não usa força excessiva automaticamente quando lidando com os detentos já que ela optou abertamente confrontar Jolyne e mostrá-la seu Stand Jail House Lock como um aviso primeiro. \r\n";
+                label4.Text = "Jail House Lock é um Stand capaz de se integrar com seu ambiente e rapidamente viajar por suas superfícies. Seu corpo inteiro se contorcerá para combinar com o exterior de qualquer objeto com que ele se eintegre como barras de ferro ou as paredes da Prisão Green Dolphin Street.\r\nJail House Lock faz com que suas vítimas se lembram de apenas três novos pedaços de informação.\r\nO Stand é ativado caso alguém ou seu Stand toque nas barras ou paredes além da sala de visita da Prisão Green Dolphin Street, ou caso Miuccia o use em alguém.\r\n";
+                label3.Text = "Miu Miu é uma referência a marca de luxo da mesma fundadora da Prada.";
+                pictureBox1.Image = Properties.Resources.MiuMiuManga;
+                pictureBox2.Image = Properties.Resources.MiuMiuAnime;
+                pictureBox3.Image = Properties.Resources.MiuMiuAnime2;
+                pictureBox4.Image = Properties.Resources.MiuMiuManga2;
+                pictureBox5.Image = Properties.Resources.JailHouseLock;
+                pictureBox6.Image = Properties.Resources.JailHouseLock2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_MiuMiu;
             }
             else if (comboBox1.Text == "Ungalo")
             {
@@ -1624,9 +1709,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Bohemian Ecstatic";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Yan Gesteira";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Ungalo é um dos filhos ilegítimos de DIO com uma mulher desconhecida. Quando ele fatidicamente conhece Enrico Pucci, ele desperta seu Stand e causa caos ao trazer personagens fictícios para a realidade para matar o Jolyne e os outros.\r\nHerdando as piores características de seu pai, Ungalo é um indivíduo sádico, violento, e incrivelmente vulgar com um pavio curto.\r\n";
+                label4.Text = "Bohemian Rhapsody é capaz de trazer personagens fictícios retratados em imagens à realidade através das mídias os contendo. Personagens de desenhos e animes e até mesmo obras de arte e os desenhos de outra pessoas são afetados.\r\nNão há maneira de mudar o curso da história em que uma pessoa se encontra já que ela já foi escrita.\r\nAlém da concretização da ficção, o corpo e alma da vítima são separados. Quando uma pessoa encontra um personagem que ela gosta, sua alma é arrastada para o papel do personagem, assumindo a aparência e o destino do personagem.\r\nDestruir os personagens fictícos que trouxeram uma vítima para uma história é a única maneira de devolver uma alma ao seu corpo.\r\nUma pessoa pode ser imune a essa habilidade caso eles não tenham conhecimento da história nem dos personagens.\r\n";
+                label3.Text = "Bohemian Rhapsody é uma referência a uma música do Queen.";
+                pictureBox1.Image = Properties.Resources.UngaloAnime;
+                pictureBox2.Image = Properties.Resources.UngaloManga;
+                pictureBox3.Image = Properties.Resources.UngaloAnime2;
+                pictureBox4.Image = Properties.Resources.UngaloAnime3;
+                pictureBox5.Image = Properties.Resources.BohemianRapsody;
+                pictureBox6.Image = Properties.Resources.BohemianRapsody2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Ungalo;
             }
             else if (comboBox1.Text == "Rikiel")
             {
@@ -1637,11 +1729,18 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Sky Guy";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Fábio Lucindo";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Rikiel é um dos filhos ilegítimos de DIO com uma mulher desconhecida. Quando ele conhece Enrico Pucci, ele desperta seu Stand e luta contra Jolyne Cujoh e Ermes Costello.\r\nRikiel é um homem leal e luta até o final para pagar a sua dívida com Pucci. Após Jolyne derrotá-lo, Rikiel demonstra um senso de honra e aceita sua derrota.\r\n";
+                label4.Text = "Sky High funciona como uma ferramenta que permite com que Rikiel controle os misteriosos criptídeos conhecidos como rods. Apesar do seu tamanho, eles são incrivelmente poderosos e letais.\r\nRods sempre flutuam no ar e se movem em velocidades indetectáveis ao olho nu, e só foram vistos em câmeras e gravações de vídeo.\r\nO único poder do Sky High é controlar e dirigir os rods.\r\nRikiel se aproveita do hábito dos rods de sugar calor para rapidamente e localmente diminuir a temperatura de um corpo desejado de longe. Quando concentrado em um lugar só, a rápida perca de calor pode fazer com que partes do corpo e órgãos internos fiquem suscetíveis a doenças e a parar de funcionar.\r\nRikiel precisa se concentrar adequadamente nos rods, e seus efeitos podem ir contra ele caso ele perca sua confiança. Caso ele entre em pânico, o Sky High ordena que todos os rods fiquem parados contra sua vontade.\r\n";
+                label3.Text = "Sky High é uma referência a uma música do Jigsaw.";
+                pictureBox1.Image = Properties.Resources.RikielManga;
+                pictureBox2.Image = Properties.Resources.RikielAnime;
+                pictureBox3.Image = Properties.Resources.RikielAnime2;
+                pictureBox4.Image = Properties.Resources.RikielManga2;
+                pictureBox5.Image = Properties.Resources.SkyHigh;
+                pictureBox6.Image = Properties.Resources.SkyHigh;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Rikiel;
             }
-            else if (comboBox1.Text == "Versus")
+            else if (comboBox1.Text == "Donatello Versus")
             {
                 checkBox1.Text = "Stand";
                 checkBox2.Text = "Descrição do Stand";
@@ -1650,9 +1749,16 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "NetherWorld";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Renan Freitas";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Donatello é um dos filhos ilegítimos de DIO, e o meio-irmão de Ungalo, Rikiel, e Giorno Giovanna. Quando ele fatidicamente encontra Enrico Pucci, ele desperta seu Stand, Under World, e luta contra Jolyne Cujoh e Ermes Costello em Orlando. Embora ele coopere com Pucci, ele tem suas próprias ambições.\r\nTendo sido abusado, encriminado e injustamente preso por um crime que ele não cometeu, Donatello Versus desenvolveu um rancor contra a sociedade por inteiro.\r\n";
+                label4.Text = "A principal habilidadea de Underworld é escavar as memórias de eventos e pessoas do passado através da presunção de que o chão haja uma memória de qualquer coisa que tenha acontecido a ele. Versus usa isso para invocar qualquer evento histórico acontecido em Orlando, Florida ao cavar e revelar o solo, e mais tarde prender qualquer um nele. Memórias incluem, mas não são limitadas a: acidentes de carro, tiroteios, acidentes de avião, jogos de futebol americano da NFL, minerais, e até memso pessoas envolvidas no evento.\r\nEssas memórias também são compostas da terra e podem serem vistas por pessoas sem Stand. Como tal, caso alguém seja pego por um evento, eles passaram por aquilo que aconteceu no passado e não podem interferir ou mudar nada de qualquer forma. Por exemplo, caso alguém se pego pela memória de um acidente de avião, eles irão inevitavelmente passar por dito acidente e morrer.\r\n";
+                label3.Text = "Underworld é uma referência a banda inglesa de eletrônica.";
+                pictureBox1.Image = Properties.Resources.DonatelloManga;
+                pictureBox2.Image = Properties.Resources.DonatelloAnime;
+                pictureBox3.Image = Properties.Resources.DonatelloAnime2;
+                pictureBox4.Image = Properties.Resources.DonatelloManga2;
+                pictureBox5.Image = Properties.Resources.Underworld;
+                pictureBox6.Image = Properties.Resources.Underworld2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_DonatelloNova;
             }
             else if (comboBox1.Text == "Enrico Pucci")
             {
@@ -1660,12 +1766,19 @@ namespace Jojos_Bizarre_Adventure
                 checkBox2.Text = "Descrição do Stand";
                 checkBox3.Text = "Dublador";
                 checkBox4.Text = "Morte";
-                groupBox2.Text = "Pale Snake - Madein Heaven";
+                groupBox2.Text = "Pale Snake - C-Moon";
                 groupBox3.Text = checkBox4.Text;
                 groupBox4.Text = "Duda Espinoza";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Um seguidor leal e amigo de DIO, Pucci deseja implementar um plano formulado por DIO há muito tempo para alcançar o céu. Trabalhando como um capelão na Prisão Green Dolphin Street, ele secretamente incrimina Jolyne Cujoh e a usa como isca para atrair Jotaro Kujo e suas memórias do Diário de DIO.\r\nGeralmente, Pucci é uma pessoa bastante imoral, não tendo escrúpulos em ser violento ou colaborar com múltiplos criminosos para concluir seus objetivos.\r\n";
+                label4.Text = "Pucci possui 3 Stands, Whitesnake é seu Stand original e permite que extrair uma porção ou a psique inteira de uma pessoa para fora de seus corpos na forma de discos tangíveis e pô-las em outras pessoas. Para isso, o Whitesnake deve tocar em sua vítima e gastar tempo para fisicamente \"extrair\" o disco dela; como tal, a extração parcial é inefetiva. Pessoas cujos discos de Stand e memória são extraídos ficaram inconscientes e podem morrer. Ele também possui um ácido alucinatório.\r\nApós se fundir com o Bebê Verde, Whitesnake evolui para C-MOON, permitindo que dentro de um raio de 3 quilômetros em volta de Pucci, a gravidade mude para que pessoas e objetos sejam movidos para longe de Pucci. Logo, qualquer objeto não-fixado irá cair como se a Terra fosse um penhasco gigante.\r\nO C-MOON também pode dramaticamente modificar a força gravitacional agindo em um objeto ao tocá-lo com seus punhos, que é expressado por aquele objeto sendo virado do avesso.\r\n";
+                label3.Text = "Made In Heaven é a 3ª e última fase de seu Stand, que permite acelerar dramaticamente o fluxo do tempo.\r\n";
+                pictureBox1.Image = Properties.Resources.PucciManga;
+                pictureBox2.Image = Properties.Resources.PucciAnime;
+                pictureBox3.Image = Properties.Resources.PucciAnime2;
+                pictureBox4.Image = Properties.Resources.PucciManga2;
+                pictureBox5.Image = Properties.Resources.WhiteSnake;
+                pictureBox6.Image = Properties.Resources.Cmoon;
+                pictureBox8.Image = Properties.Resources.MadeinHeaven;
             }
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
