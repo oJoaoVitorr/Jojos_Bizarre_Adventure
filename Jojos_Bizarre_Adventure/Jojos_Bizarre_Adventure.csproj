@@ -2003,5 +2003,8 @@
   <ItemGroup>
     <None Include="Resources\StoneJolyne.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WppStardustnovo.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

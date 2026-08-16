@@ -32,12 +32,12 @@ namespace Jojos_Bizarre_Adventure
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
-                label1.Text = "Golden Wind é a quinta parte de JoJo's Bizarre Adventure, Onde Giorno Giovanna tem o sonho de acabar com a Mafia Italiana e O Chefe, Diavolo";
+                label1.Text = "Golden Wind é a quinta parte de JoJo's Bizarre Adventure, Onde Giorno Giovanna tem o sonho de acabar com a Mafia Italiana e O Chefe, Diavolo.";
             }
             else if (listBox1.Text == "STARDUST CRUSADERS")
             {
                 musica = Properties.Resources.StardustGeral;
-                this.BackgroundImage = Properties.Resources.WppStardust;
+                this.BackgroundImage = Properties.Resources.WppStardustnovo;
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
@@ -1567,7 +1567,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox6.Image = Properties.Resources.Cmoon;
                 pictureBox7.Image = Properties.Resources.DudaEspinozza;
                 pictureBox8.Image = Properties.Resources.MadeinHeaven;
-                 player.Stop();
+                player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
                 
@@ -1683,8 +1683,10 @@ namespace Jojos_Bizarre_Adventure
 
         }
 
- 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Jojos_Bizarre_Adventure
 {
@@ -15,6 +16,23 @@ namespace Jojos_Bizarre_Adventure
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+              
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Start();
+            this.Close();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            progressBar1.PerformStep();
+            label1.Text = "Iniciando..." + progressBar1.Value.ToString() + "%";
         }
     }
 }
