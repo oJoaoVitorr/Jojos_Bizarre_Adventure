@@ -1751,5 +1751,257 @@
   <ItemGroup>
     <None Include="Resources\Curiosidade_Bebe %281%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DudaEspinozza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RenanFreitas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabioLucindo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YanGesteira.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RebecaZadra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarcoAntonioAbreu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarcoAurelioCampos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelioVaccari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhilippeMaia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FernandaBullara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClecioSouto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FloraPaulita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GabrielNoya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GabrielMartins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TatianeKeplmair.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PattSouza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FelipeZilse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ItaloLuiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallaceRaj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReginaldoPrimo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiguelDeBritto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CharlesDalla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GustavoVergani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViniciusFagundes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RobsonKumode.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RogerioCesar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuilhermeMarcos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DouglasGuedes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarcioAraujo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RodrigoAndreatto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RenatoSoares.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuizCarlosPersy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BiancaAlencar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WilliamViana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarcioVaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AndreSauer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarcosPejon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LucasGama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VagnerFagundes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FranciscoJunior.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlfredoRollo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarceloGarcia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelioRibeiro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabioDeCastro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarlaMartelli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WesleySantana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AngelicaSantos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RodrigoNanal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WellingtonLima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiseleVechin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabioMoura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViiZedek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarceloCampos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CeciliaLemes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RodrigoAraujo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GlauciaFranchi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThiagoZambrano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SidneyCesar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaphaelRossatto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GlaucoMarques.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PauloAvila.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MauroEduardo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarlosCampanile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PedroAlcantara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FernandoMendonca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DudaRibeiro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiago Longo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mauro Ramos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WilkenMazzei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SemDublador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FernandoLopes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WppStardust.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WppStone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WppGolden.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WppGolden %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldenGeral.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoneGeral.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StardustGeral.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StonePucci.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldenDiavolo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldenGiorno.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StardustDio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StardustJotaro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoneJolyne.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

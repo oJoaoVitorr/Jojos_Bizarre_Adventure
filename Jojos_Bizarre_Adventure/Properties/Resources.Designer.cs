@@ -163,6 +163,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AlfredoRollo {
+            get {
+                object obj = ResourceManager.GetObject("AlfredoRollo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AnasuiAnime {
             get {
                 object obj = ResourceManager.GetObject("AnasuiAnime", resourceCulture);
@@ -196,6 +206,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap AnasuiManga2 {
             get {
                 object obj = ResourceManager.GetObject("AnasuiManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AndreSauer {
+            get {
+                object obj = ResourceManager.GetObject("AndreSauer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AngelicaSantos {
+            get {
+                object obj = ResourceManager.GetObject("AngelicaSantos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,6 +523,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BiancaAlencar {
+            get {
+                object obj = ResourceManager.GetObject("BiancaAlencar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BlackSabbath {
             get {
                 object obj = ResourceManager.GetObject("BlackSabbath", resourceCulture);
@@ -716,6 +756,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap CapitaoTManga2 {
             get {
                 object obj = ResourceManager.GetObject("CapitaoTManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CarlaMartelli {
+            get {
+                object obj = ResourceManager.GetObject("CarlaMartelli", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CarlosCampanile {
+            get {
+                object obj = ResourceManager.GetObject("CarlosCampanile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1083,6 +1143,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CeciliaLemes {
+            get {
+                object obj = ResourceManager.GetObject("CeciliaLemes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CharlesDalla {
+            get {
+                object obj = ResourceManager.GetObject("CharlesDalla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CiocolattaAnime {
             get {
                 object obj = ResourceManager.GetObject("CiocolattaAnime", resourceCulture);
@@ -1136,6 +1216,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap Clash2 {
             get {
                 object obj = ResourceManager.GetObject("Clash2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ClecioSouto {
+            get {
+                object obj = ResourceManager.GetObject("ClecioSouto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1863,6 +1953,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DouglasGuedes {
+            get {
+                object obj = ResourceManager.GetObject("DouglasGuedes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DragonsDream {
             get {
                 object obj = ResourceManager.GetObject("DragonsDream", resourceCulture);
@@ -1876,6 +1976,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap DragonsDream2 {
             get {
                 object obj = ResourceManager.GetObject("DragonsDream2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DudaEspinozza {
+            get {
+                object obj = ResourceManager.GetObject("DudaEspinozza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DudaRibeiro {
+            get {
+                object obj = ResourceManager.GetObject("DudaRibeiro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2053,6 +2173,76 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FabioDeCastro {
+            get {
+                object obj = ResourceManager.GetObject("FabioDeCastro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FabioLucindo {
+            get {
+                object obj = ResourceManager.GetObject("FabioLucindo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FabioMoura {
+            get {
+                object obj = ResourceManager.GetObject("FabioMoura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FelipeZilse {
+            get {
+                object obj = ResourceManager.GetObject("FelipeZilse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FernandaBullara {
+            get {
+                object obj = ResourceManager.GetObject("FernandaBullara", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FernandoLopes {
+            get {
+                object obj = ResourceManager.GetObject("FernandoLopes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FernandoMendonca {
+            get {
+                object obj = ResourceManager.GetObject("FernandoMendonca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FF {
             get {
                 object obj = ResourceManager.GetObject("FF", resourceCulture);
@@ -2106,6 +2296,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap FFManga2 {
             get {
                 object obj = ResourceManager.GetObject("FFManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FloraPaulita {
+            get {
+                object obj = ResourceManager.GetObject("FloraPaulita", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2213,6 +2413,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FranciscoJunior {
+            get {
+                object obj = ResourceManager.GetObject("FranciscoJunior", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FugoAnime {
             get {
                 object obj = ResourceManager.GetObject("FugoAnime", resourceCulture);
@@ -2246,6 +2456,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap FugoManga2 {
             get {
                 object obj = ResourceManager.GetObject("FugoManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GabrielMartins {
+            get {
+                object obj = ResourceManager.GetObject("GabrielMartins", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GabrielNoya {
+            get {
+                object obj = ResourceManager.GetObject("GabrielNoya", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2367,6 +2597,63 @@ namespace Jojos_Bizarre_Adventure.Properties {
             get {
                 object obj = ResourceManager.GetObject("GiornoManga2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GiseleVechin {
+            get {
+                object obj = ResourceManager.GetObject("GiseleVechin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GlauciaFranchi {
+            get {
+                object obj = ResourceManager.GetObject("GlauciaFranchi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GlaucoMarques {
+            get {
+                object obj = ResourceManager.GetObject("GlaucoMarques", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream GoldenDiavolo {
+            get {
+                return ResourceManager.GetStream("GoldenDiavolo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream GoldenGeral {
+            get {
+                return ResourceManager.GetStream("GoldenGeral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream GoldenGiorno {
+            get {
+                return ResourceManager.GetStream("GoldenGiorno", resourceCulture);
             }
         }
         
@@ -2513,6 +2800,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GuilhermeMarcos {
+            get {
+                object obj = ResourceManager.GetObject("GuilhermeMarcos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GustavoVergani {
+            get {
+                object obj = ResourceManager.GetObject("GustavoVergani", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GwessAnime {
             get {
                 object obj = ResourceManager.GetObject("GwessAnime", resourceCulture);
@@ -2546,6 +2853,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap GwessManga2 {
             get {
                 object obj = ResourceManager.GetObject("GwessManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HelioRibeiro {
+            get {
+                object obj = ResourceManager.GetObject("HelioRibeiro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HelioVaccari {
+            get {
+                object obj = ResourceManager.GetObject("HelioVaccari", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2786,6 +3113,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap ImperatrizManga {
             get {
                 object obj = ResourceManager.GetObject("ImperatrizManga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ItaloLuiz {
+            get {
+                object obj = ResourceManager.GetObject("ItaloLuiz", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3343,6 +3680,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LucasGama {
+            get {
+                object obj = ResourceManager.GetObject("LucasGama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LuizCarlosPersy {
+            get {
+                object obj = ResourceManager.GetObject("LuizCarlosPersy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MadeinHeaven {
             get {
                 object obj = ResourceManager.GetObject("MadeinHeaven", resourceCulture);
@@ -3453,6 +3810,76 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MarceloCampos {
+            get {
+                object obj = ResourceManager.GetObject("MarceloCampos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarceloGarcia {
+            get {
+                object obj = ResourceManager.GetObject("MarceloGarcia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarcioAraujo {
+            get {
+                object obj = ResourceManager.GetObject("MarcioAraujo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarcioVaz {
+            get {
+                object obj = ResourceManager.GetObject("MarcioVaz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarcoAntonioAbreu {
+            get {
+                object obj = ResourceManager.GetObject("MarcoAntonioAbreu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarcoAurelioCampos {
+            get {
+                object obj = ResourceManager.GetObject("MarcoAurelioCampos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarcosPejon {
+            get {
+                object obj = ResourceManager.GetObject("MarcosPejon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MariahAnime1 {
             get {
                 object obj = ResourceManager.GetObject("MariahAnime1", resourceCulture);
@@ -3553,6 +3980,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mauro_Ramos {
+            get {
+                object obj = ResourceManager.GetObject("Mauro Ramos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MauroEduardo {
+            get {
+                object obj = ResourceManager.GetObject("MauroEduardo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MeloneAnime {
             get {
                 object obj = ResourceManager.GetObject("MeloneAnime", resourceCulture);
@@ -3646,6 +4093,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap MidlerManga2 {
             get {
                 object obj = ResourceManager.GetObject("MidlerManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MiguelDeBritto {
+            get {
+                object obj = ResourceManager.GetObject("MiguelDeBritto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4033,6 +4490,36 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PattSouza {
+            get {
+                object obj = ResourceManager.GetObject("PattSouza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PauloAvila {
+            get {
+                object obj = ResourceManager.GetObject("PauloAvila", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PedroAlcantara {
+            get {
+                object obj = ResourceManager.GetObject("PedroAlcantara", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PesciAnime {
             get {
                 object obj = ResourceManager.GetObject("PesciAnime", resourceCulture);
@@ -4106,6 +4593,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap PetShopManga3 {
             get {
                 object obj = ResourceManager.GetObject("PetShopManga3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PhilippeMaia {
+            get {
+                object obj = ResourceManager.GetObject("PhilippeMaia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4333,6 +4830,56 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RaphaelRossatto {
+            get {
+                object obj = ResourceManager.GetObject("RaphaelRossatto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RebecaZadra {
+            get {
+                object obj = ResourceManager.GetObject("RebecaZadra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ReginaldoPrimo {
+            get {
+                object obj = ResourceManager.GetObject("ReginaldoPrimo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RenanFreitas {
+            get {
+                object obj = ResourceManager.GetObject("RenanFreitas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RenatoSoares {
+            get {
+                object obj = ResourceManager.GetObject("RenatoSoares", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RikielAnime {
             get {
                 object obj = ResourceManager.GetObject("RikielAnime", resourceCulture);
@@ -4423,6 +4970,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RobsonKumode {
+            get {
+                object obj = ResourceManager.GetObject("RobsonKumode", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RodaDaFortuna {
             get {
                 object obj = ResourceManager.GetObject("RodaDaFortuna", resourceCulture);
@@ -4436,6 +4993,46 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap RodaDaFortuna2 {
             get {
                 object obj = ResourceManager.GetObject("RodaDaFortuna2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RodrigoAndreatto {
+            get {
+                object obj = ResourceManager.GetObject("RodrigoAndreatto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RodrigoAraujo {
+            get {
+                object obj = ResourceManager.GetObject("RodrigoAraujo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RodrigoNanal {
+            get {
+                object obj = ResourceManager.GetObject("RodrigoNanal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RogerioCesar {
+            get {
+                object obj = ResourceManager.GetObject("RogerioCesar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4603,6 +5200,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SemDublador {
+            get {
+                object obj = ResourceManager.GetObject("SemDublador", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Set {
             get {
                 object obj = ResourceManager.GetObject("Set", resourceCulture);
@@ -4616,6 +5223,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap Set2 {
             get {
                 object obj = ResourceManager.GetObject("Set2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SidneyCesar {
+            get {
+                object obj = ResourceManager.GetObject("SidneyCesar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4821,6 +5438,33 @@ namespace Jojos_Bizarre_Adventure.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream StardustDio {
+            get {
+                return ResourceManager.GetStream("StardustDio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream StardustGeral {
+            get {
+                return ResourceManager.GetStream("StardustGeral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream StardustJotaro {
+            get {
+                return ResourceManager.GetStream("StardustJotaro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap starpanime {
@@ -4931,6 +5575,24 @@ namespace Jojos_Bizarre_Adventure.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream StoneGeral {
+            get {
+                return ResourceManager.GetStream("StoneGeral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream StoneJolyne {
+            get {
+                return ResourceManager.GetStream("StoneJolyne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap StoneOcean {
@@ -4947,6 +5609,15 @@ namespace Jojos_Bizarre_Adventure.Properties {
             get {
                 object obj = ResourceManager.GetObject("StoneOcean2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream StonePucci {
+            get {
+                return ResourceManager.GetStream("StonePucci", resourceCulture);
             }
         }
         
@@ -4986,6 +5657,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap TalkingMouth2 {
             get {
                 object obj = ResourceManager.GetObject("TalkingMouth2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TatianeKeplmair {
+            get {
+                object obj = ResourceManager.GetObject("TatianeKeplmair", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5046,6 +5727,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap ThankfulDeath2 {
             get {
                 object obj = ResourceManager.GetObject("ThankfulDeath2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thiago_Longo {
+            get {
+                object obj = ResourceManager.GetObject("Thiago Longo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ThiagoZambrano {
+            get {
+                object obj = ResourceManager.GetObject("ThiagoZambrano", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5293,6 +5994,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap VagnerFagundes {
+            get {
+                object obj = ResourceManager.GetObject("VagnerFagundes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap VanillaAnime2 {
             get {
                 object obj = ResourceManager.GetObject("VanillaAnime2", resourceCulture);
@@ -5333,6 +6044,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ViiZedek {
+            get {
+                object obj = ResourceManager.GetObject("ViiZedek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ViniciusFagundes {
+            get {
+                object obj = ResourceManager.GetObject("ViniciusFagundes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap VivianoAnime {
             get {
                 object obj = ResourceManager.GetObject("VivianoAnime", resourceCulture);
@@ -5366,6 +6097,16 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap VivianoManga2 {
             get {
                 object obj = ResourceManager.GetObject("VivianoManga2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WallaceRaj {
+            get {
+                object obj = ResourceManager.GetObject("WallaceRaj", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5473,6 +6214,26 @@ namespace Jojos_Bizarre_Adventure.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap WellingtonLima {
+            get {
+                object obj = ResourceManager.GetObject("WellingtonLima", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WesleySantana {
+            get {
+                object obj = ResourceManager.GetObject("WesleySantana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhiteAlbum {
             get {
                 object obj = ResourceManager.GetObject("WhiteAlbum", resourceCulture);
@@ -5496,6 +6257,76 @@ namespace Jojos_Bizarre_Adventure.Properties {
         internal static System.Drawing.Bitmap WhiteSnake {
             get {
                 object obj = ResourceManager.GetObject("WhiteSnake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WilkenMazzei {
+            get {
+                object obj = ResourceManager.GetObject("WilkenMazzei", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WilliamViana {
+            get {
+                object obj = ResourceManager.GetObject("WilliamViana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WppGolden {
+            get {
+                object obj = ResourceManager.GetObject("WppGolden", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WppGolden__1_ {
+            get {
+                object obj = ResourceManager.GetObject("WppGolden (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WppStardust {
+            get {
+                object obj = ResourceManager.GetObject("WppStardust", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WppStone {
+            get {
+                object obj = ResourceManager.GetObject("WppStone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YanGesteira {
+            get {
+                object obj = ResourceManager.GetObject("YanGesteira", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

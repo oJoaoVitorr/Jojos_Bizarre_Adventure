@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,9 @@ namespace Jojos_Bizarre_Adventure
 {
     public partial class Form2 : Form
     {
+        SoundPlayer player = new SoundPlayer();
+        System.IO.Stream musica ;
+
         public Form2()
         {
             InitializeComponent();
@@ -23,18 +27,31 @@ namespace Jojos_Bizarre_Adventure
         {
             if (listBox1.Text == "GOLDEN WIND")
             {
-                //this.BackgroundImage = Properties.Resources.WallpaperGoldenAll;
-                label1.Text = "Golden Wind é a quinta parte de JoJo's Bizarre Adventure, serializada na Weekly Shōnen Jump de dezembro de" +
-                    " 1995 a abril de 1999. O arco abrange um total de 155 capítulos e ocorre após Diamond is Unbreakable.";
+                musica = Properties.Resources.GoldenGeral;
+                this.BackgroundImage = Properties.Resources.WppGolden__1_;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
+                label1.Text = "Golden Wind é a quinta parte de JoJo's Bizarre Adventure, Onde Giorno Giovanna tem o sonho de acabar com a Mafia Italiana e O Chefe, Diavolo";
             }
             else if (listBox1.Text == "STARDUST CRUSADERS")
-            { 
-                //this.BackgroundImage = Properties.Resources.WallpaperStardust;
+            {
+                musica = Properties.Resources.StardustGeral;
+                this.BackgroundImage = Properties.Resources.WppStardust;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
+                label1.Text = "Stardust Crusaders é a terceira parte de JoJo's Bizarre Adventure, Onde Jotaro Kujo e seus aliados viajam pelo mundo para derrotar Dio Brando.";
 
             }
             else if (listBox1.Text == "STONE OCEAN")
             {
-                //this.BackgroundImage = Properties.Resources.WallpaperStone;
+                musica = Properties.Resources.StoneGeral;
+                 this.BackgroundImage = Properties.Resources.WppStone;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
+                label1.Text = "Stone Ocean é a sexta parte de JoJo's Bizarre Adventure, Onde Jolyne Cujoh é presa e precisa derrotar Enrico Pucci para salvar sua vida e impedi-lo de finalizar o plano de DIO.";
             }
             checkBox1.Text = "Stand"; checkBox2.Text = "Descrição do Stand"; checkBox4.Text = "Curiosidade"; groupBox3.Text = "Curiosidade";
             radioButton1.Visible = true; radioButton1.Checked = false;
@@ -84,7 +101,7 @@ namespace Jojos_Bizarre_Adventure
             
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
             {
-
+                
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Gray Fly");
                 comboBox1.Items.Add("Capitão Tennille");
@@ -118,7 +135,7 @@ namespace Jojos_Bizarre_Adventure
 
             else if (listBox1.Text == "GOLDEN WIND" && radioButton2.Checked)
             {
-
+                
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Polpo");
                 comboBox1.Items.Add("Mario Zucherro");
@@ -142,7 +159,7 @@ namespace Jojos_Bizarre_Adventure
 
             else if (listBox1.Text == "STONE OCEAN" && radioButton2.Checked)
             {
-
+                
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Gwess");
                 comboBox1.Items.Add("Jongalli A");
@@ -181,6 +198,7 @@ namespace Jojos_Bizarre_Adventure
             //STARDUST HEROIS
             if (comboBox1.Text == "Jotaro Kujo" && listBox1.Text=="STARDUST CRUSADERS")
             {
+                musica = Properties.Resources.StardustJotaro;
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Star Platinum";
                 groupBox4.Text = "Wilken Mazzei";
@@ -193,8 +211,11 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.jotaromangac;
                 pictureBox5.Image = Properties.Resources.starpanime;
                 pictureBox6.Image = Properties.Resources.starpmanga;
+                pictureBox7.Image = Properties.Resources.WilkenMazzei;   
                 pictureBox8.Image = Properties.Resources.Carta_Estrela;
-               
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
 
             }
             else if (comboBox1.Text == "Joseph Joestar")
@@ -211,8 +232,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.JosephManga2;
                 pictureBox5.Image = Properties.Resources.HermitManga;
                 pictureBox6.Image = Properties.Resources.HermitManga2;
-                //pictureBox7.Image = Properties.Resources.;//
-               
+                pictureBox7.Image = Properties.Resources.Mauro_Ramos;
                 pictureBox8.Image = Properties.Resources.Carta_Hermit;
             }
             else if (comboBox1.Text == "Kakyoin")
@@ -229,8 +249,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.KakyoinManga2;
                 pictureBox5.Image = Properties.Resources.Hierophant;
                 pictureBox6.Image = Properties.Resources.Hierophant2;
-                /*/pictureBox7.Image =  Properties.Resources.;
-                pictureBox7.Image =  Properties.Resources.;/*/
+                pictureBox7.Image = Properties.Resources.Thiago_Longo;
                 pictureBox8.Image = Properties.Resources.Carta_Hierofante;
 
             }
@@ -248,7 +267,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.PolnareffManga2;
                 pictureBox5.Image = Properties.Resources.SilverChariot;
                 pictureBox6.Image = Properties.Resources.SilverChariot1;
-                //pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.FernandoMendonca;
                 pictureBox8.Image = Properties.Resources.Carta_Silver_Chariot;
             }
             else if (comboBox1.Text == "Avdol")
@@ -266,7 +285,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.AvdolManga2;
                 pictureBox5.Image = Properties.Resources.MagoVerm;
                 pictureBox6.Image = Properties.Resources.MagoVerm2;
-                //pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.DudaRibeiro;
 
             }
             else if (comboBox1.Text == "Iggy")
@@ -283,7 +302,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.IggyManga2;
                 pictureBox5.Image = Properties.Resources.Louco;
                 pictureBox6.Image = Properties.Resources.Louco2;
-                //pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.PedroAlcantara;
                 pictureBox8.Image = Properties.Resources.Carta_Louco;
             }
 
@@ -302,7 +321,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MidlerJogo;
                 pictureBox5.Image = Properties.Resources.SacerdotisaAnime2 ;
                 pictureBox6.Image = Properties.Resources.SacerdotisaManga;
-               // pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.GiseleVechin;
                 pictureBox8.Image = Properties.Resources.Carta_Sacerdotisa;
             }
             else if (comboBox1.Text == "Nena")
@@ -320,7 +339,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.NenaManga2;
                 pictureBox5.Image = Properties.Resources.ImperatrizAnime;
                 pictureBox6.Image = Properties.Resources.ImperatrizManga;
-               // pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.GlauciaFranchi;
             }
             else if (comboBox1.Text == "Hol Horse")
             {
@@ -336,7 +355,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.HolHorseManga2;
                 pictureBox5.Image = Properties.Resources.Imperador;
                 pictureBox6.Image = Properties.Resources.Imperador2;
-               // pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.ThiagoZambrano;
                 pictureBox8.Image = Properties.Resources.Carta_Imperador;
             }
             else if (comboBox1.Text == "Steely Dan")
@@ -353,7 +372,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.SteelyDanManga3;
                 pictureBox5.Image = Properties.Resources.Lovers;
                 pictureBox6.Image = Properties.Resources.Lovers2;
-                //pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.MarceloCampos;
                 pictureBox8.Image = Properties.Resources.Carta_Amantes;
 
             }
@@ -371,7 +390,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.ForeverManga2 ;
                 pictureBox5.Image = Properties.Resources.Forca;
                 pictureBox6.Image = Properties.Resources.Forca2;
-                //pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.PauloAvila;
                 pictureBox8.Image = Properties.Resources.Carta_Forca;
             }
             else if (comboBox1.Text == "ZZ")
@@ -388,7 +407,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.ZZManga2 ;
                 pictureBox5.Image = Properties.Resources.RodaDaFortuna ;
                 pictureBox6.Image = Properties.Resources.RodaDaFortuna2 ;
-               // pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.RodrigoAraujo;
                 pictureBox8.Image = Properties.Resources.Carta_Roda_da_Fortuna;
             }
             else if (comboBox1.Text == "Enya")
@@ -405,7 +424,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.EnyaManga3;
                 pictureBox5.Image = Properties.Resources.Justica;
                 pictureBox6.Image = Properties.Resources.Justica2;
-                //pictureBox7.Image = Properties.Resources.;
+                pictureBox7.Image = Properties.Resources.CeciliaLemes;
                 pictureBox8.Image = Properties.Resources.Carta_Justica;
             }
             else if (comboBox1.Text == "J. Geil")
@@ -422,6 +441,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.JGeilManga2;
                 pictureBox5.Image = Properties.Resources.EnforcadoManga2;
                 pictureBox6.Image = Properties.Resources.EnforcadoManga3;
+                pictureBox7.Image = Properties.Resources.SidneyCesar;
                 pictureBox8.Image = Properties.Resources.Carta__Enforcado;
             }
             else if (comboBox1.Text == "Manish Boy")
@@ -438,6 +458,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MannishBoyAnime2;
                 pictureBox5.Image = Properties.Resources.MorteManga;
                 pictureBox6.Image = Properties.Resources.MorteMangaa;
+                pictureBox7.Image = Properties.Resources.ViiZedek;
                 pictureBox8.Image = Properties.Resources.Carta_Morte;
             }
             else if (comboBox1.Text == "Rubber Soul")
@@ -454,6 +475,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.RubberSoulManga2;
                 pictureBox5.Image = Properties.Resources.YellowTemperance;
                 pictureBox6.Image = Properties.Resources.YellowTemperance2;
+                pictureBox7.Image = Properties.Resources.RaphaelRossatto;
                 pictureBox8.Image = Properties.Resources.Carta_Temperanca;
             }
             else if (comboBox1.Text == "Devo")
@@ -470,6 +492,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DevoManga2;
                 pictureBox5.Image = Properties.Resources.Diabo;
                 pictureBox6.Image = Properties.Resources.Diabo2;
+                pictureBox7.Image = Properties.Resources.GlaucoMarques;
                 pictureBox8.Image = Properties.Resources.Carta_Diabo;
             }
             else if (comboBox1.Text == "Capitão Tennille")
@@ -486,13 +509,14 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.CapitaoTManga2;
                 pictureBox5.Image = Properties.Resources.LuaAzul;
                 pictureBox6.Image = Properties.Resources.LuaAzul2;
+                pictureBox7.Image = Properties.Resources.MauroEduardo;
                 pictureBox8.Image = Properties.Resources.Carta_Lua;
             }
             else if (comboBox1.Text == "Arabia Fats")
             {
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Sol";
-                groupBox4.Text = "Manabu Sakamaki";
+                groupBox4.Text = "Não possui dublador";
                 label2.Text = "Arabia Fats é um agente de DIO, que embosca o Grupo Joestar no meio do deserto árabe com seu Stand, Sun.\r\nA personalidade de Arabia Fats nunca é totalmente mostrada devido à rapidez com que ele é derrotado, mas ele é mostrado como um usuário de Stand bem preparado, paciente e imoral, disposto a esperar o tempo que for necessário para que o Grupo Joestar morra por causa de seu Stand.";
                 label4.Text = "Sun assume a aparência de um pequeno sol que irradia calor escaldante e pode disparar feixes concentrados contra suas vítimas.\r\nSun é um Stand incrivelmente poderoso, com uma grande variedade de ação. No entanto, não faz nada para proteger seu usuário, que deve permanecer por perto e se esconder.\r\nO poder principal do Sol é emitir luz e calor em níveis letais por uma grande área.\r\nAlém de brilhar forte o suficiente para dar a impressão de estar no meio de um dia claro, apesar do horário indicar que é noite, ele também eleva as temperaturas ao redor até 80 °C. Além disso, pode manter esse nível de poder por um longo período, já que Arabia Fats estava disposto a perseguir o grupo Joestar e deixá-los morrer pelo calor do Sol.";
                 label3.Text = "O Stand de Arabia Fats é uma referência a carta 19 do tarot, O Sol.";
@@ -502,6 +526,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.ArabiaFatsAnime;
                 pictureBox5.Image = Properties.Resources.Sol;
                 pictureBox6.Image = Properties.Resources.Sol2;
+                pictureBox7.Image = Properties.Resources.SemDublador;
                 pictureBox8.Image = Properties.Resources.Carta_Sol;
             }
             else if (comboBox1.Text == "Cameo")
@@ -518,6 +543,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.CameoManga2;
                 pictureBox5.Image = Properties.Resources.Julgamento;
                 pictureBox6.Image = Properties.Resources.Julgamento2;
+                pictureBox7.Image = Properties.Resources.FabioMoura;
                 pictureBox8.Image = Properties.Resources.Carta_Julgamento;
             }
             else if (comboBox1.Text == "Gray Fly")
@@ -534,6 +560,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.GrayFlyManga2;
                 pictureBox5.Image = Properties.Resources.Torre;
                 pictureBox6.Image = Properties.Resources.Torre2;
+                pictureBox7.Image = Properties.Resources.CarlosCampanile;
                 pictureBox8.Image = Properties.Resources.Carta_Torre;
             }
 
@@ -551,6 +578,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.VanillaManga3;
                 pictureBox5.Image = Properties.Resources.Cream;
                 pictureBox6.Image = Properties.Resources.Cream2;
+                pictureBox7.Image = Properties.Resources.AlfredoRollo;
                 pictureBox8.Image = Properties.Resources.Carta_Cream;
             }
             else if (comboBox1.Text == "N'Doul")
@@ -567,6 +595,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.NDoulManga3;
                 pictureBox5.Image = Properties.Resources.Geb;
                 pictureBox6.Image = Properties.Resources.Geb2;
+                pictureBox7.Image = Properties.Resources.WellingtonLima;
                 pictureBox8.Image = Properties.Resources.Carta_Geb;
             }
             else if (comboBox1.Text == "Oingo")
@@ -583,6 +612,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.OingoManga2;
                 pictureBox5.Image = Properties.Resources.Quenum;
                 pictureBox6.Image = Properties.Resources.Quenum2;
+                pictureBox7.Image = Properties.Resources.RodrigoNanal;
                 pictureBox8.Image = Properties.Resources.Carta_Quenum;
             }
             else if (comboBox1.Text == "Boingo")
@@ -599,6 +629,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.BoingoManga2;
                 pictureBox5.Image = Properties.Resources.Tote;
                 pictureBox6.Image = Properties.Resources.Tote2;
+                pictureBox7.Image = Properties.Resources.AngelicaSantos;
                 pictureBox8.Image = Properties.Resources.Carta_Tote;
             }
             else if (comboBox1.Text == "Anubis")
@@ -615,6 +646,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.AnubisPolnareffManga;
                 pictureBox5.Image = Properties.Resources.AnubisStand;
                 pictureBox6.Image = Properties.Resources.AnubisStand2;
+                pictureBox7.Image = Properties.Resources.WesleySantana;
                 pictureBox8.Image = Properties.Resources.Carta_Anubis;
             }
             else if (comboBox1.Text == "Mariah")
@@ -631,6 +663,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MariahManga2;
                 pictureBox5.Image = Properties.Resources.Bastet;
                 pictureBox6.Image = Properties.Resources.Bastet2;
+                pictureBox7.Image = Properties.Resources.CarlaMartelli;
                 pictureBox8.Image = Properties.Resources.Carta_Bastet;
             }
             else if (comboBox1.Text == "Alessi")
@@ -647,6 +680,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.AlessiManga3;
                 pictureBox5.Image = Properties.Resources.Set;
                 pictureBox6.Image = Properties.Resources.Set2;
+                pictureBox7.Image = Properties.Resources.FabioDeCastro;
                 pictureBox8.Image = Properties.Resources.Carta_Set;
             }
             else if (comboBox1.Text == "Daniel J. D'arby")
@@ -663,6 +697,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DanielManga3;
                 pictureBox5.Image = Properties.Resources.Osiris;
                 pictureBox6.Image = Properties.Resources.Osiris2;
+                pictureBox7.Image = Properties.Resources.HelioRibeiro;
                 pictureBox8.Image = Properties.Resources.Carta_Osiris;
             }
             else if (comboBox1.Text == "Telence T. D'arby")
@@ -679,6 +714,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.TelenceManga2;
                 pictureBox5.Image = Properties.Resources.Atum;
                 pictureBox6.Image = Properties.Resources.Atum2;
+                pictureBox7.Image = Properties.Resources.MarceloGarcia;
                 pictureBox8.Image = Properties.Resources.Carta_Atum;
             }
             else if (comboBox1.Text == "Pet Shop")
@@ -695,10 +731,12 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.PetShopManga3;
                 pictureBox5.Image = Properties.Resources.Horus;
                 pictureBox6.Image = Properties.Resources.Horus2;
+                pictureBox7.Image = Properties.Resources.SemDublador;
                 pictureBox8.Image = Properties.Resources.Carta_Horus;
             }
             else if (comboBox1.Text == "DIO")
             {
+                musica = Properties.Resources.StardustDio;
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "O Mundo";
                 groupBox4.Text = "Francisco Júnior";
@@ -711,16 +749,21 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DioManga3;
                 pictureBox5.Image = Properties.Resources.OMundo;
                 pictureBox6.Image = Properties.Resources.OMundo2;
+                pictureBox7.Image = Properties.Resources.FranciscoJunior;
                 pictureBox8.Image = Properties.Resources.Carta_Mundo;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
             }
             //GOLDEN WIND HEROIS
             else if (comboBox1.Text == "Giorno Giovanna")
             {
+                musica = Properties.Resources.GoldenGiorno;
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Golden Wind";
                 groupBox4.Text = "Vagner Fagundes";
                 label2.Text = "Giorno Giovanna é o protagonista da parte 5, é o filho ilegítimo de DIO, concebido com o corpo roubado de Jonathan Joestar. Um adolescente meio-japonês morando na Itália. Giorno fala da sua intenção de se juntar à poderosa gangue Passione e de seu sonho de se tornar um Gang-Star para trazer a virtude de volta à corrupta máfia italiana.\r\nNormalmente introvertido, Giorno frequentemente mantem uma fachada de ousadia confiante, apoiado pela sua inteligência e carisma natural, para fazê-lo parecer uma pessoa sem falhas para seus amigos.";
-                label4.Text = "Gold Experience é um Stand de curto-alcance, com um alcance de 2 metros de seu usuário e pode dotar qualquer coisa que seus punhos toquem com vida, o que é traduzido para uma variedade de efeitos diferentes.\r\nO uso mais visto dessa habilidade é converter objetos inorgânicos para organismos vivos, seja um animal pequeno ou uma planta, ele pode transformar um pedaço de uma bagagem em um sapo ou um isqueiro em uma rosa.\r\nQuando qualquer um dos seres vivos criados por ele são atacados, o dano é refletido de volta para o atacante, incluindo habilidades de Stand.\r\nGold Experience pode acelerar a vida já existente de um ser vivo através de sua habilidade.\r\nGiorno descobriu que podia criar partes do corpo singulares e órgãos através de material inorgânico que faz ele capaz de curar ferimentos espantadores através de vários meios.\r\nQuando ele toca alguém ou alguma coisa, ele pode sentir outras formas de vida de dentro, o permitindo checar se alguém está vivo.\r\n";
+                label4.Text = "Gold Experience é um Stand de curto-alcance, com um alcance de 2 metros de seu usuário e pode dotar qualquer coisa que seus punhos toquem com vida, o que é traduzido para uma variedade de efeitos diferentes.\r\nO uso mais visto dessa habilidade é converter objetos inorgânicos para organismos vivos, seja um animal pequeno ou uma planta, ele pode transformar um pedaço de uma bagagem em um sapo ou um isqueiro em uma rosa.\r\nQuando qualquer um dos seres vivos criados por ele são atacados, o dano é refletido de volta para o atacante, incluindo habilidades de Stand.\r\nGold Experience pode acelerar a vida já existente de um ser vivo através de sua habilidade.\r\nGiorno descobriu que podia criar partes do corpo singulares e órgãos através de material inorgânico que faz ele capaz de curar ferimentos espantadores através de vários meios.\r\n";
                 label3.Text = "Levando em conta os Stands até Vento Aureo, Araki lista o Gold Experience como o seu favorito em termos de design.\r\n";
                 pictureBox1.Image = Properties.Resources.GiornoManga;
                 pictureBox2.Image = Properties.Resources.GiornoAnime;
@@ -728,7 +771,11 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.GiornoManga2;
                 pictureBox5.Image = Properties.Resources.Goldenwind;
                 pictureBox6.Image = Properties.Resources.Goldenwind2;
+                pictureBox7.Image = Properties.Resources.VagnerFagundes;
                 pictureBox8.Image = Properties.Resources.Araki;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
             }
             else if (comboBox1.Text == "Bruno Bucciarati")
             {
@@ -743,6 +790,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox3.Image = Properties.Resources.BrunoAnime2;
                 pictureBox4.Image = Properties.Resources.brunomangaziper;
                 pictureBox5.Image = Properties.Resources.StickyFingers;
+                pictureBox7.Image = Properties.Resources.LucasGama;
                 pictureBox6.Image = Properties.Resources.stickyfanime;
                 
             }
@@ -751,14 +799,15 @@ namespace Jojos_Bizarre_Adventure
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Li'l Bomber";
                 groupBox4.Text = "Marcus Pejon";
-                label2.Text = "";
-                label4.Text = "";
-                label3.Text = "";
+                label2.Text = "Narancia Ghirga é um membro da Equipe Bucciarati e, por extensão, da Passione. Ele segue Giorno e Bucciarati em sua missão para proteger Trish Una devido à compartilhar a mesma tragédia que ela.\r\nNarancia é um jovem grosseiro e colérico que demonstra grande lealdade aos seus camaradas.\r\nO comportamento geral de Narancia pode ser descrito como um tanto infantil, melhor ilustrado com sua educação não tendo se extendida além do ensino fundamental.";
+                label4.Text = "Aerosmith ou L'il Bomber é um avião de combate monoplano construído com uma configuração por tração. Aerosmith é equipado com pequenas metralhadoras em suas asas disparando balas traçantes com munição infinita e uma única bomba, a qual ele pode soltar em seus inimigos.\r\nComo último recurso, a própria hélice pode ser usada como uma lamina para cortar oponentes.\r\nAerosmith também tem um radar de dióxido de carbono que Narancia pode usar para encontrar a posição de um inimigo através de sua repsiração quando eles expiram.\r\nEnquanto ativo, um pequeno radar mecânico levita perto do rosto de Narancia, especificamente em seu olho direito, permitindo que ele veja a localização e tamanho das fontes como pontos no radar.\r\n";
+                label3.Text = "Narancia é o personagem favorito de João Vitor, o criador desse projeto.";
                 pictureBox1.Image = Properties.Resources.NaranciaManga;
                 pictureBox2.Image = Properties.Resources.NaranciaAnime;
                 pictureBox3.Image = Properties.Resources.NaranciaAnime2;
                 pictureBox4.Image = Properties.Resources.NaranciaManga2;
                 pictureBox5.Image = Properties.Resources.Aerosmith;
+                pictureBox7.Image = Properties.Resources.MarcosPejon;
                 pictureBox6.Image = Properties.Resources.Aerosmith2;
             }
             else if (comboBox1.Text == "Pannacotta Fugo")
@@ -774,6 +823,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox3.Image = Properties.Resources.FugoAnime2;
                 pictureBox4.Image = Properties.Resources.FugoManga2;
                 pictureBox5.Image = Properties.Resources.PurpleSmoke;
+                pictureBox7.Image = Properties.Resources.MarcioVaz;
                 pictureBox6.Image = Properties.Resources.PurpleSmoke2;
             }
             else if (comboBox1.Text == "Leone Abbacchio")
@@ -782,7 +832,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Moody Jazz";
                 groupBox4.Text = "André Sauer";
                 label2.Text = "Leone Abbacchio é um dos membros da Equipe Bucciarati e por extensão da Passione. Ele antigamente era um policial que aceitava subornos e foi subsequentemente demitido, apenas para ser recrutado pelo Bruno Bucciarati. Ele acompanha Bucciarati e Giorno Giovanna em sua missão para proteger Trish Una.\r\nDurante batalhas, Abbacchio expressa um lado agressivo, primeiramente o demonstrando em ameaças verbais e insultos quando falando sobre ou com o inimigo. Abbacchio é altamente dedicado a missão de seu grupo, almejando se absolver ou esquecer de seu erro passado.\r\n";
-                label4.Text = "Moody Blues é um Stand humanoide de altura e porte parecido com o de Abbacchio.\r\nA habilidade primária do Moody Blues é retrocognição; em particular, a habilidade de reconstituir, ou \"reproduzir\" eventos passados com total precisão, permitindo que Abbacchio livremente investigue eventos. Todo evento acontecendo à uma localização particular ou pessoa será exatamente recriado pelo Moody Blues, mesmo se não fosse fisicamente possível.\r\nA \"reprodução\" pode ser controlada como se fosse um vídeo, logo Abbacchio pode acelerar sua velocidade e pular eventos desinteressantes ou pausá-los, permitindo que pessoas interajam com o evento pausado caso necessário.O quanto mais fundo no passado o evento é, mais tempo o Moody Blues permanecerá imóvel para alcançá-lo.\r\nJá que ele não pode atacar enquanto está \"retransmitindo\", Moody Blues fica vulnerável. Assim que terminado, entretanto, ele pode novamente atacar.\r\n";
+                label4.Text = "Moody Blues é um Stand humanoide de altura e porte parecido com o de Abbacchio.\r\nA habilidade primária do Moody Blues é retrocognição; em particular, a habilidade de reconstituir, ou \"reproduzir\" eventos passados com total precisão, permitindo que Abbacchio livremente investigue eventos. Todo evento acontecendo à uma localização particular ou pessoa será exatamente recriado pelo Moody Blues, mesmo se não fosse fisicamente possível.\r\nA \"reprodução\" pode ser controlada como se fosse um vídeo, logo Abbacchio pode acelerar sua velocidade e pular eventos desinteressantes ou pausá-los, permitindo que pessoas interajam com o evento pausado caso necessário.O quanto mais fundo no passado o evento é, mais tempo o Moody Blues permanecerá imóvel para alcançá-lo.";
                 label3.Text = "De acordo com Araki porém nunca demonstrado na história, Abbacchio é o mais fisicamente forte da Equipe Bucciarati.\r\n";
                 pictureBox1.Image = Properties.Resources.AbbacchioManga;
                 pictureBox2.Image = Properties.Resources.AbbacchioAnime;
@@ -790,6 +840,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.AbbacchioManga2;
                 pictureBox5.Image = Properties.Resources.Moddyjazz;
                 pictureBox6.Image = Properties.Resources.Moddyjazz2;
+                pictureBox7.Image = Properties.Resources.AndreSauer;
                 pictureBox8.Image = Properties.Resources.Araki;
             }
             else if (comboBox1.Text == "Guido Mista")
@@ -806,6 +857,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MistaManga2;
                 pictureBox5.Image = Properties.Resources.SixBullets;
                 pictureBox6.Image = Properties.Resources.SixBullets2;
+                pictureBox7.Image = Properties.Resources.WilliamViana;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Mista;
             }
             else if (comboBox1.Text == "Trish Una")
@@ -822,6 +874,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.TrishManga2;
                 pictureBox5.Image = Properties.Resources.SpiceGirl;
                 pictureBox6.Image = Properties.Resources.SpiceGirl2;
+                pictureBox7.Image = Properties.Resources.BiancaAlencar;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Trish;
             }
             //GOLDEN WIND VILÕES
@@ -839,6 +892,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.PolpoManga3;
                 pictureBox5.Image = Properties.Resources.BlackSabbath;
                 pictureBox6.Image = Properties.Resources.BlackSabbath2;
+                pictureBox7.Image = Properties.Resources.LuizCarlosPersy;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Polpo;
             }
             else if (comboBox1.Text == "Mario Zucherro")
@@ -855,6 +909,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MarioManga2;
                 pictureBox5.Image = Properties.Resources.SoftMachine;
                 pictureBox6.Image = Properties.Resources.SoftMachine2;
+                pictureBox7.Image = Properties.Resources.RenatoSoares;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Mario;
             }
             else if (comboBox1.Text == "Sale")
@@ -871,6 +926,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.SaleManga2;
                 pictureBox5.Image = Properties.Resources.ArtsCrafts;
                 pictureBox6.Image = Properties.Resources.ArtsCrafts2;
+                pictureBox7.Image = Properties.Resources.RodrigoAndreatto;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Sale;
             }
             else if (comboBox1.Text == "Formaggio")
@@ -886,6 +942,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox3.Image = Properties.Resources.FormaggioAnime2;
                 pictureBox4.Image = Properties.Resources.FormaggioManga2;
                 pictureBox5.Image = Properties.Resources.TinyFeet;
+                pictureBox7.Image = Properties.Resources.MarcioAraujo;
                 pictureBox6.Image = Properties.Resources.TinyFeet2;
             }
             else if (comboBox1.Text == "Illuso")
@@ -902,6 +959,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.IllusoManga2;
                 pictureBox5.Image = Properties.Resources.ManMirror;
                 pictureBox6.Image = Properties.Resources.ManMirror2;
+                pictureBox7.Image = Properties.Resources.DouglasGuedes;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Illuso;
             }
             else if (comboBox1.Text == "Prosciutto")
@@ -910,7 +968,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "The Thankful Dead";
                 groupBox4.Text = "Guilherme Marques";
                 label2.Text = "Prosciutto é um assassino da La Squadra Esecuzioni, que junto a Pesci, luta contra a Equipe Bucciarati dentro de um trem de alta-velocidade em direção à Florença.\r\nProsciutto é um homem sério. Ele sempre aparece focado em sua missão e aderindo ao lema da Squadra de manter sua posição, até quando mortalmente ferido.";
-                label4.Text = "The Grateful Dead tem a habilidade de fazer com que organismos fisicamente e mentalmente envelheçam em um ritmo acelerado. Há duas maneiras nas quais o The Grateful Dead pode ativar seu poder. O primeiro modo é espalhar o envelhecimento por uma grande área e indiscriminadamente atacar aliados e oponentes, o que é perigoso para os companheiros de Prosciutto. O segundo modo é dirigir seu poder precisamente ao agarrar uma pessoa, nesse caso o envelhecimento sendo mais rápido do que pode-se reagir. A ativação dessa habilidade se manifesta como uma nevoa sendo espalhada pelo The Grateful Dead.\r\nO ritmo com o qual as pessoas envelhecem é dependente de seu calor corporal. O mais quente que o corpo de alguém está, o mais rápido eles envelhecerão.\r\nProsciutto é normalmente imune ao The Grateful Dead e pode permanecer jovem dentro de seu alcance.\r\n";
+                label4.Text = "The Grateful Dead tem a habilidade de fazer com que organismos fisicamente e mentalmente envelheçam em um ritmo acelerado. Há duas maneiras nas quais o The Grateful Dead pode ativar seu poder. O primeiro modo é espalhar o envelhecimento por uma grande área e indiscriminadamente atacar aliados e oponentes, o que é perigoso para os companheiros de Prosciutto. O segundo modo é dirigir seu poder precisamente ao agarrar uma pessoa, nesse caso o envelhecimento sendo mais rápido do que pode-se reagir. A ativação dessa habilidade se manifesta como uma nevoa sendo espalhada pelo The Grateful Dead.\r\nO ritmo com o qual as pessoas envelhecem é dependente de seu calor corporal. O mais quente que o corpo de alguém está, o mais rápido eles envelhecerão.";
                 label3.Text = "Prosciutto significa presunto curado em italiano.";
                 pictureBox1.Image = Properties.Resources.ProsciuttoManga;
                 pictureBox2.Image = Properties.Resources.ProsciuttoAnime;
@@ -918,6 +976,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.ProsciuttoManga2;
                 pictureBox5.Image = Properties.Resources.ThankfulDeath;
                 pictureBox6.Image = Properties.Resources.ThankfulDeath2;
+                pictureBox7.Image = Properties.Resources.GuilhermeMarcos;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Prosciutto;
             }
             else if (comboBox1.Text == "Pesci")
@@ -934,6 +993,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.PesciManga2;
                 pictureBox5.Image = Properties.Resources.BeachBoy;
                 pictureBox6.Image = Properties.Resources.BeachBoy2;
+                pictureBox7.Image = Properties.Resources.RogerioCesar;
             }
             else if (comboBox1.Text == "Melone")
             {
@@ -949,7 +1009,9 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MeloneManga2;
                 pictureBox5.Image = Properties.Resources.Babyhead;
                 pictureBox6.Image = Properties.Resources.Babyhead2;
+                pictureBox7.Image = Properties.Resources.RobsonKumode;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Melone;
+
             }
             else if (comboBox1.Text == "Ghiaccio")
             {
@@ -964,6 +1026,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox3.Image = Properties.Resources.GhiaccioAnime2;
                 pictureBox4.Image = Properties.Resources.GhiaccioManga2;
                 pictureBox5.Image = Properties.Resources.WhiteAlbum;
+                pictureBox7.Image = Properties.Resources.ViniciusFagundes;
                 pictureBox6.Image = Properties.Resources.WhiteAlbum2;
             }
             else if (comboBox1.Text == "Squalo")
@@ -980,6 +1043,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.SqualoManga2;
                 pictureBox5.Image = Properties.Resources.Clash;
                 pictureBox6.Image = Properties.Resources.Clash2;
+                pictureBox7.Image = Properties.Resources.GustavoVergani;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Squalo;
             }
             else if (comboBox1.Text == "Tizzano")
@@ -996,6 +1060,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.TizzanoManga3;
                 pictureBox5.Image = Properties.Resources.TalkingMouth;
                 pictureBox6.Image = Properties.Resources.TalkingMouth2;
+                pictureBox7.Image = Properties.Resources.CharlesDalla;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Tizzano;
             }
             else if (comboBox1.Text == "Carne")
@@ -1012,6 +1077,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.CarneManga2;
                 pictureBox5.Image = Properties.Resources.NotoriousBIG;
                 pictureBox6.Image = Properties.Resources.NotoriousBIG2;
+                pictureBox7.Image = Properties.Resources.MiguelDeBritto;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Carne;
             }
             else if (comboBox1.Text == "Risotto Nero")
@@ -1028,7 +1094,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.RisottoManga2;
                 pictureBox5.Image = Properties.Resources.Metallica;
                 pictureBox6.Image = Properties.Resources.Metallica2;
-                pictureBox8.Image = Properties.Resources.RisottoCuriosidade;
+                pictureBox7.Image = Properties.Resources.ReginaldoPrimo;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Risotto;
             }
             else if (comboBox1.Text == "Cioccolatta")
@@ -1045,6 +1111,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.CiocolattaAnime3;
                 pictureBox5.Image = Properties.Resources.GreenDay;
                 pictureBox6.Image = Properties.Resources.GreenDay2;
+                pictureBox7.Image = Properties.Resources.GlaucoMarques;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Cioccolata;
             }
             else if (comboBox1.Text == "Secco")
@@ -1061,6 +1128,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.SeccoManga2;
                 pictureBox5.Image = Properties.Resources.Sanctuary;
                 pictureBox6.Image = Properties.Resources.Sanctuary2;
+                pictureBox7.Image = Properties.Resources.WallaceRaj;
             }
             else if (comboBox1.Text == "Doppio")
             {
@@ -1076,10 +1144,12 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DoppioManga2;
                 pictureBox5.Image = Properties.Resources.EmperorCrimson;
                 pictureBox6.Image = Properties.Resources.EmperorCrimson2;
+                pictureBox7.Image = Properties.Resources.ItaloLuiz;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Doppio;
             }
             else if (comboBox1.Text == "Diavolo")
             {
+                musica = Properties.Resources.GoldenDiavolo;
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Emperor Crimson";
                 groupBox4.Text = "Felipe Zilse";
@@ -1092,11 +1162,16 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DiavoloManga2;
                 pictureBox5.Image = Properties.Resources.EmperorCrimson;
                 pictureBox6.Image = Properties.Resources.EmperorCrimson2;
+                pictureBox7.Image = Properties.Resources.FelipeZilse;
                 pictureBox8.Image = Properties.Resources.DoppioManga;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
             }
             //STONE OCEAN HEROIS
-            else if (comboBox1.Text == "Jolyne Kujo")
+            else if (comboBox1.Text == "Jolyne Cujoh")
             {
+                musica = Properties.Resources.StoneJolyne;
                 checkBox3.Text = "Dubladora";
                 groupBox2.Text = "Stone Ocean";
                 groupBox4.Text = "Patt Souza";
@@ -1109,13 +1184,17 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.JolyneManga2;
                 pictureBox5.Image = Properties.Resources.StoneOcean;
                 pictureBox6.Image = Properties.Resources.StoneOcean2;
+                pictureBox7.Image = Properties.Resources.PattSouza;
                 pictureBox8.Image = Properties.Resources.JotaroSOManga;
+                player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
             }
             else if (comboBox1.Text == "Jotaro Kujo")
             {
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Star Platinum";
-                groupBox4.Text = "Wilken Mazzai";
+                groupBox4.Text = "Wilken Mazzei";
                 label2.Text = "Jotaro é o JoJo protagonista mais recorrente em toda a série. Reaparecendo agora em Stone Ocean para salvar sua filha Jolyne da cadeia, dando a ela um Stand. Durante a batalha final contra Pucci, o amor de Jotaro por sua família foi maior, e ele fez o erro de tentar salvar Jolyne e matar Pucci ao mesmo tempo, não tendo sucesso em nenhum dos dois e resultando em sua morte trágica.\r\n";
                 label4.Text = "Star Platinum é um Stand de curto-alcance com força e velocidade excepcional, assim como a habilidade de parar o tempo que foi ganha durante a batalha contra DIO. Seu poder esmagador, junto da habilidade em lutas de Jotaro, o torna um dos Stands mais fortes e icônicos da obra.\r\nStar Platinum é um Stand de Curto Alcance com um alcance básico de apenas dois metros do corpo de Jotaro, mas ostenta velocidade, poder, e precisão inigualáveis.\r\nO Star Platinum pode estender seus dedos indicativos e do meio, permitindo que ele realize ataques sorrateiros e cortar oponentes um pouco fora de seu alcance.\r\n";
                 label3.Text = "Sua alma e Stand foram roubados por Whitesnake por um longo período.";
@@ -1125,6 +1204,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.JotaroSOManga2;
                 pictureBox5.Image = Properties.Resources.StarPlatinumSO;
                 pictureBox6.Image = Properties.Resources.StarPlatinumSO2;
+                pictureBox7.Image = Properties.Resources.WilkenMazzei;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Jotaro;
             }
             else if (comboBox1.Text == "Ermes Costello")
@@ -1141,6 +1221,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.ErmesManga2;
                 pictureBox5.Image = Properties.Resources.Kiss;
                 pictureBox6.Image = Properties.Resources.Kiss2;
+                pictureBox7.Image = Properties.Resources.TatianeKeplmair;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Kiss;
             }
             else if (comboBox1.Text == "F.F")
@@ -1157,6 +1238,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.FFManga2;
                 pictureBox5.Image = Properties.Resources.FF;
                 pictureBox6.Image = Properties.Resources.FF2;
+                pictureBox7.Image = Properties.Resources.ViiZedek;
                 pictureBox8.Image = Properties.Resources.Curiosidade_FF;
             }
             else if (comboBox1.Text == "Anastasia")
@@ -1173,6 +1255,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.AnasuiManga2;
                 pictureBox5.Image = Properties.Resources.DiverDown;
                 pictureBox6.Image = Properties.Resources.DiverDown2;
+                pictureBox7.Image = Properties.Resources.MarcioAraujo;
                 pictureBox8.Image = Properties.Resources.Curiosidade_AnasuiNova;
                
             }
@@ -1190,6 +1273,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.WeatherManga2;
                 pictureBox5.Image = Properties.Resources.WeatherReport;
                 pictureBox6.Image = Properties.Resources.WeatherReport2;
+                pictureBox7.Image = Properties.Resources.GabrielNoya;
                 pictureBox8.Image = Properties.Resources.PucciManga;
             }
             else if (comboBox1.Text == "Emporio Alnino")
@@ -1206,6 +1290,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.EmporioManga2;
                 pictureBox5.Image = Properties.Resources.BurningDown;
                 pictureBox6.Image = Properties.Resources.BurningDown2;
+                pictureBox7.Image = Properties.Resources.GabrielMartins;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Emporio;
             }
             //STONCE OCEAN VILÕES
@@ -1223,6 +1308,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.GwessManga2;
                 pictureBox5.Image = Properties.Resources.GGDolls;
                 pictureBox6.Image = Properties.Resources.GGDolls2;
+                pictureBox7.Image = Properties.Resources.FloraPaulita;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Gwess;
             }
             else if (comboBox1.Text == "Jongalli A")
@@ -1239,6 +1325,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.JongalliManga2;
                 pictureBox5.Image = Properties.Resources.Manhattan;
                 pictureBox6.Image = Properties.Resources.Manhattan2;
+                pictureBox7.Image = Properties.Resources.FernandoLopes;
                 pictureBox8.Image = Properties.Resources.Curiosidade_JongalliA;
             }
             else if (comboBox1.Text == "Thunder McQueen")
@@ -1255,13 +1342,14 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.ThunderManga3;
                 pictureBox5.Image = Properties.Resources.Highwayto;
                 pictureBox6.Image = Properties.Resources.Highwayto2;
+                pictureBox7.Image = Properties.Resources.ClecioSouto;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Thunder;
             }
             else if (comboBox1.Text == "Miraschon")
             {
                 checkBox3.Text = "Dubladora";
                 groupBox2.Text = "Mary Lynn Manson";
-                groupBox4.Text = "Fernanda Bellara";
+                groupBox4.Text = "Fernanda Bullara";
                 label2.Text = "Miraschon é uma detenta da Prisão Green Dolphin Street a quem Enrico Pucci confere o Stand, Marilyn Manson, e envia para assassinar Jolyne Cujoh. Ela então aposta com Jolyne, Ermes Costello e Foo Fighters para roubar seus órgãos assim como o disco de Stand de Jotaro Kujo.\r\nMiraschon é descrita como sendo uma mentirosa compulsiva que gosta de roubar e apostar.\r\n";
                 label4.Text = "Marilyn Manson ativa após Miraschon ou até ele mesmo fazer uma aposta com alguém. Se a pessoa com quem Miraschon apostar perder, Marilyn Manson se materializa perto dela e então tira deles quaisquer posses de valor para pagar pela aposta.\r\nDinheiro diretamente voa para os ganchos do Marilyn Manson, mas ele também pode mutilar a vítima para pegar órgãos valiosos para vender ao mercado negro, como dentes de ouro ou seu fígado. Ele pensa por si mesmo sobre o que coletar para ter algo equivalente ao que foi apostado.\r\nMarilyn Manson afirma que ele é meramente a \"sombra dentro do coração do perdedor\", que reconheceu sua derrota até minimamente, e logo não pode ser atacado pelo perdedor ou qualquer aliado. Golpes simplesmente atravessam o Marilyn Manson.\r\n";
                 label3.Text = "Marilyn Manson é uma referência a banda e ao cantor estadunidense de rock.\r\n";
@@ -1271,6 +1359,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MiraschonManga2;
                 pictureBox5.Image = Properties.Resources.MarilynManson;
                 pictureBox6.Image = Properties.Resources.MarilynManson2;
+                pictureBox7.Image = Properties.Resources.FernandaBullara;
                 //pictureBox8.Image = Properties.Resources.;
             }
             else if (comboBox1.Text == "Lang Rangler")
@@ -1287,7 +1376,9 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.LangManga2;
                 pictureBox5.Image = Properties.Resources.JumpingJack;
                 pictureBox6.Image = Properties.Resources.JumpingJack2;
+                pictureBox7.Image = Properties.Resources.PhilippeMaia;
                 pictureBox8.Image = Properties.Resources.Curiosidade_LangNova;
+
             }
             else if (comboBox1.Text == "Sports Maximum")
             {
@@ -1303,6 +1394,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.SportsManga3;
                 pictureBox5.Image = Properties.Resources.LimpBizkit;
                 pictureBox6.Image = Properties.Resources.LimpBizkit2;
+                pictureBox7.Image = Properties.Resources.RodrigoNanal;
                 pictureBox8.Image = Properties.Resources.Curiosidade_SportsNova;
             }
             else if (comboBox1.Text == "Viviano Westwood")
@@ -1319,6 +1411,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.VivianoManga2;
                 pictureBox5.Image = Properties.Resources.PlanetWaves;
                 pictureBox6.Image = Properties.Resources.PlanetWaves2;
+                pictureBox7.Image = Properties.Resources.GlaucoMarques;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Viviano;
             }
             else if (comboBox1.Text == "Kenzou")
@@ -1335,6 +1428,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.KenzouManga2;
                 pictureBox5.Image = Properties.Resources.DragonsDream;
                 pictureBox6.Image = Properties.Resources.DragonsDream2;
+                pictureBox7.Image = Properties.Resources.HelioVaccari;
                 pictureBox8.Image = Properties.Resources.Curiosidade_KenzouNova;
             }
             else if (comboBox1.Text == "Guccio")
@@ -1351,6 +1445,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.GuccioManga2;
                 pictureBox5.Image = Properties.Resources.Survivor;
                 pictureBox6.Image = Properties.Resources.Survivor2;
+                pictureBox7.Image = Properties.Resources.MarcoAurelioCampos;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Guccio;
             }
             else if (comboBox1.Text == "D&G")
@@ -1367,6 +1462,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DanGManga2;
                 pictureBox5.Image = Properties.Resources.YayamaManga;
                 pictureBox6.Image = Properties.Resources.YayamaAnime;
+                pictureBox7.Image = Properties.Resources.MarcoAntonioAbreu;
                 pictureBox8.Image = Properties.Resources.Curiosidade_DG;
             }
             else if (comboBox1.Text == "Bebê Verde")
@@ -1383,6 +1479,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.BebeManga2;
                 pictureBox5.Image = Properties.Resources.GreenGreen;
                 pictureBox6.Image = Properties.Resources.GreenGreen2;
+                pictureBox7.Image = Properties.Resources.SemDublador;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Bebe__1_;
             }
             else if (comboBox1.Text == "Miu Miu")
@@ -1399,6 +1496,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.MiuMiuManga2;
                 pictureBox5.Image = Properties.Resources.JailHouseLock;
                 pictureBox6.Image = Properties.Resources.JailHouseLock2;
+                pictureBox7.Image = Properties.Resources.RebecaZadra;
                 pictureBox8.Image = Properties.Resources.Curiosidade_MiuMiu;
             }
             else if (comboBox1.Text == "Ungalo")
@@ -1415,6 +1513,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.UngaloAnime3;
                 pictureBox5.Image = Properties.Resources.BohemianRapsody;
                 pictureBox6.Image = Properties.Resources.BohemianRapsody2;
+                pictureBox7.Image = Properties.Resources.YanGesteira;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Ungalo;
             }
             else if (comboBox1.Text == "Rikiel")
@@ -1431,6 +1530,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.RikielManga2;
                 pictureBox5.Image = Properties.Resources.SkyHigh;
                 pictureBox6.Image = Properties.Resources.SkyHigh2;
+                pictureBox7.Image = Properties.Resources.FabioLucindo;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Rikiel;
             }
             else if (comboBox1.Text == "Versus")
@@ -1447,10 +1547,12 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.DonatelloManga2;
                 pictureBox5.Image = Properties.Resources.Underworld;
                 pictureBox6.Image = Properties.Resources.Underworld2;
+                pictureBox7.Image = Properties.Resources.RenanFreitas;
                 pictureBox8.Image = Properties.Resources.Curiosidade_DonatelloNova;
             }
             else if (comboBox1.Text == "Enrico Pucci")
             {
+                musica = Properties.Resources.StonePucci;
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Pale Snake - C-MOON";
                 groupBox4.Text = "Duda Espinoza";
@@ -1463,7 +1565,12 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox4.Image = Properties.Resources.PucciManga2;
                 pictureBox5.Image = Properties.Resources.WhiteSnake;
                 pictureBox6.Image = Properties.Resources.Cmoon;
+                pictureBox7.Image = Properties.Resources.DudaEspinozza;
                 pictureBox8.Image = Properties.Resources.MadeinHeaven;
+                 player.Stop();
+                player.Stream = musica;
+                player.PlayLooping();
+                
             }
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -1480,7 +1587,7 @@ namespace Jojos_Bizarre_Adventure
 
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton1.Checked)
             {
-
+                musica = Properties.Resources.StardustGeral;
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Jotaro Kujo");
                 comboBox1.Items.Add("Joseph Joestar");
@@ -1493,7 +1600,7 @@ namespace Jojos_Bizarre_Adventure
 
             else if (listBox1.Text == "GOLDEN WIND" && radioButton1.Checked)
             {
-
+                musica = Properties.Resources.GoldenGeral;
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Giorno Giovanna");
                 comboBox1.Items.Add("Bruno Bucciarati");
@@ -1506,9 +1613,9 @@ namespace Jojos_Bizarre_Adventure
 
             else if (listBox1.Text == "STONE OCEAN" && radioButton1.Checked)
             {
-
+                musica = Properties.Resources.StoneGeral;
                 comboBox1.Items.Clear();
-                comboBox1.Items.Add("Jolyne Kujo");
+                comboBox1.Items.Add("Jolyne Cujoh");
                 comboBox1.Items.Add("Jotaro Kujo");
                 comboBox1.Items.Add("Ermes Costello");
                 comboBox1.Items.Add("F.F");
