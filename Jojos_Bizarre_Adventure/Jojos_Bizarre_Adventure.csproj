@@ -2006,5 +2006,26 @@
   <ItemGroup>
     <None Include="Resources\WppStardustnovo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Bucciarati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Miraschonnovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoneOceanFundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldenWindFundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StardustFundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashsereecn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Formaggio.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,7 +28,7 @@ namespace Jojos_Bizarre_Adventure
             if (listBox1.Text == "GOLDEN WIND")
             {
                 musica = Properties.Resources.GoldenGeral;
-                this.BackgroundImage = Properties.Resources.WppGolden__1_;
+                this.BackgroundImage = Properties.Resources.GoldenWindFundo;
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
@@ -37,7 +37,7 @@ namespace Jojos_Bizarre_Adventure
             else if (listBox1.Text == "STARDUST CRUSADERS")
             {
                 musica = Properties.Resources.StardustGeral;
-                this.BackgroundImage = Properties.Resources.WppStardustnovo;
+                this.BackgroundImage = Properties.Resources.StardustFundo;
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
@@ -47,7 +47,7 @@ namespace Jojos_Bizarre_Adventure
             else if (listBox1.Text == "STONE OCEAN")
             {
                 musica = Properties.Resources.StoneGeral;
-                 this.BackgroundImage = Properties.Resources.WppStone;
+                 this.BackgroundImage = Properties.Resources.StoneOceanFundo;
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
@@ -784,7 +784,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox4.Text = "Lucas Gama";
                 label2.Text = "Bruno Bucciarati é o deuteragonista de Vento Aureo/Golden Wind. Ele é um mafioso e líder de seu próprio esquadrão dentro da poderosa gangue napolitana, Passione. Enviado para rastrear quem atacou Leaky-Eye Luca e estreando como  oponente de Giorno Giovanna, Bucciarati se torna o primeiro a dar apoio significativo a Giorno em sua ascensão nas fileiras de Passione.";
                 label4.Text = "Sticky Fingers é um Stand humanoide de altura e constituição semelhante à de Bucciarati. Sticky Fingers é um Stand de curto alcance cuja excelente força e velocidade o tornam adequado para combate direto. A principal habilidade do Sticky Fingers é criar zíperes em qualquer superfície que toca com o punho, que pode abrir ou fechar remotamente quando quiser. Por exemplo, Sticky Fingers pode atingir uma parede, abri-la para criar uma abertura e passar por ela, depois fechar o zíper.";
-                label3.Text = "";
+                label3.Text = "Após ser morto por Diavolo, Bucciarati vira um morto vivo após Giorno curá-lo.";
                 pictureBox1.Image = Properties.Resources.brunomanga;
                 pictureBox2.Image = Properties.Resources.brunoanime;
                 pictureBox3.Image = Properties.Resources.BrunoAnime2;
@@ -792,6 +792,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.StickyFingers;
                 pictureBox7.Image = Properties.Resources.LucasGama;
                 pictureBox6.Image = Properties.Resources.stickyfanime;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Bucciarati;
                 
             }
             else if (comboBox1.Text == "Narancia Ghirga")
@@ -943,6 +944,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.TinyFeet;
                 pictureBox7.Image = Properties.Resources.MarcioAraujo;
                 pictureBox6.Image = Properties.Resources.TinyFeet2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_FormaggioNova;
             }
             else if (comboBox1.Text == "Illuso")
             {
@@ -1359,7 +1361,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.MarilynManson;
                 pictureBox6.Image = Properties.Resources.MarilynManson2;
                 pictureBox7.Image = Properties.Resources.FernandaBullara;
-                //pictureBox8.Image = Properties.Resources.;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Miraschonnovo;
             }
             else if (comboBox1.Text == "Lang Rangler")
             {

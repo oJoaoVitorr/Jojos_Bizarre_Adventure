@@ -34,5 +34,10 @@ namespace Jojos_Bizarre_Adventure
             progressBar1.PerformStep();
             label1.Text = "Iniciando..." + progressBar1.Value.ToString() + "%";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
