@@ -25,7 +25,7 @@ namespace Jojos_Bizarre_Adventure
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            timer1.Start();
+            
             this.Close();
         }
 
