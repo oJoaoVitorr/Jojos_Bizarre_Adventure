@@ -38,9 +38,9 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(116, 548);
+            this.progressBar1.Location = new System.Drawing.Point(82, 797);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1113, 52);
+            this.progressBar1.Size = new System.Drawing.Size(1743, 52);
             this.progressBar1.Step = 1;
             this.progressBar1.TabIndex = 0;
             // 
@@ -62,7 +62,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(463, 506);
+            this.label1.Location = new System.Drawing.Point(627, 745);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 39);
             this.label1.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Jojos_Bizarre_Adventure.Properties.Resources.WallpaperScreen;
-            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.ClientSize = new System.Drawing.Size(1871, 967);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
