@@ -658,7 +658,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Bastet";
                 groupBox4.Text = "Carla Martelli";
                 label2.Text = "Enquanto Alessi ataca Jean Pierre Polnareff e Jotaro Kujo, Mariah tenta eliminar Joseph Joestar e Muhammad Avdol magnetizando seus corpos com seu Stand, Bastet dos 9 Deuses da Glória do Egito.\r\nMariah parece uma pessoa calma e sensata. Como a maioria dos usuários do Stand, Mariah tem grande confiança em seu Bastet, principalmente no fato de que todos acabarão sucumbindo a ele com o tempo. No entanto, ela perde a calma facilmente sempre que as coisas não saem conforme o planejado.\r\n";
-                label4.Text = "Bastet é um suporte em formato de tomada com um cabo visível embaixo, que pode ser colocado em qualquer superfície.\r\nBastet foi criado para voltar a curiosidade das pessoas contra eles. Não tem nenhuma habilidade de combate direto e não serve além de prender vítimas, forçando Mariah a esperar até que suas vítimas morram sozinhas. Por outro lado, é adequado para assassinatos porque, a menos que Mariah se exponha, não há como pegá-la.\r\nQuando uma pessoa toca na tomada, ela recebe um choque e se torna um ímã que atrai objetos metálicos próximos.\r\nA força magnética gradualmente se tornará mais forte, a ponto de objetos atraídos pela pessoa serem esmagados pela massa ou simplesmente empalá-los.Uma desvantagem da habilidade deste Stand é que Mariah deve manter certa distância do alvo ou o magnetismo desaparecerá.\r\n";
+                label4.Text = "Bastet é um suporte em formato de tomada com um cabo visível embaixo, que pode ser colocado em qualquer superfície.\r\nBastet foi criado para voltar a curiosidade das pessoas contra eles. Não tem nenhuma habilidade de combate direto e não serve além de prender vítimas, forçando Mariah a esperar até que suas vítimas morram sozinhas. Por outro lado, é adequado para assassinatos porque, a menos que Mariah se exponha, não há como pegá-la.\r\nQuando uma pessoa toca na tomada, ela recebe um choque e se torna um ímã que atrai objetos metálicos próximos.\r\nA força magnética gradualmente se tornará mais forte, a ponto de objetos atraídos pela pessoa serem esmagados pela massa ou simplesmente empalá-los.";
                 label3.Text = "O Stand de Mariah é uma referência a deusa egípcia Bastet, a deusa da proteção.\r\n";
                 pictureBox1.Image = Properties.Resources.MariahManga;
                 pictureBox2.Image = Properties.Resources.MariahAnime1;
@@ -686,7 +686,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox7.Image = Properties.Resources.FabioDeCastro;
                 pictureBox8.Image = Properties.Resources.Carta_Set;
             }
-            else if (comboBox1.Text == "Daniel J. D'arby")
+            else if (comboBox1.Text == "Daniel J. D'Arby")
             {
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Osiris";
@@ -703,7 +703,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox7.Image = Properties.Resources.HelioRibeiro;
                 pictureBox8.Image = Properties.Resources.Carta_Osiris;
             }
-            else if (comboBox1.Text == "Telence T. D'arby")
+            else if (comboBox1.Text == "Telence T. D'Arby")
             {
                 checkBox3.Text = "Dublador";
                 groupBox2.Text = "Atum";
@@ -830,6 +830,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.PurpleSmoke;
                 pictureBox7.Image = Properties.Resources.MarcioVaz;
                 pictureBox6.Image = Properties.Resources.PurpleSmoke2;
+                pictureBox8.Image = Properties.Resources.DiavoloManga;
             }
             else if (comboBox1.Text == "Leone Abbacchio")
             {
@@ -837,6 +838,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Moody Jazz";
                 groupBox4.Text = "André Sauer";
                 label2.Text = "Leone Abbacchio é um dos membros da Equipe Bucciarati e por extensão da Passione. Ele antigamente era um policial que aceitava subornos e foi subsequentemente demitido, apenas para ser recrutado pelo Bruno Bucciarati. Ele acompanha Bucciarati e Giorno Giovanna em sua missão para proteger Trish Una.\r\nDurante batalhas, Abbacchio expressa um lado agressivo, primeiramente o demonstrando em ameaças verbais.";
+                label3.Text = "Araki confirmou que Abbacchio é o mais forte de sua equipe, apesar disso não ser mostrado.";               
                 label4.Text = "Moody Blues é um Stand humanoide de altura e porte parecido com o de Abbacchio.\r\nA habilidade primária do Moody Blues é retrocognição; em particular, a habilidade de reconstituir, ou \"reproduzir\" eventos passados com total precisão, permitindo que Abbacchio livremente investigue eventos. Todo evento acontecendo à uma localização particular ou pessoa será exatamente recriado pelo Moody Blues, mesmo se não fosse fisicamente possível.\r\nA \"reprodução\" pode ser controlada como se fosse um vídeo, logo Abbacchio pode acelerar sua velocidade e pular eventos desinteressantes ou pausá-los, permitindo que pessoas interajam com o evento pausado caso necessário.";
                 pictureBox1.Image = Properties.Resources.AbbacchioManga;
                 pictureBox2.Image = Properties.Resources.AbbacchioAnime;
@@ -1176,7 +1178,7 @@ namespace Jojos_Bizarre_Adventure
             //STONE OCEAN HEROIS
             else if (comboBox1.Text == "Jolyne Cujoh")
             {
-                musica = Properties.Resources.StoneJolyne;
+                
                 checkBox3.Text = "Dubladora";
                 groupBox2.Text = "Stone Ocean";
                 groupBox4.Text = "Patt Souza";
@@ -1191,9 +1193,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox6.Image = Properties.Resources.StoneOcean2;
                 pictureBox7.Image = Properties.Resources.PattSouza;
                 pictureBox8.Image = Properties.Resources.JotaroSOManga;
-                player.Stop();
-                player.Stream = musica;
-                player.PlayLooping();
+               
             }
             else if (comboBox1.Text == "Jotaro Kujo")
             {
