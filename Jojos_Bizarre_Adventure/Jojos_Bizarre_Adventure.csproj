@@ -2027,5 +2027,20 @@
   <ItemGroup>
     <None Include="Resources\Curiosidade_Formaggio.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroAnime2Novo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroAnimeNovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroManga2Novo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JotaroMangaNovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curiosidade_Narancia.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

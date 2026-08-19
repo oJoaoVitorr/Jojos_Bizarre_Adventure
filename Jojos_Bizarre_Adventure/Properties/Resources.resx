@@ -121,11 +121,17 @@
   <data name="GiornoAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GiornoAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jotaromangac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\jotaromangac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LimpBizkit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LimpBizkit2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MarilynManson" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MarilynManson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnubisStand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AnubisStand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StoneJolyne" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StoneJolyne.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -157,14 +163,17 @@
   <data name="GiornoAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GiornoAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jotaromangac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\jotaromangac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hierophant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hierophant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Geb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Geb2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SixBullets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SixBullets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ManMirror2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ManMirror2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +184,8 @@
   <data name="CapitaoTAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CapitaoTAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ZZAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ZZAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Carta  Enforcado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta  Enforcado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cmoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cmoon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -192,6 +201,9 @@
   </data>
   <data name="CapitaoTManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CapitaoTManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Curiosidade_GhiaccioNova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Curiosidade_GhiaccioNova.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SkyHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SkyHigh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,14 +235,8 @@
   <data name="TinyFeet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TinyFeet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SilverChariot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SilverChariot1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Curiosidade_PesciNova" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_PesciNova.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Carta  Enforcado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carta  Enforcado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="YayamaManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YayamaManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -240,9 +246,6 @@
   </data>
   <data name="MidlerManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MidlerManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HolHorseAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HolHorseAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StardustJotaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StardustJotaro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -256,8 +259,8 @@
   <data name="BoingoManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BoingoManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StoneOcean" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StoneOcean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DiavoloManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiavoloManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LangAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LangAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,6 +289,9 @@
   <data name="Mauro Ramos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mauro Ramos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Carta Bastet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carta Bastet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GreenDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GreenDay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -297,6 +303,9 @@
   </data>
   <data name="FernandoMendonca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FernandoMendonca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SixBullets2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SixBullets2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AbbacchioAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AbbacchioAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,8 +319,8 @@
   <data name="JosephManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JosephManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SaleManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SaleManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GabrielMartins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GabrielMartins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DanGAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DanGAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -333,9 +342,6 @@
   </data>
   <data name="DragonsDream2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DragonsDream2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="splashsereecn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\splashsereecn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NaranciaManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NaranciaManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -367,8 +373,8 @@
   <data name="Carta Imperador" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Imperador.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SteelyDanManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SteelyDanManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ViiZedek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViiZedek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BebeManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BebeManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,14 +385,20 @@
   <data name="FabioMoura" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FabioMoura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IllusoAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IllusoAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GGDolls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GGDolls.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RikielAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RikielAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Quenum2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Quenum2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Survivor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Survivor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GuilhermeMarcos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GuilhermeMarcos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Curiosidade_FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_FF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -454,8 +466,8 @@
   <data name="MarilynManson2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MarilynManson2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WesleySantana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WesleySantana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CarneAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarneAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JotaroSOManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JotaroSOManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -484,17 +496,11 @@
   <data name="KakyoinManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KakyoinManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SidneyCesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SidneyCesar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Curiosidade_Bucciarati" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_Bucciarati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JolyneManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JolyneManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hierophant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hierophant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IggyAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IggyAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -532,11 +538,8 @@
   <data name="MorteMangaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MorteMangaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AnubisStand" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AnubisStand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PucciManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PucciManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="splashsereecn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splashsereecn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Curiosidade_Squalo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_Squalo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -547,11 +550,14 @@
   <data name="FabioDeCastro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FabioDeCastro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MariahAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MariahAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FormaggioAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FormaggioAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ForeverManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ForeverManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StoneOcean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StoneOcean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ThankfulDeath2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ThankfulDeath2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -576,6 +582,9 @@
   </data>
   <data name="Curiosidade_MiuMiu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_MiuMiu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteAlbum2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteAlbum2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Curiosidade_Thunder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_Thunder.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -664,8 +673,14 @@
   <data name="brunoanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brunoanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Tote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tote.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Highwayto2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Highwayto2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Julgamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Julgamento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Curiosidade_JongalliA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_JongalliA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -700,11 +715,11 @@
   <data name="AlessiAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AlessiAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MiraschonManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MiraschonManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PetShopManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PetShopManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlanetWaves2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlanetWaves2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kiss2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kiss2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -745,8 +760,8 @@
   <data name="Louco21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Louco21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Goldenwind" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Goldenwind.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ForeverManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ForeverManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AnasuiManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AnasuiManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -769,14 +784,14 @@
   <data name="NotoriousBIG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NotoriousBIG2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StarPlatinumSO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StarPlatinumSO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="EnyaAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnyaAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MistaManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MistaManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PetShopManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PetShopManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ArabiaFatsManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ArabiaFatsManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -801,9 +816,6 @@
   </data>
   <data name="Curiosidade_LangNova" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_LangNova.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SoftMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SoftMachine.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CiocolattaAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CiocolattaAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -871,9 +883,6 @@
   <data name="LuaAzul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LuaAzul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lovers2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lovers2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MistaAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MistaAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -886,14 +895,14 @@
   <data name="EmporioAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EmporioAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ViiZedek" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ViiZedek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="RodaDaFortuna2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RodaDaFortuna2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LimpBizkit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LimpBizkit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CiocolattaAnime3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CiocolattaAnime3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CameoAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CameoAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -922,6 +931,9 @@
   <data name="FranciscoJunior" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FranciscoJunior.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="JotaroAnimeNovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JotaroAnimeNovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AnubisStand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AnubisStand2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -943,11 +955,11 @@
   <data name="RikielAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RikielAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="YanGesteira" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\YanGesteira.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BoingoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BoingoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LangManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LangManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PolnareffManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PolnareffManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -978,9 +990,6 @@
   </data>
   <data name="MarcioAraujo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MarcioAraujo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ErmesAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ErmesAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RodrigoNanal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RodrigoNanal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1054,6 +1063,9 @@
   <data name="Carta Sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Sol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="RubberSoulManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RubberSoulManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GreenGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GreenGreen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1075,11 +1087,8 @@
   <data name="SeccoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SeccoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CiocolattaAnime3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CiocolattaAnime3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StoneGeral" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StoneGeral.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="YanGesteira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YanGesteira.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ProsciuttoAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ProsciuttoAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1093,8 +1102,8 @@
   <data name="KakyoinAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KakyoinAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tote" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tote.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TelenceManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TelenceManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MidlerAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MidlerAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1117,8 +1126,8 @@
   <data name="Forca2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Forca2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LangManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LangManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HolHorseAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HolHorseAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ArabiaFatsManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ArabiaFatsManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1138,8 +1147,8 @@
   <data name="VanillaAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VanillaAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IllusoAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IllusoAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WesleySantana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WesleySantana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GrayFlyAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GrayFlyAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1153,14 +1162,17 @@
   <data name="RikielManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RikielManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="JotaroManga2Novo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JotaroManga2Novo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="KenzouAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KenzouAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IllusoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IllusoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PolpoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PolpoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SilverChariot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SilverChariot1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SacerdotisaAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SacerdotisaAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1180,8 +1192,8 @@
   <data name="DioManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DioManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TelenceManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TelenceManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Goldenwind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Goldenwind.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PolnareffManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PolnareffManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1219,6 +1231,9 @@
   <data name="OingoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OingoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TinyFeet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TinyFeet2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Araki" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Araki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1246,6 +1261,9 @@
   <data name="PurpleSmoke" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PurpleSmoke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SteelyDanManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SteelyDanManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Carta Justica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Justica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1261,11 +1279,8 @@
   <data name="Carta Hermit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Hermit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RikielAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RikielAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GreenGreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GreenGreen2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DevoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Forca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Forca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1321,9 +1336,6 @@
   <data name="Aerosmith2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aerosmith2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MarceloGarcia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MarceloGarcia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Bastet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bastet2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1339,9 +1351,6 @@
   <data name="GuccioAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GuccioAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sol2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MariahManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MariahManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1354,14 +1363,14 @@
   <data name="PolnareffAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PolnareffAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GuccioManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GuccioManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ErmesAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ErmesAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WeatherAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WeatherAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SaleManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaleManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Julgamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Julgamento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StarPlatinumSO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarPlatinumSO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RisottoCuriosidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RisottoCuriosidade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1374,6 +1383,9 @@
   </data>
   <data name="MiuMiuAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MiuMiuAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JotaroAnime2Novo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JotaroAnime2Novo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AnasuiManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AnasuiManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1399,14 +1411,17 @@
   <data name="MagoVerm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MagoVerm2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="JotaroMangaNovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JotaroMangaNovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WeatherManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeatherManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HermitManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HermitManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Curiosidade_GhiaccioNova" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Curiosidade_GhiaccioNova.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MiraschonManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MiraschonManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Curiosidade_SportsNova" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_SportsNova.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1444,8 +1459,8 @@
   <data name="ThunderAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ThunderAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ArtsCrafts2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ArtsCrafts2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SoftMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SoftMachine.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Atum" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Atum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1455,9 +1470,6 @@
   </data>
   <data name="Thiago Longo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Thiago Longo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DanGManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DanGManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Carta Julgamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Julgamento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1474,11 +1486,14 @@
   <data name="Louco2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Louco2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ThunderManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ThunderManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StoneGeral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StoneGeral.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Curiosidade_Emporio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_Emporio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PolpoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PolpoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AlessiManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AlessiManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1522,26 +1537,29 @@
   <data name="TizzanoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TizzanoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ZZAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZZAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CapitaoTManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CapitaoTManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RisottoAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RisottoAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Curiosidade_Kiss" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Curiosidade_Kiss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ThunderManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThunderManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WeatherManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeatherManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGDolls" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGDolls.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GreenGreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenGreen2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BeachBoy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BeachBoy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DiavoloManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DiavoloManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MarceloGarcia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarceloGarcia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MorteManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MorteManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1570,8 +1588,8 @@
   <data name="Carta Sacerdotisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Sacerdotisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RubberSoulManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RubberSoulManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WeatherAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeatherAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NaranciaManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NaranciaManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1582,8 +1600,8 @@
   <data name="CapitaoTAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CapitaoTAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SixBullets2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SixBullets2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ArtsCrafts2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArtsCrafts2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WppGolden" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WppGolden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1669,9 +1687,6 @@
   <data name="SteelyDanManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SteelyDanManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GabrielMartins" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GabrielMartins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Lovers" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lovers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1705,8 +1720,8 @@
   <data name="GuccioAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GuccioAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Carta Bastet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carta Bastet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="VanillaManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VanillaManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StoneOcean2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StoneOcean2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1720,14 +1735,14 @@
   <data name="Curiosidade_Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Curiosidade_Mario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SportsManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SportsManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jotaroanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\jotaroanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NDoulManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NDoulManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CarneAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CarneAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lovers2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lovers2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JGeilAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JGeilAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1774,8 +1789,8 @@
   <data name="ZZManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ZZManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SixBullets" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SixBullets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Curiosidade_Kiss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Curiosidade_Kiss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ProsciuttoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ProsciuttoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1822,6 +1837,9 @@
   <data name="MeloneAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MeloneAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GuccioManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GuccioManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="VivianoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VivianoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1834,8 +1852,8 @@
   <data name="YayamaAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YayamaAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TinyFeet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TinyFeet2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Curiosidade_Formaggio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Curiosidade_Formaggio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MeloneManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MeloneManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1882,8 +1900,8 @@
   <data name="AvdolAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AvdolAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DevoManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DevoManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DanGManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DanGManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EnforcadoManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnforcadoManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1891,8 +1909,8 @@
   <data name="MariahAnime1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MariahAnime1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="VanillaManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VanillaManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BohemianRapsody" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BohemianRapsody.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MarioAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MarioAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1936,8 +1954,8 @@
   <data name="RaphaelRossatto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RaphaelRossatto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PetShopManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PetShopManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PucciManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PucciManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WppStardustnovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WppStardustnovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1951,9 +1969,6 @@
   <data name="StardustGeral" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StardustGeral.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="WppStardust" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WppStardust.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Sanctuary2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sanctuary2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1963,8 +1978,8 @@
   <data name="PolpoAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PolpoAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PlanetWaves2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlanetWaves2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GuilhermeMarcos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GuilhermeMarcos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GoldenDiavolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GoldenDiavolo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1984,8 +1999,8 @@
   <data name="NenaAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NenaAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BohemianRapsody" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BohemianRapsody.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SportsManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SportsManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MariahManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MariahManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2005,11 +2020,11 @@
   <data name="DonatelloAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DonatelloAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="VanillaManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VanillaManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WppStardust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WppStardust.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MariahAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MariahAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DanGManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DanGManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JongalliAnime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JongalliAnime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2029,11 +2044,11 @@
   <data name="ForeverAnime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ForeverAnime2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DanGManga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DanGManga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sol2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WhiteAlbum2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhiteAlbum2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="VanillaManga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VanillaManga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Geb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Geb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2044,13 +2059,13 @@
   <data name="JosephManga2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JosephManga2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jotaroanime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\jotaroanime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SidneyCesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SidneyCesar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Carta Imperatirz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carta Imperatirz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Curiosidade_Formaggio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Curiosidade_Formaggio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Curiosidade_Narancia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Curiosidade_Narancia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

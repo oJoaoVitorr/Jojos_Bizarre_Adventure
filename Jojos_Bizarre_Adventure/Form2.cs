@@ -16,7 +16,7 @@ namespace Jojos_Bizarre_Adventure
     public partial class Form2 : Form
     {
         SoundPlayer player = new SoundPlayer();
-        System.IO.Stream musica ;
+        System.IO.Stream musica;
 
         public Form2()
         {
@@ -47,7 +47,7 @@ namespace Jojos_Bizarre_Adventure
             else if (listBox1.Text == "STONE OCEAN")
             {
                 musica = Properties.Resources.StoneGeral;
-                 this.BackgroundImage = Properties.Resources.StoneOceanFundo;
+                this.BackgroundImage = Properties.Resources.StoneOceanFundo;
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
@@ -73,7 +73,9 @@ namespace Jojos_Bizarre_Adventure
             pictureBox6.Visible = false;
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
-            
+            button2.Visible = false;
+            button2.Visible = true;
+
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -95,13 +97,13 @@ namespace Jojos_Bizarre_Adventure
             pictureBox6.Visible = false;
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
-           
-            
-            
-            
+
+
+
+
             if (listBox1.Text == "STARDUST CRUSADERS" && radioButton2.Checked)
             {
-                
+
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Gray Fly");
                 comboBox1.Items.Add("Capitão Tennille");
@@ -135,7 +137,7 @@ namespace Jojos_Bizarre_Adventure
 
             else if (listBox1.Text == "GOLDEN WIND" && radioButton2.Checked)
             {
-                
+
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Polpo");
                 comboBox1.Items.Add("Mario Zucherro");
@@ -159,7 +161,7 @@ namespace Jojos_Bizarre_Adventure
 
             else if (listBox1.Text == "STONE OCEAN" && radioButton2.Checked)
             {
-                
+
                 comboBox1.Items.Clear();
                 comboBox1.Items.Add("Gwess");
                 comboBox1.Items.Add("Jongalli A");
@@ -194,9 +196,10 @@ namespace Jojos_Bizarre_Adventure
             checkBox2.Visible = true; checkBox2.Checked = false;
             checkBox3.Visible = true; checkBox3.Checked = false;
             checkBox4.Visible = true; checkBox4.Checked = false;
+            
 
             //STARDUST HEROIS
-            if (comboBox1.Text == "Jotaro Kujo" && listBox1.Text=="STARDUST CRUSADERS")
+            if (comboBox1.Text == "Jotaro Kujo" && listBox1.Text == "STARDUST CRUSADERS")
             {
                 musica = Properties.Resources.StardustJotaro;
                 checkBox3.Text = "Dublador";
@@ -205,13 +208,13 @@ namespace Jojos_Bizarre_Adventure
                 label2.Text = "Jotaro Kujo é o protagonista da terceira parte de JoJo's Bizarre Adventure, e o terceiro JoJo da série. Sendo o portador do todo-poderoso Star Platinum, Jotaro é o primeiro JoJo introduzido com um Stand, e está entre um dos mais bem-conhecidos personagens da série.\r\nÉ um delinquente mestiço que embarca em uma jornada pelo mundo junto ao seu avô, Joseph Joestar, e um grupo de amigos para salvar sua mãe e derrotar DIO, o vampiro, de uma vez por todas";
                 label4.Text = "Star Platinum é um Stand de curto-alcance com força e velocidade excepcional, assim como a habilidade de parar o tempo que foi ganha durante a batalha contra DIO. Seu poder esmagador, junto da habilidade em lutas de Jotaro, o torna um dos Stands mais fortes e icônicos da obra.\r\nStar Platinum é um Stand de Curto Alcance com um alcance básico de apenas dois metros do corpo de Jotaro, mas ostenta velocidade, poder, e precisão inigualáveis.\r\nO Star Platinum pode estender seus dedos indicativos e do meio, permitindo que ele realize ataques sorrateiros e cortar oponentes um pouco fora de seu alcance.";
                 label3.Text = "O Stand de Jotaro é uma referência a carta 17 do Tarot, A Estrela.";
-                pictureBox1.Image = Properties.Resources.jotaromanga;
-                pictureBox2.Image = Properties.Resources.jotaroanime;
-                pictureBox3.Image = Properties.Resources.jotaroanime2;
-                pictureBox4.Image = Properties.Resources.jotaromangac;
+                pictureBox1.Image = Properties.Resources.JotaroMangaNovo;
+                pictureBox2.Image = Properties.Resources.JotaroAnimeNovo;
+                pictureBox3.Image = Properties.Resources.JotaroAnime2Novo;
+                pictureBox4.Image = Properties.Resources.JotaroManga2Novo;
                 pictureBox5.Image = Properties.Resources.starpanime;
                 pictureBox6.Image = Properties.Resources.starpmanga;
-                pictureBox7.Image = Properties.Resources.WilkenMazzei;   
+                pictureBox7.Image = Properties.Resources.WilkenMazzei;
                 pictureBox8.Image = Properties.Resources.Carta_Estrela;
                 player.Stop();
                 player.Stream = musica;
@@ -319,7 +322,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox2.Image = Properties.Resources.MidlerAnime;
                 pictureBox3.Image = Properties.Resources.MidlerManga2;
                 pictureBox4.Image = Properties.Resources.MidlerJogo;
-                pictureBox5.Image = Properties.Resources.SacerdotisaAnime2 ;
+                pictureBox5.Image = Properties.Resources.SacerdotisaAnime2;
                 pictureBox6.Image = Properties.Resources.SacerdotisaManga;
                 pictureBox7.Image = Properties.Resources.GiseleVechin;
                 pictureBox8.Image = Properties.Resources.Carta_Sacerdotisa;
@@ -385,9 +388,9 @@ namespace Jojos_Bizarre_Adventure
                 label4.Text = "Como um Stand Materializado, Força tem a habilidade de se fundir a um barco e o transformar em um cargueiro. Seu usuário então é capaz de manipular o navio como quiser.\r\nStrength é um Stand incrivelmente poderoso usado para pegar seus inimigos de surpresa.\r\n";
                 label3.Text = "O Stand de Forever é uma referência a carta 8 do tarot, A Força.";
                 pictureBox1.Image = Properties.Resources.ForeverManga;
-                pictureBox2.Image = Properties.Resources.ForeverAnime ;
-                pictureBox3.Image = Properties.Resources.ForeverAnime2 ;
-                pictureBox4.Image = Properties.Resources.ForeverManga2 ;
+                pictureBox2.Image = Properties.Resources.ForeverAnime;
+                pictureBox3.Image = Properties.Resources.ForeverAnime2;
+                pictureBox4.Image = Properties.Resources.ForeverManga2;
                 pictureBox5.Image = Properties.Resources.Forca;
                 pictureBox6.Image = Properties.Resources.Forca2;
                 pictureBox7.Image = Properties.Resources.PauloAvila;
@@ -403,10 +406,10 @@ namespace Jojos_Bizarre_Adventure
                 label3.Text = "O Stand de ZZ é uma referência a carta 10 do tarot, A Roda da Fortuna.";
                 pictureBox1.Image = Properties.Resources.ZZManga;
                 pictureBox2.Image = Properties.Resources.ZZAnime;
-                pictureBox3.Image = Properties.Resources.ZZAnime2 ;
-                pictureBox4.Image = Properties.Resources.ZZManga2 ;
-                pictureBox5.Image = Properties.Resources.RodaDaFortuna ;
-                pictureBox6.Image = Properties.Resources.RodaDaFortuna2 ;
+                pictureBox3.Image = Properties.Resources.ZZAnime2;
+                pictureBox4.Image = Properties.Resources.ZZManga2;
+                pictureBox5.Image = Properties.Resources.RodaDaFortuna;
+                pictureBox6.Image = Properties.Resources.RodaDaFortuna2;
                 pictureBox7.Image = Properties.Resources.RodrigoAraujo;
                 pictureBox8.Image = Properties.Resources.Carta_Roda_da_Fortuna;
             }
@@ -436,7 +439,7 @@ namespace Jojos_Bizarre_Adventure
                 label4.Text = "Hanged Man é um Stand humanoide com a aparência de um ghoul enfaixado. Hanged Man é um Stand que ataca por reflexos. Em vez de atacar uma pessoa diretamente, ele aparecerá em uma superfície reflexiva e atacará seu reflexo. O Enforcado pode se mover através de qualquer tipo de superfície refletora na velocidade da luz. Ele possui um alcance incrivelmente longo.\r\nSua fraqueza é que ele só pode se mover entre superfícies refletoras em um padrão linear e é forçado a se mover para outro reflexo à sua frente se sua localização atual parar de refletir.";
                 label3.Text = "O Stand de J.Geil é uma referência a carta 12 do tarot, O Enforcado/O Pendurado.";
                 pictureBox1.Image = Properties.Resources.JGeilManga;
-                pictureBox2.Image = Properties.Resources.JGeilAnime ;
+                pictureBox2.Image = Properties.Resources.JGeilAnime;
                 pictureBox3.Image = Properties.Resources.JGeilAnime2;
                 pictureBox4.Image = Properties.Resources.JGeilManga2;
                 pictureBox5.Image = Properties.Resources.EnforcadoManga2;
@@ -763,7 +766,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Golden Wind";
                 groupBox4.Text = "Vagner Fagundes";
                 label2.Text = "Giorno Giovanna é o protagonista da parte 5, é o filho ilegítimo de DIO, concebido com o corpo roubado de Jonathan Joestar. Um adolescente meio-japonês morando na Itália. Giorno fala da sua intenção de se juntar à poderosa gangue Passione e de seu sonho de se tornar um Gang-Star para trazer a virtude de volta à corrupta máfia italiana.\r\nNormalmente introvertido, Giorno frequentemente mantem uma fachada de ousadia confiante.";
-                label4.Text = "Gold Experience é um Stand de curto-alcance, com um alcance de 2 metros de seu usuário e pode dotar qualquer coisa que seus punhos toquem com vida, o que é traduzido para uma variedade de efeitos diferentes.\r\nO uso mais visto dessa habilidade é converter objetos inorgânicos para organismos vivos, seja um animal pequeno ou uma planta, ele pode transformar um pedaço de uma bagagem em um sapo ou um isqueiro em uma rosa.\r\nQuando qualquer um dos seres vivos criados por ele são atacados, o dano é refletido de volta para o atacante, incluindo habilidades de Stand.\r\nGold Experience pode acelerar a vida já existente de um ser vivo através de sua habilidade.\r\nGiorno descobriu que podia criar partes do corpo singulares e órgãos através de material inorgânico que faz ele capaz de curar ferimentos espantadores através de vários meios.\r\n";
+                label4.Text = "Gold Experience é um Stand de curto-alcance, com um alcance de 2 metros de seu usuário e pode dotar qualquer coisa que seus punhos toquem com vida, o que é traduzido para uma variedade de efeitos diferentes.\r\nO uso mais visto dessa habilidade é converter objetos inorgânicos para organismos vivos, seja um animal pequeno ou uma planta, ele pode transformar um pedaço de uma bagagem em um sapo ou um isqueiro em uma rosa.\r\nQuando qualquer um dos seres vivos criados por ele são atacados, o dano é refletido de volta para o atacante, incluindo habilidades de Stand.\r\nGold Experience pode acelerar a vida já existente de um ser vivo através de sua habilidade.\r\nGiorno é capaz de criar partes do corpo e órgãos através de material inorgânico podendo curar ferimentos.";
                 label3.Text = "Levando em conta os Stands até Vento Aureo, Araki lista o Gold Experience como o seu favorito em termos de design.\r\n";
                 pictureBox1.Image = Properties.Resources.GiornoManga;
                 pictureBox2.Image = Properties.Resources.GiornoAnime;
@@ -793,7 +796,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox7.Image = Properties.Resources.LucasGama;
                 pictureBox6.Image = Properties.Resources.stickyfanime;
                 pictureBox8.Image = Properties.Resources.Curiosidade_Bucciarati;
-                
+
             }
             else if (comboBox1.Text == "Narancia Ghirga")
             {
@@ -810,6 +813,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox5.Image = Properties.Resources.Aerosmith;
                 pictureBox7.Image = Properties.Resources.MarcosPejon;
                 pictureBox6.Image = Properties.Resources.Aerosmith2;
+                pictureBox8.Image = Properties.Resources.Curiosidade_Narancia;
             }
             else if (comboBox1.Text == "Pannacotta Fugo")
             {
@@ -1002,7 +1006,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Babyhead";
                 groupBox4.Text = "Robson Kumode";
                 label2.Text = "Melone é um membro da Squadra Esecuzioni. Após a Equipe Bucciarati ser forçada a tomar a estrada, ele tenta sequestrar Trish Una e usa seu Stand automático para batalhar contra Giorno Giovanna.\r\nMelone se mostra ser um homem educado na maioria das circunstâncias.\r\nAbordando todas atividades com um profissionalismo frio, ele fisicamente inspeciona suas vítimas futuras.";
-                label4.Text = "Através de seu Stand computador, o Baby Face tem a habilidade de gerar um Stand secundário que lutará em seu lugar. Ao pesquisar sobre um alvo adequado através da pseudociência de examinar as características de uma mulher, Melone consegue informações e prevê o as predisposições futuras do junior.\r\nO Stand secundário (ou junior) que o Baby Face cria é um Stand independente de longo alcance e grande poder que age como um lutador que faz o trabalho para Melone.\r\no Stand secundário é capaz de quebrar matéria em cubos enquanto mantendo os seres vivos.\r\nEle pode dividir qualquer que ele toque em cubos a força, ou meramente extrair uma única parte cúbica de um alvo.\r\nAo retalhar alguém, o Baby Face consegue reorganizar e reconstituir a estrutura de ditos objetos para qualquer coisa que ele desejar.\r\n";
+                label4.Text = "Através de seu Stand computador, o Baby Face tem a habilidade de gerar um Stand secundário que lutará em seu lugar. Ao pesquisar sobre um alvo adequado através da pseudociência de examinar as características de uma mulher, Melone consegue informações e prevê o as predisposições futuras do junior. O Stand secundário (ou junior) que o Baby Face cria é um Stand independente de longo alcance e grande poder que age como um lutador que faz o trabalho para Melone. O Stand secundário é capaz de quebrar matéria em cubos enquanto mantendo os seres vivos.\r\nEle pode dividir qualquer que ele toque em cubos a força, ou meramente extrair uma única parte cúbica de um alvo.\r\nAo retalhar alguém, o Baby Face consegue reorganizar e reconstituir a estrutura de ditos objetos para qualquer coisa que ele desejar.\r\n";
                 label3.Text = "Melone significa melão em italiano.";
                 pictureBox1.Image = Properties.Resources.MeloneManga;
                 pictureBox2.Image = Properties.Resources.MeloneAnime;
@@ -1258,7 +1262,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox6.Image = Properties.Resources.DiverDown2;
                 pictureBox7.Image = Properties.Resources.MarcioAraujo;
                 pictureBox8.Image = Properties.Resources.Curiosidade_AnasuiNova;
-               
+
             }
             else if (comboBox1.Text == "Weather Forecast")
             {
@@ -1506,7 +1510,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Bohemian Ecstatic";
                 groupBox4.Text = "Yan Gesteira";
                 label2.Text = "Ungalo é um dos filhos ilegítimos de DIO com uma mulher desconhecida. Quando ele fatidicamente conhece Enrico Pucci, ele desperta seu Stand e causa caos ao trazer personagens fictícios para a realidade para matar o Jolyne e os outros.\r\nHerdando as piores características de seu pai, Ungalo é um indivíduo sádico, violento, e incrivelmente vulgar com um pavio curto.\r\n";
-                label4.Text = "Bohemian Rhapsody é capaz de trazer personagens fictícios retratados em imagens à realidade através das mídias os contendo. Personagens de desenhos e animes e até mesmo obras de arte e os desenhos de outra pessoas são afetados.\r\nNão há maneira de mudar o curso da história em que uma pessoa se encontra já que ela já foi escrita.\r\nAlém da concretização da ficção, o corpo e alma da vítima são separados. Quando uma pessoa encontra um personagem que ela gosta, sua alma é arrastada para o papel do personagem, assumindo a aparência e o destino do personagem.\r\nDestruir os personagens fictícos que trouxeram uma vítima para uma história é a única maneira de devolver uma alma ao seu corpo.\r\nUma pessoa pode ser imune a essa habilidade caso eles não tenham conhecimento da história nem dos personagens.\r\n";
+                label4.Text = "Bohemian Rhapsody é capaz de trazer personagens fictícios retratados em imagens à realidade através das mídias os contendo. Personagens de desenhos e animes e até mesmo obras de arte e os desenhos de outra pessoas são afetados.\r\nNão há maneira de mudar o curso da história em que uma pessoa se encontra já que ela já foi escrita.\r\nAlém da concretização da ficção, o corpo e alma da vítima são separados. Quando uma pessoa encontra um personagem que ela gosta, sua alma é arrastada para o papel do personagem, assumindo a aparência e o destino do personagem.\r\nDestruir os personagens fictícos que trouxeram uma vítima para uma história é a única maneira de devolver uma alma ao seu corpo.";
                 label3.Text = "Bohemian Rhapsody é uma referência a uma música do Queen.";
                 pictureBox1.Image = Properties.Resources.UngaloAnime;
                 pictureBox2.Image = Properties.Resources.UngaloManga;
@@ -1523,7 +1527,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "Sky Guy";
                 groupBox4.Text = "Fábio Lucindo";
                 label2.Text = "Rikiel é um dos filhos ilegítimos de DIO com uma mulher desconhecida. Quando ele conhece Enrico Pucci, ele desperta seu Stand e luta contra Jolyne Cujoh e Ermes Costello.\r\nRikiel é um homem leal e luta até o final para pagar a sua dívida com Pucci. Após Jolyne derrotá-lo, Rikiel demonstra um senso de honra e aceita sua derrota.\r\n";
-                label4.Text = "Sky High funciona como uma ferramenta que permite com que Rikiel controle os misteriosos criptídeos conhecidos como rods. Apesar do seu tamanho, eles são incrivelmente poderosos e letais.\r\nRods sempre flutuam no ar e se movem em velocidades indetectáveis ao olho nu, e só foram vistos em câmeras e gravações de vídeo.\r\nO único poder do Sky High é controlar e dirigir os rods.\r\nRikiel se aproveita do hábito dos rods de sugar calor para rapidamente e localmente diminuir a temperatura de um corpo desejado de longe. Quando concentrado em um lugar só, a rápida perca de calor pode fazer com que partes do corpo e órgãos internos fiquem suscetíveis a doenças e a parar de funcionar.\r\nRikiel precisa se concentrar adequadamente nos rods, e seus efeitos podem ir contra ele caso ele perca sua confiança. Caso ele entre em pânico, o Sky High ordena que todos os rods fiquem parados contra sua vontade.\r\n";
+                label4.Text = "Sky High funciona como uma ferramenta que permite com que Rikiel controle os misteriosos criptídeos conhecidos como rods. Apesar do seu tamanho, eles são incrivelmente poderosos e letais.\r\nRods sempre flutuam no ar e se movem em velocidades indetectáveis ao olho nu, e só foram vistos em câmeras e gravações de vídeo.\r\nO único poder do Sky High é controlar e dirigir os rods.\r\nRikiel se aproveita do hábito dos rods de sugar calor para rapidamente e localmente diminuir a temperatura de um corpo desejado de longe. Quando concentrado em um lugar só, a rápida perca de calor pode fazer com que partes do corpo e órgãos internos fiquem suscetíveis a doenças e a parar de funcionar.";
                 label3.Text = "Sky High é uma referência a uma música do Jigsaw.";
                 pictureBox1.Image = Properties.Resources.RikielManga;
                 pictureBox2.Image = Properties.Resources.RikielAnime;
@@ -1540,7 +1544,7 @@ namespace Jojos_Bizarre_Adventure
                 groupBox2.Text = "NetherWorld";
                 groupBox4.Text = "Renan Freitas";
                 label2.Text = "Donatello é um dos filhos ilegítimos de DIO, e o meio-irmão de Ungalo, Rikiel, e Giorno Giovanna. Quando ele fatidicamente encontra Enrico Pucci, ele desperta seu Stand, Under World, e luta contra Jolyne Cujoh e Ermes Costello em Orlando. Embora ele coopere com Pucci, ele tem suas próprias ambições.\r\nTendo sido abusado, encriminado e injustamente preso por um crime que ele não cometeu, Donatello Versus desenvolveu um rancor contra a sociedade por inteiro.\r\n";
-                label4.Text = "A principal habilidadea de Underworld é escavar as memórias de eventos e pessoas do passado através da presunção de que o chão haja uma memória de qualquer coisa que tenha acontecido a ele. Versus usa isso para invocar qualquer evento histórico acontecido em Orlando, Florida ao cavar e revelar o solo, e mais tarde prender qualquer um nele. Memórias incluem, mas não são limitadas a: acidentes de carro, tiroteios, acidentes de avião, jogos de futebol americano da NFL, minerais, e até memso pessoas envolvidas no evento.\r\nEssas memórias também são compostas da terra e podem serem vistas por pessoas sem Stand. Como tal, caso alguém seja pego por um evento, eles passaram por aquilo que aconteceu no passado e não podem interferir ou mudar nada de qualquer forma. Por exemplo, caso alguém se pego pela memória de um acidente de avião, eles irão inevitavelmente passar por dito acidente e morrer.\r\n";
+                label4.Text = "A principal habilidadea de Underworld é escavar as memórias de eventos e pessoas do passado através da presunção de que o chão haja uma memória de qualquer coisa que tenha acontecido a ele. Versus usa isso para invocar qualquer evento histórico acontecido em Orlando, Florida ao cavar e revelar o solo, e mais tarde prender qualquer um nele. Memórias incluem, mas não são limitadas a: acidentes de carro, tiroteios, acidentes de avião, jogos de futebol americano da NFL, minerais, e até memso pessoas envolvidas no evento.\r\nEssas memórias também são compostas da terra e podem serem vistas por pessoas sem Stand. Como tal, caso alguém seja pego por um evento, eles passaram por aquilo que aconteceu no passado e não podem interferir ou mudar nada de qualquer forma.";
                 label3.Text = "Underworld é uma referência a banda inglesa de eletrônica.";
                 pictureBox1.Image = Properties.Resources.DonatelloManga;
                 pictureBox2.Image = Properties.Resources.DonatelloAnime;
@@ -1571,7 +1575,7 @@ namespace Jojos_Bizarre_Adventure
                 player.Stop();
                 player.Stream = musica;
                 player.PlayLooping();
-                
+
             }
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -1637,7 +1641,7 @@ namespace Jojos_Bizarre_Adventure
                 pictureBox6.Visible = false;
 
             }
-            if(pictureBox5.Visible == false && pictureBox6.Visible == false && label4.Visible == false)
+            if (pictureBox5.Visible == false && pictureBox6.Visible == false && label4.Visible == false)
             {
                 groupBox2.Visible = false;
             }
@@ -1661,7 +1665,7 @@ namespace Jojos_Bizarre_Adventure
         {
             groupBox4.Visible = true;
             pictureBox7.Visible = true;
-            if(checkBox3.Checked == false)
+            if (checkBox3.Checked == false)
             {
                 groupBox4.Visible = false;
                 pictureBox7.Visible = false;
@@ -1676,10 +1680,11 @@ namespace Jojos_Bizarre_Adventure
             pictureBox8.Visible = true;
             label3.Visible = true;
 
-            if(checkBox4.Checked == false){
-             groupBox3.Visible = false;
-             pictureBox8.Visible = false;
-             label4.Visible = false;
+            if (checkBox4.Checked == false)
+            {
+                groupBox3.Visible = false;
+                pictureBox8.Visible = false;
+                label4.Visible = false;
             }
 
         }
@@ -1688,7 +1693,29 @@ namespace Jojos_Bizarre_Adventure
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            player.Stop();
+            if (listBox1.Text == "STARDUST CRUSADERS")
+            {
+                BackColor = Color.PowderBlue;
+
+            }
+            else if (listBox1.Text == "GOLDEN WIND")
+            {
+                BackColor = Color.DeepPink;
+            }
+            else if (listBox1.Text == "STONE OCEAN")
+            {
+                BackColor = Color.DarkSeaGreen;
+            }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
-
 
